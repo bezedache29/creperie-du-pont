@@ -6,7 +6,11 @@
 
 <script>
 export default {
-  name: 'home-app'
+  name: 'home-app',
+
+  created() {
+    console.log(this.$store.state.crepes)
+  }
 }
 </script>
 
