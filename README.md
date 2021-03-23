@@ -14,5 +14,5 @@
     - [x] Installation de vuex
     - [x] Installation de vueRouter
 
-    - [] Création d'un flowchart
-    - [] Création d'un wireframe SD
+    - [ ] Création d'un flowchart
+    - [ ] Création d'un wireframe SD
