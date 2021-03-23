@@ -8,11 +8,11 @@
 
 ## Les étapes :
 
-    * [x] Création du projet sur GitHub
-    * [x] Installation de Laravel 8
-    * [x] Installation du Vue.js 3
-    * [x] Installation de vuex
-    * [x] Installation de vueRouter
+    - [x] Création du projet sur GitHub
+    - [x] Installation de Laravel 8
+    - [x] Installation du Vue.js 3
+    - [x] Installation de vuex
+    - [x] Installation de vueRouter
 
-    * [] Création d'un flowchart
-    * [] Création d'un wireframe SD
+    - [] Création d'un flowchart
+    - [] Création d'un wireframe SD
