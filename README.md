@@ -16,3 +16,7 @@
 
 - [ ] Création d'un flowchart
 - [ ] Création d'un wireframe SD
+
+## Flowchart :
+
+    https://miro.com/welcomeonboard/NNKnCSP6Vrv3ECwfsIQggfQGEgNxOEf8geDMP8JusTOxewowBV5zZ03vadldQFoW
