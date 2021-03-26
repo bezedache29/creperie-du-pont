@@ -14,9 +14,9 @@
 - [x] Installation de vuex
 - [x] Installation de vueRouter
 
-- [ ] Création d'un flowchart
+- [x] Création d'une arborescence
 - [ ] Création d'un wireframe SD
 
-## Flowchart :
+## Arborescence :
 
-    https://miro.com/welcomeonboard/NNKnCSP6Vrv3ECwfsIQggfQGEgNxOEf8geDMP8JusTOxewowBV5zZ03vadldQFoW
+    [Arborescence créé sur miro.com](https://miro.com/welcomeonboard/NNKnCSP6Vrv3ECwfsIQggfQGEgNxOEf8geDMP8JusTOxewowBV5zZ03vadldQFoW)
