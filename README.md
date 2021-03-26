@@ -21,4 +21,4 @@
 
 [Arborescence créée sur miro.com](https://miro.com/welcomeonboard/NNKnCSP6Vrv3ECwfsIQggfQGEgNxOEf8geDMP8JusTOxewowBV5zZ03vadldQFoW)
 
-![Version jpg](https://github.com/bezedache29/creperie-du-pont/blob/master/divers/arbo.jpg)
+![Version jpg](https://github.com/bezedache29/creperie-du-pont/divers/arbo.jpg)
