@@ -20,3 +20,5 @@
 ## Arborescence :
 
 [Arborescence créée sur miro.com](https://miro.com/welcomeonboard/NNKnCSP6Vrv3ECwfsIQggfQGEgNxOEf8geDMP8JusTOxewowBV5zZ03vadldQFoW)
+
+![Version jpg](./divers/Crêperie du pont.jpg)
