@@ -16,8 +16,8 @@
 
 - [x] Création d'une arborescence
 - [x] Création d'un wireframe SD Ordinateur
-- [x] Création d'un wireframe SD Tablette
-- [x] Création d'un wireframe SD Téléphone
+- [ ] Création d'un wireframe SD Tablette
+- [ ] Création d'un wireframe SD Téléphone
 
 ## Arborescence :
 
@@ -28,3 +28,5 @@
 ## Wireframe :
 
 [Lien Adobe XD](https://xd.adobe.com/view/ee237d72-a7bc-437b-a530-a206de19aea9-bb70/?fullscreen&hints=off)
+
+![Fichier Adobe XD](https://github.com/bezedache29/creperie-du-pont/blob/main/divers/wireframe/Creperie-du-pont.xd)
