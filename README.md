@@ -15,10 +15,16 @@
 - [x] Installation de vueRouter
 
 - [x] Création d'une arborescence
-- [ ] Création d'un wireframe SD
+- [x] Création d'un wireframe SD Ordinateur
+- [x] Création d'un wireframe SD Tablette
+- [x] Création d'un wireframe SD Téléphone
 
 ## Arborescence :
 
 [Arborescence créée sur miro.com](https://miro.com/welcomeonboard/NNKnCSP6Vrv3ECwfsIQggfQGEgNxOEf8geDMP8JusTOxewowBV5zZ03vadldQFoW)
 
 ![Version jpg](https://github.com/bezedache29/creperie-du-pont/blob/main/divers/arbo.jpg)
+
+## Wireframe :
+
+[Lien Adobe XD](https://xd.adobe.com/view/ee237d72-a7bc-437b-a530-a206de19aea9-bb70/?fullscreen&hints=off)
