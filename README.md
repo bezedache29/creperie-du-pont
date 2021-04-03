@@ -30,3 +30,5 @@
 [Lien Adobe XD](https://xd.adobe.com/view/ee237d72-a7bc-437b-a530-a206de19aea9-bb70/?fullscreen&hints=off)
 
 [Fichier Adobe XD](https://github.com/bezedache29/creperie-du-pont/blob/main/divers/wireframe/Creperie-du-pont.xd)
+
+<a href="https://github.com/bezedache29/creperie-du-pont/blob/main/divers/wireframe/Creperie-du-pont.xd" download>Click to Download</a>
