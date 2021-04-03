@@ -16,7 +16,7 @@
 
 - [x] Création d'une arborescence
 - [x] Création d'un wireframe SD Ordinateur
-- [ ] Création d'un wireframe SD Tablette
+- [x] Création d'un wireframe SD Tablette
 - [ ] Création d'un wireframe SD Téléphone
 
 ## Arborescence :
