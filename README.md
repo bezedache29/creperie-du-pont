@@ -18,6 +18,9 @@
 - [x] Création d'un wireframe SD Ordinateur
 - [x] Création d'un wireframe SD Tablette
 - [ ] Création d'un wireframe SD Téléphone
+- [x] Création d'un prototype SD Ordinateur
+- [x] Création d'un prototype SD Tablette
+- [ ] Création d'un prototype SD Téléphone
 
 ## Arborescence :
 
@@ -25,8 +28,6 @@
 
 ![Version jpg](https://github.com/bezedache29/creperie-du-pont/blob/main/divers/arbo.jpg)
 
-## Wireframe :
-
-[Lien Adobe XD](https://xd.adobe.com/view/ee237d72-a7bc-437b-a530-a206de19aea9-bb70/?fullscreen&hints=off)
+## Wireframe + Prototype :
 
 [Fichier Adobe XD](https://github.com/bezedache29/creperie-du-pont/blob/main/divers/wireframe)
