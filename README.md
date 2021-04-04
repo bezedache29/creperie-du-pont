@@ -28,7 +28,7 @@
 
 ![Version jpg](https://github.com/bezedache29/creperie-du-pont/blob/main/divers/arbo.jpg)
 
-## Wireframe + Prototype :
+## Wireframes + Prototypes :
 
 [Fichier Adobe XD](https://github.com/bezedache29/creperie-du-pont/blob/main/divers/wireframe)
 

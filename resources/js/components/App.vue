@@ -1,18 +1,25 @@
 <template>
-  <h1>Fichier app.vue</h1>
+  <navbar-app />
+
+ Page accueil par defaut
 
   <router-link to="/">Accueil</router-link>
   <router-link to="/menus">Menus</router-link>
 
-  <router-view />
+  <router-view /> 
 </template>
 
 <script>
+
+import '../assets/scss/style.scss'
+
+import NavbarApp from './Navbar/NavbarApp'
+
 export default {
-  name: 'app'
+  name: 'app',
+
+  components: {
+    NavbarApp
+  },
 }
 </script>
-
-<style scoped>
-
-</style>
