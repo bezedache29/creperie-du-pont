@@ -1,12 +1,12 @@
 <template>
   <navbar-app />
 
- Page accueil par defaut
+ <!-- Page accueil par defaut
 
   <router-link to="/">Accueil</router-link>
-  <router-link to="/menus">Menus</router-link>
+  <router-link to="/menus">Menus</router-link> -->
 
-  <router-view /> 
+  <!-- <router-view />  -->
 </template>
 
 <script>
