@@ -16,7 +16,7 @@
 - [x] Installation de vueRouter
 - [x] Installation de sass-loader
 
-
+####
 
 - [x] Création d'une arborescence
 - [x] Création d'un wireframe SD Ordinateur
