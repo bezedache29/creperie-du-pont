@@ -31,3 +31,6 @@
 ## Wireframe + Prototype :
 
 [Fichier Adobe XD](https://github.com/bezedache29/creperie-du-pont/blob/main/divers/wireframe)
+
+[Jpg ordinateur](https://github.com/bezedache29/creperie-du-pont/blob/main/divers/wireframe/desktop)
+[Jpg tablette](https://github.com/bezedache29/creperie-du-pont/blob/main/divers/wireframe/tablet)
