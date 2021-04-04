@@ -5,6 +5,7 @@
 * Vuex
 * VueRouter
 * Laravel 8
+* Scss
 
 ## Les étapes :
 
@@ -13,6 +14,9 @@
 - [x] Installation du Vue.js 3
 - [x] Installation de vuex
 - [x] Installation de vueRouter
+- [x] Installation de sass-loader
+
+#
 
 - [x] Création d'une arborescence
 - [x] Création d'un wireframe SD Ordinateur
