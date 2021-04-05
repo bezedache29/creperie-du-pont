@@ -1,30 +1,24 @@
 <template>
   <div class="container">
     <navbar-app />
-
     <router-view />
+    <footer-app />
   </div>
-  
-
- <!-- Page accueil par defaut
-
-  <router-link to="/">Accueil</router-link>
-  <router-link to="/menus">Menus</router-link> -->
-
-  <!-- <router-view />  -->
 </template>
 
 <script>
 
 import '../assets/scss/style.scss'
 
-import NavbarApp from './Navbar/NavbarApp'
+import NavbarApp from './Layouts/Navbar/NavbarApp'
+import FooterApp from './Layouts/Footer/FooterApp'
 
 export default {
   name: 'app',
 
   components: {
-    NavbarApp
+    NavbarApp,
+    FooterApp
   },
 }
 </script>

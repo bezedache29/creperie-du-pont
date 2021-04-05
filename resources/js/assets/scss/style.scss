@@ -13,6 +13,9 @@ ol, ul {
 a {
     text-decoration: none;
 }
+p {
+    margin: 0;
+}
 // img {
 //     max-width: 100%;
 //     height: auto;
@@ -30,4 +33,5 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap'),
         './variables',
         '../../components/app',
-        '../../components/Navbar/navbar'
+        '../../components/Layouts/Navbar/navbar-app',
+        '../../components/Layouts/Footer/footer-app'

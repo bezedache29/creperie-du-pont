@@ -1,0 +1,132 @@
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+}
+.w33 {
+    width: 33%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+
+        p {
+            margin: 10px 0;
+        }
+    }
+
+    &__content-logos {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto 50px;
+        padding: 20px 0;
+
+        &__logo {
+            display: inline-block;
+            width: 20%;
+
+            &:hover {
+                svg {
+                    fill: $red-secondary;
+                }
+            }
+        }
+    }
+
+    &__other {
+        text-align: center;
+
+        &--clic {
+            cursor: pointer;
+
+            &:hover {
+                color: $red-secondary;
+            }
+        }
+
+        &--tel {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        &--rs {
+            justify-content: flex-end;
+            margin-top: auto;
+
+            a {
+                cursor: pointer;
+                color: $black-primary;
+
+                &:hover {
+                    color: $red-secondary;
+                }
+            }
+        }
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+
+        &__group {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+
+            &__input {
+                padding: 10px 20px;
+                width: 70%;
+                font-size: 0.75em;
+                border-radius: 10px;
+                border: 1px solid $black-primary;
+
+                &:focus {
+                    outline: none;
+                }
+
+                &::placeholder {
+                    font-style: italic;
+                }
+                &::-webkit-input-placeholder {
+                    font-style: italic;
+                }
+                &:-moz-placeholder {
+                    font-style: italic;  
+                }
+                &::-moz-placeholder {
+                    font-style: italic;  
+                }
+                &:-ms-input-placeholder {  
+                    font-style: italic; 
+                }
+            }
+
+            button {
+                font-size: 1em;
+                background-color: white;
+                border: 1px solid $black-primary;
+                padding: 10px 20px;
+                border-radius: 10px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: $red-secondary;
+                    color: $white-secondary;
+                    border: 1px solid $red-secondary;
+                }
+            }
+        }
+    }
+}
