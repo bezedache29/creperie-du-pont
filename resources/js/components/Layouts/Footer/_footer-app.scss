@@ -17,10 +17,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 20px 0;
+        margin: 35px 0;
 
         p {
             margin: 10px 0;
+        }
+
+        &__adress {
+            font-size: 0.75em;
         }
     }
 
@@ -45,9 +49,12 @@
 
     &__other {
         text-align: center;
+        justify-self: flex-end;
+        margin-top: auto;
 
         &--clic {
             cursor: pointer;
+            margin-bottom: 20px;
 
             &:hover {
                 color: $red-secondary;
@@ -57,20 +64,20 @@
         &--tel {
             font-size: 1.5em;
             font-weight: bold;
+            margin-bottom: 2px;
         }
 
         &--rs {
             justify-content: flex-end;
             margin-top: auto;
+            margin-bottom: 20px;
+            cursor: pointer;
+            color: $black-primary;
 
-            a {
-                cursor: pointer;
-                color: $black-primary;
-
-                &:hover {
-                    color: $red-secondary;
-                }
+            &:hover {
+                color: $red-secondary;
             }
+            
         }
     }
 
@@ -128,5 +135,126 @@
                 }
             }
         }
+    }
+}
+
+/* The Modal (background) */
+.modal {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 3; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    
+
+    /* Modal Content/Box */
+    &__content {
+        background-color: $white-secondary;
+        margin: 5% auto; /* 15% from the top and centered */
+        padding: 20px;
+        width: 80%; /* Could be more or less, depending on screen size */
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        border: 2px solid $red-primary;
+
+        &__title {
+            font-family: $font-navbar;
+            text-align: center;
+            margin: 0;
+        }
+
+        &__section {
+            margin: 15px 0;
+
+            h3 {
+                margin: 10px 0;
+                font-size: 1em;
+            }
+            p {
+                font-size: 0.75em;
+            }
+
+            &__link {
+                cursor: pointer;
+                color: $red-primary;
+
+                &:hover {
+                    color: $red-secondary;
+                    text-decoration: underline;
+                }
+            }
+
+            &__tel {
+                cursor: pointer;
+                color: $red-primary;
+
+                &:hover {
+                    color: $red-secondary;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        &__buttons {
+            display: flex;
+            justify-content: flex-end;
+            margin-left: auto;
+            margin-right: 20px;
+
+            button {
+                font-size: 1em;
+                padding: 10px 20px;
+                border: 1px solid $black-primary;
+                background-color: $white-primary;
+                border-radius: 10px;
+                cursor: pointer;
+
+                &:focus {
+                    outline: none;
+                }
+
+                &:hover {
+                    background-color: $red-secondary;
+                    color: $white-secondary;
+                }
+            }
+        }
+    }
+
+    /* The Close Button */
+    &__close {
+        color: $black-primary;
+        align-self: flex-end;
+        margin-left: auto;
+        font-size: 1.5em;
+        font-weight: bold;
+
+        &:hover, &:focus {
+            color: $red-secondary;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+}
+
+.bounce-enter-active {
+    animation: bounce-in .5s;
+}
+.bounce-leave-active {
+    animation: bounce-in .5s reverse;
+}
+@keyframes bounce-in {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+         transform: scale(1.1);
+    }
+    100% {
+         transform: scale(1);
     }
 }

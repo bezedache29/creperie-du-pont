@@ -16416,12 +16416,24 @@ __webpack_require__.r(__webpack_exports__);
   name: 'footer-app',
   data: function data() {
     return {
-      number: false
+      number: false,
+      mentions: false,
+      telCreperie: false
     };
   },
   methods: {
     showNumber: function showNumber() {
       this.number = true;
+    },
+    showMentions: function showMentions() {
+      this.mentions = true;
+    },
+    closeMentions: function closeMentions() {
+      this.mentions = false;
+      this.telCreperie = false;
+    },
+    showTel: function showTel() {
+      this.telCreperie = true;
     }
   }
 });
@@ -16573,7 +16585,9 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 
 var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "w33__content"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "Paluden"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "29870 LANNILIS")], -1
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "w33__content__adress"
+}, "Paluden"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "29870 LANNILIS")], -1
 /* HOISTED */
 );
 
@@ -16581,12 +16595,17 @@ var _hoisted_5 = {
   key: 0,
   "class": "w33__other w33__other--tel"
 };
-
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+var _hoisted_6 = {
   "class": "w33"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+};
+
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "w33__title"
-}, "Nos réseaux sociaux"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+}, "Nos réseaux sociaux", -1
+/* HOISTED */
+);
+
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "w33__content-logos"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Facebook "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
   href: "https://www.facebook.com/Cr%C3%AAperie-du-pont-799492640097244/",
@@ -16630,13 +16649,11 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
   d: "m370.59375 169.304688c-2.355469-6.382813-6.113281-12.160157-10.996094-16.902344-4.742187-4.882813-10.515625-8.640625-16.902344-10.996094-5.179687-2.011719-12.960937-4.40625-27.292968-5.058594-15.503906-.707031-20.152344-.859375-59.402344-.859375-39.253906 0-43.902344.148438-59.402344.855469-14.332031.65625-22.117187 3.050781-27.292968 5.0625-6.386719 2.355469-12.164063 6.113281-16.902344 10.996094-4.882813 4.742187-8.640625 10.515625-11 16.902344-2.011719 5.179687-4.40625 12.964843-5.058594 27.296874-.707031 15.5-.859375 20.148438-.859375 59.402344 0 39.25.152344 43.898438.859375 59.402344.652344 14.332031 3.046875 22.113281 5.058594 27.292969 2.359375 6.386719 6.113281 12.160156 10.996094 16.902343 4.742187 4.882813 10.515624 8.640626 16.902343 10.996094 5.179688 2.015625 12.964844 4.410156 27.296875 5.0625 15.5.707032 20.144532.855469 59.398438.855469 39.257812 0 43.90625-.148437 59.402344-.855469 14.332031-.652344 22.117187-3.046875 27.296874-5.0625 12.820313-4.945312 22.953126-15.078125 27.898438-27.898437 2.011719-5.179688 4.40625-12.960938 5.0625-27.292969.707031-15.503906.855469-20.152344.855469-59.402344 0-39.253906-.148438-43.902344-.855469-59.402344-.652344-14.332031-3.046875-22.117187-5.0625-27.296874zm-114.59375 162.179687c-41.691406 0-75.488281-33.792969-75.488281-75.484375s33.796875-75.484375 75.488281-75.484375c41.6875 0 75.484375 33.792969 75.484375 75.484375s-33.796875 75.484375-75.484375 75.484375zm78.46875-136.3125c-9.742188 0-17.640625-7.898437-17.640625-17.640625s7.898437-17.640625 17.640625-17.640625 17.640625 7.898437 17.640625 17.640625c-.003906 9.742188-7.898437 17.640625-17.640625 17.640625zm0 0"
 }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
   d: "m256 0c-141.363281 0-256 114.636719-256 256s114.636719 256 256 256 256-114.636719 256-256-114.636719-256-256-256zm146.113281 316.605469c-.710937 15.648437-3.199219 26.332031-6.832031 35.683593-7.636719 19.746094-23.246094 35.355469-42.992188 42.992188-9.347656 3.632812-20.035156 6.117188-35.679687 6.832031-15.675781.714844-20.683594.886719-60.605469.886719-39.925781 0-44.929687-.171875-60.609375-.886719-15.644531-.714843-26.332031-3.199219-35.679687-6.832031-9.8125-3.691406-18.695313-9.476562-26.039063-16.957031-7.476562-7.339844-13.261719-16.226563-16.953125-26.035157-3.632812-9.347656-6.121094-20.035156-6.832031-35.679687-.722656-15.679687-.890625-20.6875-.890625-60.609375s.167969-44.929688.886719-60.605469c.710937-15.648437 3.195312-26.332031 6.828125-35.683593 3.691406-9.808594 9.480468-18.695313 16.960937-26.035157 7.339844-7.480469 16.226563-13.265625 26.035157-16.957031 9.351562-3.632812 20.035156-6.117188 35.683593-6.832031 15.675781-.714844 20.683594-.886719 60.605469-.886719s44.929688.171875 60.605469.890625c15.648437.710937 26.332031 3.195313 35.683593 6.824219 9.808594 3.691406 18.695313 9.480468 26.039063 16.960937 7.476563 7.34375 13.265625 16.226563 16.953125 26.035157 3.636719 9.351562 6.121094 20.035156 6.835938 35.683593.714843 15.675781.882812 20.683594.882812 60.605469s-.167969 44.929688-.886719 60.605469zm0 0"
-})])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
-  "class": "w33__other w33__other--rs"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", null, "mentions légales")])], -1
+})])])], -1
 /* HOISTED */
 );
 
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "w33"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "w33__title"
@@ -16656,14 +16673,169 @@ var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 /* HOISTED */
 );
 
+var _hoisted_10 = {
+  key: 0,
+  "class": "modal"
+};
+var _hoisted_11 = {
+  "class": "modal__content"
+};
+
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h2", {
+  "class": "modal__content__title"
+}, "Mentions légales", -1
+/* HOISTED */
+);
+
+var _hoisted_13 = {
+  "class": "modal__content__section"
+};
+
+var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h3", null, "Editeur", -1
+/* HOISTED */
+);
+
+var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Le site "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  href: "https://creperie-du-pont.ripley.eu",
+  "class": "modal__content__section__link"
+}, "creperie-du-pont.ripley.eu"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" est édité par GIRFA SARL, dont le siège social est au lieu dit Paluden, 29870 Lannilis")], -1
+/* HOISTED */
+);
+
+var _hoisted_16 = {
+  key: 1
+};
+
+var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Courriel: ");
+
+var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("lien vers formulaire");
+
+var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "SIREN: 504 786 443", -1
+/* HOISTED */
+);
+
+var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "modal__content__section"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h3", null, "Hébergeur"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Le site "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  href: "https://creperie-du-pont.ripley.eu",
+  "class": "modal__content__section__link"
+}, "creperie-du-pont.ripley.eu"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" est hébergé par la société ionos by 1&1 , dont le siège social est 7 place de la Gare – 57200 Sarreguemines – France")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "Tél : 09 70 80 89 11")], -1
+/* HOISTED */
+);
+
+var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "modal__content__section"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h3", null, "Propriété intellectuelle"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("La structure générale du site "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  href: "https://creperie-du-pont.ripley.eu",
+  "class": "modal__content__section__link"
+}, "creperie-du-pont.ripley.eu"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(", ainsi que les textes, graphiques, images, sons et vidéos la composant, sont la propriété de GIRFA SARL ou de ses partenaires. Toute représentation et/ou reproduction et/ou exploitation partielle ou totale de ce site, par quelque procédé que ce soit, sans l’autorisation préalable et par écrit de GIRFA SARL ou de ses partenaires est strictement interdite et serait susceptible de constituer une contrefaçon au sens des articles L 335-2 et suivants du Code de la propriété intellectuelle.")])], -1
+/* HOISTED */
+);
+
+var _hoisted_22 = {
+  "class": "modal__content__section"
+};
+
+var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h3", null, "Loi informatique et liberté", -1
+/* HOISTED */
+);
+
+var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "Conformément à la loi Informatique et Liberté 78-17 du 6 janvier 1978 modifiée, vous disposez d’un droit d’opposition (art. 38), d’accès (art. 39), de rectification ou de suppression (art. 40) des données qui vous concernent. Vous pouvez exercer ce droit en vous adressant à GIRFA SARL,", -1
+/* HOISTED */
+);
+
+var _hoisted_25 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "Ce droit s’exerce, en justifiant de son identité :", -1
+/* HOISTED */
+);
+
+var _hoisted_26 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "par voie postale : GIRFA SARL, lieu dit Paluden, 29870 Lannilis.", -1
+/* HOISTED */
+);
+
+var _hoisted_27 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("par courrier électronique : ");
+
+var _hoisted_28 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("via le formulaire de la page contact");
+
+var _hoisted_29 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "Toutes les données personnelles qui sont recueillies sont traitées avec la plus stricte confidentialité.", -1
+/* HOISTED */
+);
+
+var _hoisted_30 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "Le site utilise également les cookies", -1
+/* HOISTED */
+);
+
+var _hoisted_31 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "Encore une fois aucune donnée à caractère personnel ne sera collectée.", -1
+/* HOISTED */
+);
+
+var _hoisted_32 = {
+  "class": "modal__content__buttons"
+};
 function render(_ctx, _cache, $props, $setup, $data, $options) {
+  var _component_router_link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("router-link");
+
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [_hoisted_3, _hoisted_4, $data.number ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("p", _hoisted_5, "02.99.99.99.99")) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("p", {
     key: 1,
     "class": "w33__other w33__other--clic",
     onClick: _cache[1] || (_cache[1] = function () {
       return $options.showNumber && $options.showNumber.apply($options, arguments);
     })
-  }, "Cliquez pour voir le N° téléphone"))]), _hoisted_6, _hoisted_7]);
+  }, "Cliquez pour voir le n° téléphone"))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_6, [_hoisted_7, _hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+    "class": "w33__other w33__other--rs",
+    onClick: _cache[2] || (_cache[2] = function () {
+      return $options.showMentions && $options.showMentions.apply($options, arguments);
+    })
+  }, "mentions légales")]), _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Modal "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
+    name: "bounce"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [$data.mentions ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Modal content "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("span", {
+        "class": "modal__close",
+        onClick: _cache[3] || (_cache[3] = function () {
+          return $options.closeMentions && $options.closeMentions.apply($options, arguments);
+        })
+      }, "×"), _hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_13, [_hoisted_14, _hoisted_15, !$data.telCreperie ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("p", {
+        key: 0,
+        onClick: _cache[4] || (_cache[4] = function () {
+          return $options.showTel && $options.showTel.apply($options, arguments);
+        }),
+        "class": "modal__content__section__tel"
+      }, "Cliquez pour voir le n° téléphone")) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("p", _hoisted_16, "Tél: 02 98 04 01 21")), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [_hoisted_17, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
+        to: "/contact",
+        onClick: $options.closeMentions,
+        "class": "modal__content__section__link"
+      }, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_18];
+        }),
+        _: 1
+        /* STABLE */
+
+      }, 8
+      /* PROPS */
+      , ["onClick"])]), _hoisted_19]), _hoisted_20, _hoisted_21, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_22, [_hoisted_23, _hoisted_24, _hoisted_25, _hoisted_26, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [_hoisted_27, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
+        to: "/contact",
+        onClick: $options.closeMentions,
+        "class": "modal__content__section__link"
+      }, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_28];
+        }),
+        _: 1
+        /* STABLE */
+
+      }, 8
+      /* PROPS */
+      , ["onClick"])]), _hoisted_29, _hoisted_30, _hoisted_31]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_32, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
+        onClick: _cache[5] || (_cache[5] = function () {
+          return $options.closeMentions && $options.closeMentions.apply($options, arguments);
+        })
+      }, "Fermer")])])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)];
+    }),
+    _: 1
+    /* STABLE */
+
+  })]);
 }
 
 /***/ }),
@@ -17172,7 +17344,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Yatra+One&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "/*** RESET ***/\nhtml {\n  box-sizing: border-box;\n  height: 100%;\n  font-size: 100%;\n}\n\n*, *:before, *:after {\n  box-sizing: inherit;\n}\n\nol, ul {\n  list-style: none;\n}\n\na {\n  text-decoration: none;\n}\n\np {\n  margin: 0;\n}\n\nbody {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: calc(100vw / 60);\n  background-color: #f2f2f2;\n  margin: 0;\n  padding: 0;\n}\n\n/*** Imports ***/\n.container {\n  position: relative;\n}\n\n.navbar {\n  position: fixed;\n  width: 100%;\n  height: 100px;\n  display: flex;\n  align-items: center;\n  background-color: #f2f2f2;\n  box-shadow: 0px 2px 8px 0px #83141a;\n  z-index: 2;\n  top: 0;\n}\n\n.navbar__logo {\n  margin-left: 5%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 130px;\n}\n\n.navbar__logo__img {\n  width: 100%;\n}\n\n.navbar__links-group {\n  width: 80%;\n  margin-left: 3%;\n}\n\n.navbar__links {\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  padding-top: 15px;\n  font-size: 1em;\n}\n\n.navbar__links__link {\n  color: #83141a;\n  font-family: \"Yatra One\", cursive;\n  cursor: pointer;\n  background-color: #f2f2f2;\n}\n\n.navbar__links__link:hover {\n  color: #98000c;\n  text-decoration: underline;\n}\n\n.dropdown {\n  position: relative;\n}\n\n.dropdown__content {\n  flex-direction: column;\n  position: absolute;\n  font-size: 0.85em;\n  width: 110%;\n  padding-top: 35px;\n  display: none;\n}\n\n.dropdown:hover .dropdown__content {\n  display: flex;\n}\n\n.container-footer {\n  display: flex;\n  justify-content: space-between;\n}\n\n.w33 {\n  width: 33%;\n  padding: 10px;\n  display: flex;\n  flex-direction: column;\n}\n\n.w33__title {\n  text-align: center;\n  font-size: 1.5em;\n}\n\n.w33__content {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  margin: 20px 0;\n}\n\n.w33__content p {\n  margin: 10px 0;\n}\n\n.w33__content-logos {\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  margin: auto 50px;\n  padding: 20px 0;\n}\n\n.w33__content-logos__logo {\n  display: inline-block;\n  width: 20%;\n}\n\n.w33__content-logos__logo:hover svg {\n  fill: #98000c;\n}\n\n.w33__other {\n  text-align: center;\n}\n\n.w33__other--clic {\n  cursor: pointer;\n}\n\n.w33__other--clic:hover {\n  color: #98000c;\n}\n\n.w33__other--tel {\n  font-size: 1.5em;\n  font-weight: bold;\n}\n\n.w33__other--rs {\n  justify-content: flex-end;\n  margin-top: auto;\n}\n\n.w33__other--rs a {\n  cursor: pointer;\n  color: #1a1a1a;\n}\n\n.w33__other--rs a:hover {\n  color: #98000c;\n}\n\n.w33__form {\n  display: flex;\n  flex-direction: column;\n  margin-top: 20px;\n}\n\n.w33__form__group {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin: 20px 0;\n}\n\n.w33__form__group__input {\n  padding: 10px 20px;\n  width: 70%;\n  font-size: 0.75em;\n  border-radius: 10px;\n  border: 1px solid #1a1a1a;\n}\n\n.w33__form__group__input:focus {\n  outline: none;\n}\n\n.w33__form__group__input::-moz-placeholder {\n  font-style: italic;\n}\n\n.w33__form__group__input:-ms-input-placeholder {\n  font-style: italic;\n}\n\n.w33__form__group__input::placeholder {\n  font-style: italic;\n}\n\n.w33__form__group__input::-webkit-input-placeholder {\n  font-style: italic;\n}\n\n.w33__form__group__input:-moz-placeholder {\n  font-style: italic;\n}\n\n.w33__form__group__input::-moz-placeholder {\n  font-style: italic;\n}\n\n.w33__form__group__input:-ms-input-placeholder {\n  font-style: italic;\n}\n\n.w33__form__group button {\n  font-size: 1em;\n  background-color: white;\n  border: 1px solid #1a1a1a;\n  padding: 10px 20px;\n  border-radius: 10px;\n  cursor: pointer;\n}\n\n.w33__form__group button:hover {\n  background-color: #98000c;\n  color: #f2f2f2;\n  border: 1px solid #98000c;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "/*** RESET ***/\nhtml {\n  box-sizing: border-box;\n  height: 100%;\n  font-size: 100%;\n}\n\n*, *:before, *:after {\n  box-sizing: inherit;\n}\n\nol, ul {\n  list-style: none;\n}\n\na {\n  text-decoration: none;\n}\n\np {\n  margin: 0;\n}\n\nbody {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: calc(100vw / 60);\n  background-color: #f2f2f2;\n  margin: 0;\n  padding: 0;\n}\n\n/*** Imports ***/\n.container {\n  position: relative;\n}\n\n.navbar {\n  position: fixed;\n  width: 100%;\n  height: 100px;\n  display: flex;\n  align-items: center;\n  background-color: #f2f2f2;\n  box-shadow: 0px 2px 8px 0px #83141a;\n  z-index: 2;\n  top: 0;\n}\n\n.navbar__logo {\n  margin-left: 5%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 130px;\n}\n\n.navbar__logo__img {\n  width: 100%;\n}\n\n.navbar__links-group {\n  width: 80%;\n  margin-left: 3%;\n}\n\n.navbar__links {\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  padding-top: 15px;\n  font-size: 1em;\n}\n\n.navbar__links__link {\n  color: #83141a;\n  font-family: \"Yatra One\", cursive;\n  cursor: pointer;\n  background-color: #f2f2f2;\n}\n\n.navbar__links__link:hover {\n  color: #98000c;\n  text-decoration: underline;\n}\n\n.dropdown {\n  position: relative;\n}\n\n.dropdown__content {\n  flex-direction: column;\n  position: absolute;\n  font-size: 0.85em;\n  width: 110%;\n  padding-top: 35px;\n  display: none;\n}\n\n.dropdown:hover .dropdown__content {\n  display: flex;\n}\n\n.container-footer {\n  display: flex;\n  justify-content: space-between;\n}\n\n.w33 {\n  width: 33%;\n  padding: 10px;\n  display: flex;\n  flex-direction: column;\n}\n\n.w33__title {\n  text-align: center;\n  font-size: 1.5em;\n}\n\n.w33__content {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  margin: 35px 0;\n}\n\n.w33__content p {\n  margin: 10px 0;\n}\n\n.w33__content__adress {\n  font-size: 0.75em;\n}\n\n.w33__content-logos {\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  margin: auto 50px;\n  padding: 20px 0;\n}\n\n.w33__content-logos__logo {\n  display: inline-block;\n  width: 20%;\n}\n\n.w33__content-logos__logo:hover svg {\n  fill: #98000c;\n}\n\n.w33__other {\n  text-align: center;\n  justify-self: flex-end;\n  margin-top: auto;\n}\n\n.w33__other--clic {\n  cursor: pointer;\n  margin-bottom: 20px;\n}\n\n.w33__other--clic:hover {\n  color: #98000c;\n}\n\n.w33__other--tel {\n  font-size: 1.5em;\n  font-weight: bold;\n  margin-bottom: 2px;\n}\n\n.w33__other--rs {\n  justify-content: flex-end;\n  margin-top: auto;\n  margin-bottom: 20px;\n  cursor: pointer;\n  color: #1a1a1a;\n}\n\n.w33__other--rs:hover {\n  color: #98000c;\n}\n\n.w33__form {\n  display: flex;\n  flex-direction: column;\n  margin-top: 20px;\n}\n\n.w33__form__group {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin: 20px 0;\n}\n\n.w33__form__group__input {\n  padding: 10px 20px;\n  width: 70%;\n  font-size: 0.75em;\n  border-radius: 10px;\n  border: 1px solid #1a1a1a;\n}\n\n.w33__form__group__input:focus {\n  outline: none;\n}\n\n.w33__form__group__input::-moz-placeholder {\n  font-style: italic;\n}\n\n.w33__form__group__input:-ms-input-placeholder {\n  font-style: italic;\n}\n\n.w33__form__group__input::placeholder {\n  font-style: italic;\n}\n\n.w33__form__group__input::-webkit-input-placeholder {\n  font-style: italic;\n}\n\n.w33__form__group__input:-moz-placeholder {\n  font-style: italic;\n}\n\n.w33__form__group__input::-moz-placeholder {\n  font-style: italic;\n}\n\n.w33__form__group__input:-ms-input-placeholder {\n  font-style: italic;\n}\n\n.w33__form__group button {\n  font-size: 1em;\n  background-color: white;\n  border: 1px solid #1a1a1a;\n  padding: 10px 20px;\n  border-radius: 10px;\n  cursor: pointer;\n}\n\n.w33__form__group button:hover {\n  background-color: #98000c;\n  color: #f2f2f2;\n  border: 1px solid #98000c;\n}\n\n/* The Modal (background) */\n.modal {\n  display: block;\n  /* Hidden by default */\n  position: fixed;\n  /* Stay in place */\n  z-index: 3;\n  /* Sit on top */\n  left: 0;\n  top: 0;\n  width: 100%;\n  /* Full width */\n  height: 100%;\n  /* Full height */\n  overflow: auto;\n  /* Enable scroll if needed */\n  /* Modal Content/Box */\n  /* The Close Button */\n}\n\n.modal__content {\n  background-color: #f2f2f2;\n  margin: 5% auto;\n  /* 15% from the top and centered */\n  padding: 20px;\n  width: 80%;\n  /* Could be more or less, depending on screen size */\n  display: flex;\n  flex-direction: column;\n  border-radius: 10px;\n  border: 2px solid #83141a;\n}\n\n.modal__content__title {\n  font-family: \"Yatra One\", cursive;\n  text-align: center;\n  margin: 0;\n}\n\n.modal__content__section {\n  margin: 15px 0;\n}\n\n.modal__content__section h3 {\n  margin: 10px 0;\n  font-size: 1em;\n}\n\n.modal__content__section p {\n  font-size: 0.75em;\n}\n\n.modal__content__section__link {\n  cursor: pointer;\n  color: #83141a;\n}\n\n.modal__content__section__link:hover {\n  color: #98000c;\n  text-decoration: underline;\n}\n\n.modal__content__section__tel {\n  cursor: pointer;\n  color: #83141a;\n}\n\n.modal__content__section__tel:hover {\n  color: #98000c;\n  text-decoration: underline;\n}\n\n.modal__content__buttons {\n  display: flex;\n  justify-content: flex-end;\n  margin-left: auto;\n  margin-right: 20px;\n}\n\n.modal__content__buttons button {\n  font-size: 1em;\n  padding: 10px 20px;\n  border: 1px solid #1a1a1a;\n  background-color: #f1f1f1;\n  border-radius: 10px;\n  cursor: pointer;\n}\n\n.modal__content__buttons button:focus {\n  outline: none;\n}\n\n.modal__content__buttons button:hover {\n  background-color: #98000c;\n  color: #f2f2f2;\n}\n\n.modal__close {\n  color: #1a1a1a;\n  align-self: flex-end;\n  margin-left: auto;\n  font-size: 1.5em;\n  font-weight: bold;\n}\n\n.modal__close:hover, .modal__close:focus {\n  color: #98000c;\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.bounce-enter-active {\n  -webkit-animation: bounce-in .5s;\n          animation: bounce-in .5s;\n}\n\n.bounce-leave-active {\n  animation: bounce-in .5s reverse;\n}\n\n@-webkit-keyframes bounce-in {\n  0% {\n    transform: scale(0);\n  }\n  50% {\n    transform: scale(1.1);\n  }\n  100% {\n    transform: scale(1);\n  }\n}\n\n@keyframes bounce-in {\n  0% {\n    transform: scale(0);\n  }\n  50% {\n    transform: scale(1.1);\n  }\n  100% {\n    transform: scale(1);\n  }\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
