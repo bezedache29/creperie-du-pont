@@ -1,21 +1,27 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from './../views/HomeApp.vue'
-import Menus from './../views/MenusApp.vue'
+import Restaurant from './../views/RestaurantApp.vue'
+import Contact from './../views/ContactApp.vue'
 
-const history = createWebHistory()
+// const history = createWebHistory()
 const router = createRouter({
-  history,
+  history: createWebHistory(),
   routes: [
     {
       path: '/',
-      name: 'Home',
+      name: 'home',
       component: Home
     },
     {
-      path: '/menus',
-      name: 'Menus',
-      component: Menus
+      path: '/restaurant',
+      name: 'restaurant',
+      component: Restaurant
     },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: Contact
+    }
   ]
 })
 

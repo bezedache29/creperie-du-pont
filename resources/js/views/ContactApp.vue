@@ -1,14 +1,10 @@
 <template>
-  <h1>Page Home</h1>
+  <h1>Page contact</h1>
 </template>
 
 <script>
 export default {
-  name: 'home-app',
-
-  created() {
-    console.log(this.$store.state.crepes)
-  }
+  name: 'contact-app'
 }
 </script>
 

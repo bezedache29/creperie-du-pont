@@ -5,11 +5,11 @@
       </a>
     <nav class="navbar__links-group">
       <ul class="navbar__links">
-        <li><a href="">Accueil</a></li>
+        <li><router-link to="/">Accueil</router-link></li>
         <li><a href="">Présentation</a></li>
         <li><a href="">Cartes & Menu</a></li>
         <li><a href="">Témoignages</a></li>
-        <li><a href="">Contact</a></li>
+        <li><router-link to="/contact">Contact</router-link></li>
         <li><a href="">COVID 19</a></li>
       </ul>
     </nav>

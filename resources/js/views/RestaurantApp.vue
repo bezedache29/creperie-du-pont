@@ -1,10 +1,10 @@
 <template>
-  <h1>Page Home</h1>
+    <h1>Page restaurant</h1>
 </template>
 
 <script>
 export default {
-  name: 'home-app',
+  name: 'restaurant-app',
 
   created() {
     console.log(this.$store.state.crepes)
@@ -12,8 +12,6 @@ export default {
 }
 </script>
 
-<style scoped>
-h1 {
-  padding-top: 150px;
-}
+<style>
+
 </style>

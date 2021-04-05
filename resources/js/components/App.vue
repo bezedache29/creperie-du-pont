@@ -1,5 +1,10 @@
 <template>
-  <navbar-app />
+  <div class="container">
+    <navbar-app />
+
+    <router-view />
+  </div>
+  
 
  <!-- Page accueil par defaut
 
