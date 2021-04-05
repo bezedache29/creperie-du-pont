@@ -15,6 +15,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'HomeController@index');
 
+// Pour eviter les 404 lors des refresh de pages
 Route::get('/{any}', 'HomeController@index')->where('any', '.*');
-
-// Route::get('/contact', 'HomeController@index');

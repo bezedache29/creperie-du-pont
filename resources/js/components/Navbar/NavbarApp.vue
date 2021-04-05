@@ -9,27 +9,27 @@
         <li class="dropdown">
           <a class="navbar__links__link dropdown__title">Présentation</a>
           <span class="dropdown__content">
-            <a class="navbar__links__link">Le restaurant</a>
-            <a class="navbar__links__link">Nos animations</a>
-            <a class="navbar__links__link">Nos salles</a>
+            <router-link to="/restaurant" class="navbar__links__link">Le restaurant</router-link>
+            <router-link to="/animations" class="navbar__links__link">Nos animations</router-link>
+            <router-link to="/salles" class="navbar__links__link">Nos salles</router-link>
           </span>
         </li>
         <li class="dropdown">
           <a class="navbar__links__link dropdown__title">Cartes & Menu</a>
           <span class="dropdown__content">
-            <a class="navbar__links__link">Nos galettes</a>
-            <a class="navbar__links__link">Nos pizzas</a>
-            <a class="navbar__links__link">Nos crêpes</a>
-            <a class="navbar__links__link">Nos glaces</a>
-            <a class="navbar__links__link">Menu Ti Mousse</a>
-            <a class="navbar__links__link">Carte boissons</a>
+            <router-link to="/galettes" class="navbar__links__link">Nos galettes</router-link>
+            <router-link to="/pizzas" class="navbar__links__link">Nos pizzas</router-link>
+            <router-link to="/crepes" class="navbar__links__link">Nos crêpes</router-link>
+            <router-link to="/glaces" class="navbar__links__link">Nos glaces</router-link>
+            <router-link to="/timousse" class="navbar__links__link">Menu Ti Mousse</router-link>
+            <router-link to="/boissons" class="navbar__links__link">Carte boissons</router-link>
           </span>
         </li>
         <li class="dropdown">
           <a class="navbar__links__link dropdown__title">Témoignages</a>
           <span class="dropdown__content">
-            <a class="navbar__links__link">Tripadvisor</a>
-            <a class="navbar__links__link">Restaurant Guru</a>
+            <a href="https://www.tripadvisor.fr/Restaurant_Review-g2269303-d3422607-Reviews-Creperie_du_Pont-Lannilis_Finistere_Brittany.html" target="_blank" class="navbar__links__link">Tripadvisor</a>
+            <a href="https://fr.restaurantguru.com/Creperie-du-Pont-de-Paluden-Lannilis" target="blank" class="navbar__links__link">Restaurant Guru</a>
           </span>
         </li>
         <li><router-link to="/contact" class="navbar__links__link">Contact</router-link></li>
