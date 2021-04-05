@@ -16539,37 +16539,18 @@ var _hoisted_4 = {
 
 var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Accueil");
 
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  href: ""
-}, "Présentation")], -1
-/* HOISTED */
-);
-
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  href: ""
-}, "Cartes & Menu")], -1
-/* HOISTED */
-);
-
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  href: ""
-}, "Témoignages")], -1
-/* HOISTED */
-);
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<li class=\"dropdown\"><a class=\"navbar__links__link dropdown__title\">Présentation</a><span class=\"dropdown__content\"><a class=\"navbar__links__link\">Le restaurant</a><a class=\"navbar__links__link\">Nos animations</a><a class=\"navbar__links__link\">Nos salles</a></span></li><li class=\"dropdown\"><a class=\"navbar__links__link dropdown__title\">Cartes &amp; Menu</a><span class=\"dropdown__content\"><a class=\"navbar__links__link\">Nos galettes</a><a class=\"navbar__links__link\">Nos pizzas</a><a class=\"navbar__links__link\">Nos crêpes</a><a class=\"navbar__links__link\">Nos glaces</a><a class=\"navbar__links__link\">Menu Ti Mousse</a><a class=\"navbar__links__link\">Carte boissons</a></span></li><li class=\"dropdown\"><a class=\"navbar__links__link dropdown__title\">Témoignages</a><span class=\"dropdown__content\"><a class=\"navbar__links__link\">Tripadvisor</a><a class=\"navbar__links__link\">Restaurant Guru</a></span></li>", 3);
 
 var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Contact");
 
-var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  href: ""
-}, "COVID 19")], -1
-/* HOISTED */
-);
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("COVID 19");
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_router_link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("router-link");
 
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("nav", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("ul", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
-    to: "/"
+    to: "/",
+    "class": "navbar__links__link"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [_hoisted_5];
@@ -16577,8 +16558,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  })]), _hoisted_6, _hoisted_7, _hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
-    to: "/contact"
+  })]), _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
+    to: "/contact",
+    "class": "navbar__links__link"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [_hoisted_9];
@@ -16586,7 +16568,17 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  })]), _hoisted_10])])]);
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
+    to: "/covid19",
+    "class": "navbar__links__link"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_10];
+    }),
+    _: 1
+    /* STABLE */
+
+  })])])])]);
 }
 
 /***/ }),
@@ -16795,8 +16787,9 @@ __webpack_require__.r(__webpack_exports__);
 // Imports
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Yatra+One&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "/*** RESET ***/\nhtml {\n  box-sizing: border-box;\n  height: 100%;\n  font-size: 100%;\n}\n\n*, *:before, *:after {\n  box-sizing: inherit;\n}\n\nol, ul {\n  list-style: none;\n}\n\na {\n  text-decoration: none;\n}\n\nbody {\n  height: 100%;\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 0.75em;\n  background-color: #f2f2f2;\n  margin: 0;\n  padding: 0;\n}\n\n/*** Imports ***/\n.container {\n  height: 100vh;\n  position: relative;\n}\n\n.navbar {\n  position: fixed;\n  width: 100%;\n  height: 100px;\n  display: flex;\n  align-items: center;\n  background-color: #f2f2f2;\n  box-shadow: 0px 2px 8px 0px #83141a;\n  z-index: 2;\n  top: 0;\n}\n\n.navbar__logo {\n  margin-left: 5%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 130px;\n}\n\n.navbar__logo__img {\n  width: 100%;\n}\n\n.navbar__links-group {\n  width: 80%;\n  margin-left: 3%;\n  border: 1px solid black;\n}\n\n.navbar__links {\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  font-size: 2.5em;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "/*** RESET ***/\nhtml {\n  box-sizing: border-box;\n  height: 100%;\n  font-size: 100%;\n}\n\n*, *:before, *:after {\n  box-sizing: inherit;\n}\n\nol, ul {\n  list-style: none;\n}\n\na {\n  text-decoration: none;\n}\n\nbody {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: calc(100vw / 60);\n  background-color: #f2f2f2;\n  margin: 0;\n  padding: 0;\n}\n\n/*** Imports ***/\n.container {\n  position: relative;\n}\n\n.navbar {\n  position: fixed;\n  width: 100%;\n  height: 100px;\n  display: flex;\n  align-items: center;\n  background-color: #f2f2f2;\n  box-shadow: 0px 2px 8px 0px #83141a;\n  z-index: 2;\n  top: 0;\n}\n\n.navbar__logo {\n  margin-left: 5%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 130px;\n}\n\n.navbar__logo__img {\n  width: 100%;\n}\n\n.navbar__links-group {\n  width: 80%;\n  margin-left: 3%;\n}\n\n.navbar__links {\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  font-size: 1em;\n}\n\n.navbar__links__link {\n  color: #83141a;\n  font-family: \"Yatra One\", cursive;\n  cursor: pointer;\n}\n\n.navbar__links__link:hover {\n  color: #98000c;\n  text-decoration: underline;\n}\n\n.dropdown {\n  position: relative;\n}\n\n.dropdown__content {\n  flex-direction: column;\n  position: absolute;\n  font-size: 0.85em;\n  width: 110%;\n  padding-top: 35px;\n  display: none;\n}\n\n.dropdown:hover .dropdown__content {\n  display: flex;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
