@@ -45,12 +45,12 @@
     </div>
 
     <!-- Nos Salles -->
-    <a href="" class="salles animate__animated animate__backInLeft">
+    <router-link to="../presentation/salles" class="salles animate__animated animate__backInLeft">
       <div class="salles__image">
         <img src="../../assets/images/salles/presentation.jpg" alt="" class="salles__image__img">
       </div>
       <p class="salles__title">Nos salles</p>
-    </a>
+    </router-link>
   </section>
 </template>
 

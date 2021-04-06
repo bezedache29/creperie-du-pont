@@ -117,7 +117,8 @@
         transform: translate(-50%, -50%);
         font-size: 3em;
         font-weight: bold;
-        color: $black-primary;
+        color: $red-primary;
+        text-shadow: $white-primary 1px 0 5px;
     }
 }
 

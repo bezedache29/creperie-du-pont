@@ -458,7 +458,8 @@ body {
   transform: translate(-50%, -50%);
   font-size: 3em;
   font-weight: bold;
-  color: #1a1a1a;
+  color: #83141a;
+  text-shadow: #f2f2f2 1px 0 5px;
 }
 
 @-webkit-keyframes mymove {

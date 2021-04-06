@@ -16545,6 +16545,21 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/views/presentation/Salles.vue?vue&type=script&lang=js":
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/views/presentation/Salles.vue?vue&type=script&lang=js ***!
+  \********************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/App.vue?vue&type=template&id=332fccf4":
 /*!*************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/App.vue?vue&type=template&id=332fccf4 ***!
@@ -17208,23 +17223,36 @@ var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 /* HOISTED */
 );
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  href: "",
-  "class": "salles animate__animated animate__backInLeft"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "salles__image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
   src: _assets_images_salles_presentation_jpg__WEBPACK_IMPORTED_MODULE_5__.default,
   alt: "",
   "class": "salles__image__img"
-})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "salles__title"
-}, "Nos salles")], -1
+}, "Nos salles", -1
 /* HOISTED */
 );
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("section", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Les cards "), _hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Nos Salles "), _hoisted_3]);
+  var _component_router_link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("router-link");
+
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("section", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Les cards "), _hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Nos Salles "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
+    to: "../presentation/salles",
+    "class": "salles animate__animated animate__backInLeft"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_3, _hoisted_4];
+    }),
+    _: 1
+    /* STABLE */
+
+  })]);
 }
 
 /***/ }),
@@ -17270,6 +17298,33 @@ var _withId = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.withScopeId)("dat
 var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("h1", null, "Page restaurant");
 });
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/views/presentation/Salles.vue?vue&type=template&id=fbf5e6fc":
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/views/presentation/Salles.vue?vue&type=template&id=fbf5e6fc ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+var _hoisted_1 = {
+  "class": "section"
+};
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h1", null, "Nos salles", -1
+/* HOISTED */
+);
+
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("section", _hoisted_1, [_hoisted_2]);
+}
 
 /***/ }),
 
@@ -17342,19 +17397,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm-bundler.js");
-/* harmony import */ var _views_home_HomeApp_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../views/home/HomeApp.vue */ "./resources/js/views/home/HomeApp.vue");
-/* harmony import */ var _views_presentation_RestaurantApp_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../views/presentation/RestaurantApp.vue */ "./resources/js/views/presentation/RestaurantApp.vue");
-/* harmony import */ var _views_presentation_AnimationsApp_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../views/presentation/AnimationsApp.vue */ "./resources/js/views/presentation/AnimationsApp.vue");
-/* harmony import */ var _views_presentation_Salles_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../views/presentation/Salles.vue */ "./resources/js/views/presentation/Salles.vue");
-/* harmony import */ var _views_cartes_menu_GalettesApp_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../views/cartes-menu/GalettesApp.vue */ "./resources/js/views/cartes-menu/GalettesApp.vue");
-/* harmony import */ var _views_cartes_menu_PizzasApp_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../views/cartes-menu/PizzasApp.vue */ "./resources/js/views/cartes-menu/PizzasApp.vue");
-/* harmony import */ var _views_cartes_menu_CrepesApp_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./../views/cartes-menu/CrepesApp.vue */ "./resources/js/views/cartes-menu/CrepesApp.vue");
-/* harmony import */ var _views_cartes_menu_GlacesApp_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./../views/cartes-menu/GlacesApp.vue */ "./resources/js/views/cartes-menu/GlacesApp.vue");
-/* harmony import */ var _views_cartes_menu_TimousseApp_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./../views/cartes-menu/TimousseApp.vue */ "./resources/js/views/cartes-menu/TimousseApp.vue");
-/* harmony import */ var _views_cartes_menu_BoissonsApp_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./../views/cartes-menu/BoissonsApp.vue */ "./resources/js/views/cartes-menu/BoissonsApp.vue");
-/* harmony import */ var _views_contact_ContactApp_vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./../views/contact/ContactApp.vue */ "./resources/js/views/contact/ContactApp.vue");
-/* harmony import */ var _views_covid19_Covid19App_vue__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./../views/covid19/Covid19App.vue */ "./resources/js/views/covid19/Covid19App.vue");
+/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm-bundler.js");
+/* harmony import */ var _views_home_HomeApp_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../views/home/HomeApp.vue */ "./resources/js/views/home/HomeApp.vue");
+/* harmony import */ var _views_presentation_RestaurantApp_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../views/presentation/RestaurantApp.vue */ "./resources/js/views/presentation/RestaurantApp.vue");
+/* harmony import */ var _views_presentation_AnimationsApp_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../views/presentation/AnimationsApp.vue */ "./resources/js/views/presentation/AnimationsApp.vue");
+/* harmony import */ var _views_presentation_Salles_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../views/presentation/Salles.vue */ "./resources/js/views/presentation/Salles.vue");
+/* harmony import */ var _views_cartes_menu_GalettesApp_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../views/cartes-menu/GalettesApp.vue */ "./resources/js/views/cartes-menu/GalettesApp.vue");
+/* harmony import */ var _views_cartes_menu_PizzasApp_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./../views/cartes-menu/PizzasApp.vue */ "./resources/js/views/cartes-menu/PizzasApp.vue");
+/* harmony import */ var _views_cartes_menu_CrepesApp_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./../views/cartes-menu/CrepesApp.vue */ "./resources/js/views/cartes-menu/CrepesApp.vue");
+/* harmony import */ var _views_cartes_menu_GlacesApp_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./../views/cartes-menu/GlacesApp.vue */ "./resources/js/views/cartes-menu/GlacesApp.vue");
+/* harmony import */ var _views_cartes_menu_TimousseApp_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./../views/cartes-menu/TimousseApp.vue */ "./resources/js/views/cartes-menu/TimousseApp.vue");
+/* harmony import */ var _views_cartes_menu_BoissonsApp_vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./../views/cartes-menu/BoissonsApp.vue */ "./resources/js/views/cartes-menu/BoissonsApp.vue");
+/* harmony import */ var _views_contact_ContactApp_vue__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./../views/contact/ContactApp.vue */ "./resources/js/views/contact/ContactApp.vue");
+/* harmony import */ var _views_covid19_Covid19App_vue__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./../views/covid19/Covid19App.vue */ "./resources/js/views/covid19/Covid19App.vue");
 
 
 
@@ -17369,56 +17424,56 @@ __webpack_require__.r(__webpack_exports__);
 
  // const history = createWebHistory()
 
-var router = (0,vue_router__WEBPACK_IMPORTED_MODULE_12__.createRouter)({
-  history: (0,vue_router__WEBPACK_IMPORTED_MODULE_12__.createWebHistory)(),
+var router = (0,vue_router__WEBPACK_IMPORTED_MODULE_0__.createRouter)({
+  history: (0,vue_router__WEBPACK_IMPORTED_MODULE_0__.createWebHistory)(),
   routes: [{
     path: '/',
     name: 'home',
-    component: _views_home_HomeApp_vue__WEBPACK_IMPORTED_MODULE_0__.default
+    component: _views_home_HomeApp_vue__WEBPACK_IMPORTED_MODULE_1__.default
   }, {
     path: '/restaurant',
     name: 'restaurant',
-    component: _views_presentation_RestaurantApp_vue__WEBPACK_IMPORTED_MODULE_1__.default
+    component: _views_presentation_RestaurantApp_vue__WEBPACK_IMPORTED_MODULE_2__.default
   }, {
     path: '/animations',
     name: 'animations',
-    component: _views_presentation_AnimationsApp_vue__WEBPACK_IMPORTED_MODULE_2__.default
+    component: _views_presentation_AnimationsApp_vue__WEBPACK_IMPORTED_MODULE_3__.default
   }, {
     path: '/salles',
     name: 'salles',
-    component: _views_presentation_Salles_vue__WEBPACK_IMPORTED_MODULE_3__.default
+    component: _views_presentation_Salles_vue__WEBPACK_IMPORTED_MODULE_4__.default
   }, {
     path: '/galettes',
     name: 'galettes',
-    component: _views_cartes_menu_GalettesApp_vue__WEBPACK_IMPORTED_MODULE_4__.default
+    component: _views_cartes_menu_GalettesApp_vue__WEBPACK_IMPORTED_MODULE_5__.default
   }, {
     path: '/pizzas',
     name: 'pizzas',
-    component: _views_cartes_menu_PizzasApp_vue__WEBPACK_IMPORTED_MODULE_5__.default
+    component: _views_cartes_menu_PizzasApp_vue__WEBPACK_IMPORTED_MODULE_6__.default
   }, {
     path: '/crepes',
     name: 'crepes',
-    component: _views_cartes_menu_CrepesApp_vue__WEBPACK_IMPORTED_MODULE_6__.default
+    component: _views_cartes_menu_CrepesApp_vue__WEBPACK_IMPORTED_MODULE_7__.default
   }, {
     path: '/glaces',
     name: 'glaces',
-    component: _views_cartes_menu_GlacesApp_vue__WEBPACK_IMPORTED_MODULE_7__.default
+    component: _views_cartes_menu_GlacesApp_vue__WEBPACK_IMPORTED_MODULE_8__.default
   }, {
     path: '/timousse',
     name: 'timousse',
-    component: _views_cartes_menu_TimousseApp_vue__WEBPACK_IMPORTED_MODULE_8__.default
+    component: _views_cartes_menu_TimousseApp_vue__WEBPACK_IMPORTED_MODULE_9__.default
   }, {
     path: '/boissons',
     name: 'boissons',
-    component: _views_cartes_menu_BoissonsApp_vue__WEBPACK_IMPORTED_MODULE_9__.default
+    component: _views_cartes_menu_BoissonsApp_vue__WEBPACK_IMPORTED_MODULE_10__.default
   }, {
     path: '/contact',
     name: 'contact',
-    component: _views_contact_ContactApp_vue__WEBPACK_IMPORTED_MODULE_10__.default
+    component: _views_contact_ContactApp_vue__WEBPACK_IMPORTED_MODULE_11__.default
   }, {
     path: '/covid19',
     name: 'covid19',
-    component: _views_covid19_Covid19App_vue__WEBPACK_IMPORTED_MODULE_11__.default
+    component: _views_covid19_Covid19App_vue__WEBPACK_IMPORTED_MODULE_12__.default
   }]
 });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (router);
@@ -35679,10 +35734,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-const script = {}
-script.__file = "resources/js/views/presentation/Salles.vue"
+/* harmony import */ var _Salles_vue_vue_type_template_id_fbf5e6fc__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Salles.vue?vue&type=template&id=fbf5e6fc */ "./resources/js/views/presentation/Salles.vue?vue&type=template&id=fbf5e6fc");
+/* harmony import */ var _Salles_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Salles.vue?vue&type=script&lang=js */ "./resources/js/views/presentation/Salles.vue?vue&type=script&lang=js");
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (script);
+
+
+_Salles_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default.render = _Salles_vue_vue_type_template_id_fbf5e6fc__WEBPACK_IMPORTED_MODULE_0__.render
+/* hot reload */
+if (false) {}
+
+_Salles_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default.__file = "resources/js/views/presentation/Salles.vue"
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_Salles_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default);
 
 /***/ }),
 
@@ -35814,6 +35877,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/views/presentation/Salles.vue?vue&type=script&lang=js":
+/*!****************************************************************************!*\
+  !*** ./resources/js/views/presentation/Salles.vue?vue&type=script&lang=js ***!
+  \****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Salles_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Salles_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Salles.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/views/presentation/Salles.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
 /***/ "./resources/js/components/App.vue?vue&type=template&id=332fccf4":
 /*!***********************************************************************!*\
   !*** ./resources/js/components/App.vue?vue&type=template&id=332fccf4 ***!
@@ -35938,6 +36017,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_RestaurantApp_vue_vue_type_template_id_3a91d40e_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render)
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_RestaurantApp_vue_vue_type_template_id_3a91d40e_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./RestaurantApp.vue?vue&type=template&id=3a91d40e&scoped=true */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/views/presentation/RestaurantApp.vue?vue&type=template&id=3a91d40e&scoped=true");
+
+
+/***/ }),
+
+/***/ "./resources/js/views/presentation/Salles.vue?vue&type=template&id=fbf5e6fc":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/views/presentation/Salles.vue?vue&type=template&id=fbf5e6fc ***!
+  \**********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Salles_vue_vue_type_template_id_fbf5e6fc__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Salles_vue_vue_type_template_id_fbf5e6fc__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Salles.vue?vue&type=template&id=fbf5e6fc */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/views/presentation/Salles.vue?vue&type=template&id=fbf5e6fc");
 
 
 /***/ }),
