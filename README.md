@@ -61,4 +61,8 @@
 - [ ] Création de la page Contact
 - [ ] Création de la page COVID 19
 
+### Tablette
+
+### Téléphone
+
 ## Développement Back-End
