@@ -122,6 +122,55 @@
     }
 }
 
+.big-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5% 8%;
+
+    &__card {
+        width: 22em;
+        height: 15em;
+        border: 1px solid $red-primary;
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+
+        &__images {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            animation: slide-auberge 15s infinite ease-in-out;
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 0;
+            padding: 0;
+
+            &__image {
+
+                &__img {
+                    object-fit: cover;
+                    width: 25em;
+                    height: 15em;
+                    transform: scale(1.2);
+                }
+            }
+            
+
+            &__link {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        &:hover {
+            box-shadow: 0px 1px 5px $red-primary;
+        }
+    }
+}
+
 // Animation pour slider spécialités
 @keyframes mymove {
     0% {
@@ -141,5 +190,21 @@
 	}
 	85% {
 		left: -28em; /*idem pour attente*/
+	}
+}
+
+// Animation pour slider Auberges
+@keyframes slide-auberge {
+    0% {
+		left: 0px; /*1ère image*/
+	}
+	15% {
+		left: 0px; /*idem pour attente*/
+	}
+	35% {
+		left: -25em; /*2ème image*/
+	}
+	50% {
+		left: -25em; /*idem pour attente*/
 	}
 }

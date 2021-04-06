@@ -17166,6 +17166,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_images_spes_crepe_spe3_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/images/spes/crepe_spe3.jpg */ "./resources/js/assets/images/spes/crepe_spe3.jpg");
 /* harmony import */ var _assets_images_idees_cadeaux_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/images/idees_cadeaux.png */ "./resources/js/assets/images/idees_cadeaux.png");
 /* harmony import */ var _assets_images_salles_presentation_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../assets/images/salles/presentation.jpg */ "./resources/js/assets/images/salles/presentation.jpg");
+/* harmony import */ var _assets_images_auberges_auberge_du_pont_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../assets/images/auberges/auberge-du-pont.jpg */ "./resources/js/assets/images/auberges/auberge-du-pont.jpg");
+/* harmony import */ var _assets_images_auberges_auberge_de_meneham_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../assets/images/auberges/auberge-de-meneham.jpg */ "./resources/js/assets/images/auberges/auberge-de-meneham.jpg");
+
+
 
 
 
@@ -17239,6 +17243,38 @@ var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 /* HOISTED */
 );
 
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "big-cards"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Nos auberges "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "big-cards__card"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("ul", {
+  "class": "big-cards__card__images"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", {
+  "class": "big-cards__card__images__image"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  href: "http://www.aubergedupont.com/",
+  target: "_blank",
+  "class": "big-cards__card__images__image__link"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: _assets_images_auberges_auberge_du_pont_jpg__WEBPACK_IMPORTED_MODULE_6__.default,
+  "class": "big-cards__card__images__image__img",
+  alt: "photo crêpe spécialité"
+})])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", {
+  "class": "cards__card__images__image"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  href: "http://www.aubergedemeneham.com/",
+  target: "_blank",
+  "class": "big-cards__card__images__image__link"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: _assets_images_auberges_auberge_de_meneham_jpg__WEBPACK_IMPORTED_MODULE_7__.default,
+  "class": "big-cards__card__images__image__img",
+  alt: "photo crêpe spécialité"
+})])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Reservations "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "big-cards__card"
+})], -1
+/* HOISTED */
+);
+
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_router_link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("router-link");
 
@@ -17252,7 +17288,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  })]);
+  }), _hoisted_5]);
 }
 
 /***/ }),
@@ -17678,6 +17714,36 @@ module.exports = function (cssWithMappingToString) {
 
   return list;
 };
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/auberges/auberge-de-meneham.jpg":
+/*!********************************************************************!*\
+  !*** ./resources/js/assets/images/auberges/auberge-de-meneham.jpg ***!
+  \********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/auberge-de-meneham.jpg?b7442359f4b934380b130c1d6825ead0");
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/auberges/auberge-du-pont.jpg":
+/*!*****************************************************************!*\
+  !*** ./resources/js/assets/images/auberges/auberge-du-pont.jpg ***!
+  \*****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/auberge-du-pont.jpg?63bcf5de3742c03df5d15e579a5a752c");
 
 /***/ }),
 

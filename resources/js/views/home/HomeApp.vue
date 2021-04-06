@@ -51,6 +51,31 @@
       </div>
       <p class="salles__title">Nos salles</p>
     </router-link>
+
+    <div class="big-cards">
+      
+      <!-- Nos auberges -->
+      <div class="big-cards__card">
+        <ul class="big-cards__card__images">
+          <li class="big-cards__card__images__image">
+            <a href="http://www.aubergedupont.com/" target="_blank" class="big-cards__card__images__image__link">
+              <img src="../../assets/images/auberges/auberge-du-pont.jpg" class="big-cards__card__images__image__img" alt="photo crêpe spécialité">
+            </a>
+          </li>
+          <li class="cards__card__images__image">
+            <a href="http://www.aubergedemeneham.com/" target="_blank" class="big-cards__card__images__image__link">
+              <img src="../../assets/images/auberges/auberge-de-meneham.jpg" class="big-cards__card__images__image__img" alt="photo crêpe spécialité">
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Reservations -->
+      <div class="big-cards__card">
+
+      </div>
+    </div>
+    
   </section>
 </template>
 
