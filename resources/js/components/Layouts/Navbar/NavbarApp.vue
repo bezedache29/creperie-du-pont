@@ -1,8 +1,8 @@
 <template>
   <div class="navbar">
-      <a href="" class="navbar__logo">
+      <router-link to="/" class="navbar__logo">
         <img src="../../../assets/images/logo.png" alt="logo crêperie du pont" class="navbar__logo__img">
-      </a>
+      </router-link>
     <nav class="navbar__links-group">
       <ul class="navbar__links">
         <li><router-link to="/" class="navbar__links__link">Accueil</router-link></li>

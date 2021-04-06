@@ -1,5 +1,7 @@
 <template>
-  <h1>Page Home</h1>
+  <section class="section">
+    <h1>Home</h1>
+  </section>
 </template>
 
 <script>
@@ -11,9 +13,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-h1 {
-  padding-top: 150px;
-}
-</style>

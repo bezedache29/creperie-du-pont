@@ -1,0 +1,351 @@
+@import url(https://fonts.googleapis.com/css2?family=Yatra+One&display=swap);
+/*** RESET ***/
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: calc(100vw / 60);
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+/*** Imports ***/
+.container {
+  position: relative;
+}
+
+.section {
+  padding-top: 100px;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  box-shadow: 0px 2px 8px 0px #83141a;
+  z-index: 2;
+  top: 0;
+}
+.navbar__logo {
+  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+}
+.navbar__logo__img {
+  width: 100%;
+}
+.navbar__links-group {
+  width: 80%;
+  margin-left: 3%;
+}
+.navbar__links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 15px;
+  font-size: 1em;
+}
+.navbar__links__link {
+  color: #83141a;
+  font-family: "Yatra One", cursive;
+  cursor: pointer;
+  background-color: #f2f2f2;
+}
+.navbar__links__link:hover {
+  color: #98000c;
+  text-decoration: underline;
+}
+
+.dropdown {
+  position: relative;
+}
+.dropdown__content {
+  flex-direction: column;
+  position: absolute;
+  font-size: 0.85em;
+  width: 110%;
+  padding-top: 35px;
+  display: none;
+}
+.dropdown:hover .dropdown__content {
+  display: flex;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.w33 {
+  width: 33%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.w33__title {
+  text-align: center;
+  font-size: 1.5em;
+}
+.w33__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 35px 0;
+}
+.w33__content p {
+  margin: 10px 0;
+}
+.w33__content__adress {
+  font-size: 0.75em;
+}
+.w33__content-logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto 50px;
+  padding: 20px 0;
+}
+.w33__content-logos__logo {
+  display: inline-block;
+  width: 20%;
+}
+.w33__content-logos__logo:hover svg {
+  fill: #98000c;
+}
+.w33__other {
+  text-align: center;
+  justify-self: flex-end;
+  margin-top: auto;
+}
+.w33__other--clic {
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.w33__other--clic:hover {
+  color: #98000c;
+}
+.w33__other--tel {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.w33__other--rs {
+  justify-content: flex-end;
+  margin-top: auto;
+  margin-bottom: 20px;
+  cursor: pointer;
+  color: #1a1a1a;
+}
+.w33__other--rs:hover {
+  color: #98000c;
+}
+.w33__form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.w33__form__group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.w33__form__group__input {
+  padding: 10px 20px;
+  width: 70%;
+  font-size: 0.75em;
+  border-radius: 10px;
+  border: 1px solid #1a1a1a;
+}
+.w33__form__group__input:focus {
+  outline: none;
+}
+.w33__form__group__input::-moz-placeholder {
+  font-style: italic;
+}
+.w33__form__group__input:-ms-input-placeholder {
+  font-style: italic;
+}
+.w33__form__group__input::placeholder {
+  font-style: italic;
+}
+.w33__form__group__input::-webkit-input-placeholder {
+  font-style: italic;
+}
+.w33__form__group__input:-moz-placeholder {
+  font-style: italic;
+}
+.w33__form__group__input::-moz-placeholder {
+  font-style: italic;
+}
+.w33__form__group__input:-ms-input-placeholder {
+  font-style: italic;
+}
+.w33__form__group button {
+  font-size: 1em;
+  background-color: white;
+  border: 1px solid #1a1a1a;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.w33__form__group button:hover {
+  background-color: #98000c;
+  color: #f2f2f2;
+  border: 1px solid #98000c;
+}
+
+/* The Modal (background) */
+.modal {
+  display: block;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 3;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  /* Modal Content/Box */
+  /* The Close Button */
+}
+.modal__content {
+  background-color: #f2f2f2;
+  margin: 5% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 2px solid #83141a;
+}
+.modal__content__title {
+  font-family: "Yatra One", cursive;
+  text-align: center;
+  margin: 0;
+}
+.modal__content__section {
+  margin: 15px 0;
+}
+.modal__content__section h3 {
+  margin: 10px 0;
+  font-size: 1em;
+}
+.modal__content__section p {
+  font-size: 0.75em;
+}
+.modal__content__section__link {
+  cursor: pointer;
+  color: #83141a;
+}
+.modal__content__section__link:hover {
+  color: #98000c;
+  text-decoration: underline;
+}
+.modal__content__section__tel {
+  cursor: pointer;
+  color: #83141a;
+}
+.modal__content__section__tel:hover {
+  color: #98000c;
+  text-decoration: underline;
+}
+.modal__content__buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 20px;
+}
+.modal__content__buttons button {
+  font-size: 1em;
+  padding: 10px 20px;
+  border: 1px solid #1a1a1a;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.modal__content__buttons button:focus {
+  outline: none;
+}
+.modal__content__buttons button:hover {
+  background-color: #98000c;
+  color: #f2f2f2;
+}
+.modal__close {
+  color: #1a1a1a;
+  align-self: flex-end;
+  margin-left: auto;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.modal__close:hover, .modal__close:focus {
+  color: #98000c;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.bounce-enter-active {
+  -webkit-animation: bounce-in 0.5s;
+          animation: bounce-in 0.5s;
+}
+
+.bounce-leave-active {
+  animation: bounce-in 0.5s reverse;
+}
+
+@-webkit-keyframes bounce-in {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes bounce-in {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
