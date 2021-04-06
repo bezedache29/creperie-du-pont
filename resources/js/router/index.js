@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from './../views/HomeApp.vue'
+import Home from './../views/home/HomeApp.vue'
 import Restaurant from './../views/presentation/RestaurantApp.vue'
 import Animations from './../views/presentation/AnimationsApp.vue'
 import Salles from './../views/presentation/Salles.vue'
@@ -9,8 +9,8 @@ import Crepes from './../views/cartes-menu/CrepesApp.vue'
 import Glaces from './../views/cartes-menu/GlacesApp.vue'
 import Timousse from './../views/cartes-menu/TimousseApp.vue'
 import Boissons from './../views/cartes-menu/BoissonsApp.vue'
-import Contact from './../views/ContactApp.vue'
-import Covid19 from './../views/Covid19App.vue'
+import Contact from './../views/contact/ContactApp.vue'
+import Covid19 from './../views/covid19/Covid19App.vue'
 
 // const history = createWebHistory()
 const router = createRouter({

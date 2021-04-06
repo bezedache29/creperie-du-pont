@@ -1,0 +1,81 @@
+.cards {
+    // border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 5%;
+
+    &__card {
+        width: 16em;
+        border: 1px solid $red-secondary;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        height: 15em;
+        display: flex;
+        flex-direction: column;
+
+        &__images {
+            animation: mymove 20s infinite ease-in-out;
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            
+
+
+            &__image {
+                // border: 1px solid green;
+                display: inline-block;
+    
+                &__img {
+                    object-fit: cover;
+                    width: 16em;
+                    height: 13em;
+                    // border-radius: 10px 10px 0 0;
+                }
+            }
+        }
+
+        &__title {
+            text-align: center;
+            margin-top: auto;
+            margin-bottom: 10px;
+        }
+
+        &:hover {
+            box-shadow: 0px 1px 5px $red-primary;
+            cursor: pointer;
+        }
+
+        &:hover &__title {
+            color: $red-primary;
+        }
+    }
+}
+
+// Animation pour slider spécialités
+@keyframes mymove {
+    0% {
+		left: 0px; /*1ère image*/
+	}
+	15% {
+		left: 0px; /*idem pour attente*/
+	}
+	35% {
+		left: -16em; /*2ème image*/
+	}
+	50% {
+		left: -16em; /*idem pour attente*/
+	}
+	70% {
+		left: -32em; /*3ème image*/
+	}
+	85% {
+		left: -32em; /*idem pour attente*/
+	}
+	100% {
+		left: 0px; /*1ère image*/
+	}
+}
