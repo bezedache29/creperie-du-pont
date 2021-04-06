@@ -39,7 +39,7 @@
             color: $red-primary;
             font-family: $font-navbar;
             cursor: pointer;
-            background-color: $white-secondary;
+            background-color: $white-primary;
             padding: 0  5px;
 
             &:hover {
@@ -58,8 +58,11 @@
         position: absolute;
         font-size: 0.85em;
         width: 110%;
-        padding-top: 35px;
+        padding-top: 0.5em;
         display: none;
+        border-radius: 0 0 10px 10px;
+        overflow: hidden;
+        background-color: #f2f2f2;
     }
 
     &:hover &__content{
