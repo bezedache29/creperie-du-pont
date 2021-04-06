@@ -39,3 +39,24 @@
 [Jpg ordinateur](https://github.com/bezedache29/creperie-du-pont/blob/main/divers/wireframe/desktop)
 
 [Jpg tablette](https://github.com/bezedache29/creperie-du-pont/blob/main/divers/wireframe/tablet)
+
+## Développement Front-End
+
+# Ordinateur
+
+- [x] Création de la Navbar
+- [x] Création du Footer
+- [ ] Création de la page Accueil
+- [ ] Création de la page Le restaurant
+- [ ] Création de la page Nos animations
+- [ ] Création de la page Nos salles
+- [ ] Création de la page Nos galettes
+- [ ] Création de la page Nos pizzas
+- [ ] Création de la page Nos crêpes
+- [ ] Création de la page Nos glaces
+- [ ] Création de la page Menu Ti Mousse
+- [ ] Création de la page carte boissons
+- [ ] Création de la page Contact
+- [ ] Création de la page COVID 19
+
+## Développement Back-End
