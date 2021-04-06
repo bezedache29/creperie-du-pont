@@ -38,18 +38,49 @@
             }
         }
 
+        &__border {
+            background-color: $red-primary;
+
+            &__infos {
+                border: 1px solid white;
+                color: $white-primary;
+                height: 11em;
+                margin: 1em;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 1em;
+            }
+        }
+
+        &__image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 1px solid $black-primary;
+
+            img {
+                object-fit: cover;
+                width: 12em;
+                height: 13em;
+                padding: 5px;
+            }
+        }
+
         &__title {
             text-align: center;
             margin-top: auto;
             margin-bottom: 10px;
         }
 
-        &:hover {
-            box-shadow: 0px 1px 5px $red-primary;
-            cursor: pointer;
+        &--hover {
+            &:hover {
+                box-shadow: 0px 1px 5px $red-primary;
+                cursor: pointer;
+            }
         }
 
-        &:hover &__title {
+        &:hover &__title--hover {
             color: $red-primary;
         }
     }

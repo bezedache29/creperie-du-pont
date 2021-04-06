@@ -1,34 +1,45 @@
 <template>
   <section class="section">
     <div class="cards">
-      <a class="cards__card">
+      <!-- Spécialitéss -->
+      <a class="cards__card cards__card--hover">
         <ul class="cards__card__images">
           <li class="cards__card__images__image">
-            <img src="../../assets/images/spes/crepe_spe1.jpg" class="cards__card__images__image__img" alt="crêpe spécialité">
+            <img src="../../assets/images/spes/crepe_spe1.jpg" class="cards__card__images__image__img" alt="photo crêpe spécialité">
           </li>
-          <li class="cards__card__image">
-            <img src="../../assets/images/spes/crepe_spe2.jpg" class="cards__card__images__image__img" alt="crêpe spécialité">
+          <li class="cards__card__images__image">
+            <img src="../../assets/images/spes/crepe_spe2.jpg" class="cards__card__images__image__img" alt="photo crêpe spécialité">
           </li>
-          <li class="cards__card__image">
-            <img src="../../assets/images/spes/crepe_spe3.jpg" class="cards__card__images__image__img" alt="crêpe spécialité">
+          <li class="cards__card__images__image">
+            <img src="../../assets/images/spes/crepe_spe3.jpg" class="cards__card__images__image__img" alt="photo crêpe spécialité">
           </li>
         </ul>
-        <p class="cards__card__title">Spécialités</p>
+        <p class="cards__card__title cards__card__title--hover">Spécialités</p>
       </a>
-      
 
+      <!-- Jours & Horaires -->
       <div class="cards__card">
-        <a class="cards__card__image">
-          <img src="" alt="">
-        </a>
+        <div class="cards__card__border">
+          <ul class="cards__card__border__infos">
+            <li>Dimanche 09:00 - 23:00</li>
+            <li>Lundi Fermé</li>
+            <li>Mardi Fermé</li>
+            <li>Mercredi 09:00 - 20:00</li>
+            <li>Jeudi 09:00 - 23:00</li>
+            <li>Vendredi 09:00 - 00:00</li>
+            <li>Samedi 09:00 - 00:00</li>
+          </ul>
+        </div>
         <p class="cards__card__title">Jours & Horaires d'ouverture</p>
       </div>
-      <div class="cards__card">
-        <a class="cards__card__image">
-          <img src="" alt="">
-        </a>
-        <p class="cards__card__title">Idées Cadeaux</p>
-      </div>
+
+      <!-- Idées Cadeaux -->
+      <a class="cards__card cards__card--hover">
+        <div class="cards__card__image">
+          <img src="../../assets/images/idees_cadeaux.png" alt="image idées cadeaux">
+        </div>
+        <p class="cards__card__title cards__card__title--hover">Idées Cadeaux</p>
+      </a>
     </div>
   </section>
 </template>

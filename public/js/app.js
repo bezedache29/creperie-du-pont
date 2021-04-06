@@ -17138,6 +17138,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_images_spes_crepe_spe1_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/images/spes/crepe_spe1.jpg */ "./resources/js/assets/images/spes/crepe_spe1.jpg");
 /* harmony import */ var _assets_images_spes_crepe_spe2_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/images/spes/crepe_spe2.jpg */ "./resources/js/assets/images/spes/crepe_spe2.jpg");
 /* harmony import */ var _assets_images_spes_crepe_spe3_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/images/spes/crepe_spe3.jpg */ "./resources/js/assets/images/spes/crepe_spe3.jpg");
+/* harmony import */ var _assets_images_idees_cadeaux_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/images/idees_cadeaux.png */ "./resources/js/assets/images/idees_cadeaux.png");
+
 
 
 
@@ -17148,8 +17150,8 @@ var _hoisted_1 = {
 
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "cards"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  "class": "cards__card"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Spécialitéss "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  "class": "cards__card cards__card--hover"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("ul", {
   "class": "cards__card__images"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", {
@@ -17157,39 +17159,38 @@ var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
   src: _assets_images_spes_crepe_spe1_jpg__WEBPACK_IMPORTED_MODULE_1__.default,
   "class": "cards__card__images__image__img",
-  alt: "crêpe spécialité"
+  alt: "photo crêpe spécialité"
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", {
-  "class": "cards__card__image"
+  "class": "cards__card__images__image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
   src: _assets_images_spes_crepe_spe2_jpg__WEBPACK_IMPORTED_MODULE_2__.default,
   "class": "cards__card__images__image__img",
-  alt: "crêpe spécialité"
+  alt: "photo crêpe spécialité"
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", {
-  "class": "cards__card__image"
+  "class": "cards__card__images__image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
   src: _assets_images_spes_crepe_spe3_jpg__WEBPACK_IMPORTED_MODULE_3__.default,
   "class": "cards__card__images__image__img",
-  alt: "crêpe spécialité"
+  alt: "photo crêpe spécialité"
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
-  "class": "cards__card__title"
-}, "Spécialités")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "cards__card__title cards__card__title--hover"
+}, "Spécialités")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Jours & Horaires "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "cards__card"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "cards__card__border"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("ul", {
+  "class": "cards__card__border__infos"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, "Dimanche 09:00 - 23:00"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, "Lundi Fermé"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, "Mardi Fermé"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, "Mercredi 09:00 - 20:00"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, "Jeudi 09:00 - 23:00"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, "Vendredi 09:00 - 00:00"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, "Samedi 09:00 - 00:00")])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "cards__card__title"
+}, "Jours & Horaires d'ouverture")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Idées Cadeaux "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  "class": "cards__card cards__card--hover"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "cards__card__image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
-  src: "",
-  alt: ""
+  src: _assets_images_idees_cadeaux_png__WEBPACK_IMPORTED_MODULE_4__.default,
+  alt: "image idées cadeaux"
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
-  "class": "cards__card__title"
-}, "Jours & Horaires d'ouverture")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "cards__card"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  "class": "cards__card__image"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
-  src: "",
-  alt: ""
-})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
-  "class": "cards__card__title"
+  "class": "cards__card__title cards__card__title--hover"
 }, "Idées Cadeaux")])], -1
 /* HOISTED */
 );
@@ -17568,6 +17569,21 @@ module.exports = function (cssWithMappingToString) {
 
   return list;
 };
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/idees_cadeaux.png":
+/*!******************************************************!*\
+  !*** ./resources/js/assets/images/idees_cadeaux.png ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/idees_cadeaux.png?2b2db928f3e67110d7c4b6972210d8ef");
 
 /***/ }),
 
