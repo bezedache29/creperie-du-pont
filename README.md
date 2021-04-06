@@ -40,9 +40,11 @@
 
 [Jpg tablette](https://github.com/bezedache29/creperie-du-pont/blob/main/divers/wireframe/tablet)
 
+####
+
 ## Développement Front-End
 
-# Ordinateur
+### Ordinateur
 
 - [x] Création de la Navbar
 - [x] Création du Footer
