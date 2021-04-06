@@ -45,7 +45,7 @@
     </div>
 
     <!-- Nos Salles -->
-    <a href="" class="salles">
+    <a href="" class="salles animate__animated animate__backInLeft">
       <div class="salles__image">
         <img src="../../assets/images/salles/presentation.jpg" alt="" class="salles__image__img">
       </div>

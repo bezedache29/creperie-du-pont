@@ -430,13 +430,13 @@ body {
 
 .salles {
   margin: 5% 8%;
-  height: 20em;
+  height: 15em;
   position: relative;
   display: block;
 }
 .salles__image {
   position: relative;
-  height: 20em;
+  height: 15em;
   overflow: hidden;
   border-radius: 10px;
   width: 98%;
@@ -446,7 +446,7 @@ body {
   position: absolute;
   -o-object-fit: cover;
      object-fit: cover;
-  height: 20em;
+  height: 15em;
   width: 100%;
   filter: contrast(50%);
   -webkit-filter: contrast(50%);
