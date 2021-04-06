@@ -17139,6 +17139,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_images_spes_crepe_spe2_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/images/spes/crepe_spe2.jpg */ "./resources/js/assets/images/spes/crepe_spe2.jpg");
 /* harmony import */ var _assets_images_spes_crepe_spe3_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/images/spes/crepe_spe3.jpg */ "./resources/js/assets/images/spes/crepe_spe3.jpg");
 /* harmony import */ var _assets_images_idees_cadeaux_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/images/idees_cadeaux.png */ "./resources/js/assets/images/idees_cadeaux.png");
+/* harmony import */ var _assets_images_salles_presentation_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../assets/images/salles/presentation.jpg */ "./resources/js/assets/images/salles/presentation.jpg");
+
 
 
 
@@ -17195,8 +17197,23 @@ var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 /* HOISTED */
 );
 
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  href: "",
+  "class": "salles"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "salles__image"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: _assets_images_salles_presentation_jpg__WEBPACK_IMPORTED_MODULE_5__.default,
+  alt: "",
+  "class": "salles__image__img"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "salles__title"
+}, "Nos salles")], -1
+/* HOISTED */
+);
+
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("section", _hoisted_1, [_hoisted_2]);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("section", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Les cards "), _hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Nos Salles "), _hoisted_3]);
 }
 
 /***/ }),
@@ -17599,6 +17616,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/logo.png?20d6b081d6da8760803450f34569a92a");
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/salles/presentation.jpg":
+/*!************************************************************!*\
+  !*** ./resources/js/assets/images/salles/presentation.jpg ***!
+  \************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/presentation.jpg?a3ac81767e50473c11ca37e693eb4dbb");
 
 /***/ }),
 

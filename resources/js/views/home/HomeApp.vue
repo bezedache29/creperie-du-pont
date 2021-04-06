@@ -1,5 +1,7 @@
 <template>
   <section class="section">
+
+    <!-- Les cards -->
     <div class="cards">
       <!-- Spécialitéss -->
       <a class="cards__card cards__card--hover">
@@ -41,6 +43,14 @@
         <p class="cards__card__title cards__card__title--hover">Idées Cadeaux</p>
       </a>
     </div>
+
+    <!-- Nos Salles -->
+    <a href="" class="salles">
+      <div class="salles__image">
+        <img src="../../assets/images/salles/presentation.jpg" alt="" class="salles__image__img">
+      </div>
+      <p class="salles__title">Nos salles</p>
+    </a>
   </section>
 </template>
 

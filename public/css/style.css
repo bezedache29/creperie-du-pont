@@ -428,6 +428,39 @@ body {
   color: #83141a;
 }
 
+.salles {
+  margin: 5% 8%;
+  height: 20em;
+  position: relative;
+  display: block;
+}
+.salles__image {
+  position: relative;
+  height: 20em;
+  overflow: hidden;
+  border-radius: 10px;
+  width: 98%;
+  box-shadow: 30px 30px 2px 1px #83141a;
+}
+.salles__image__img {
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 20em;
+  width: 100%;
+  filter: contrast(50%);
+  -webkit-filter: contrast(50%);
+}
+.salles__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
 @-webkit-keyframes mymove {
   0% {
     left: 0px;

@@ -87,6 +87,40 @@
     }
 }
 
+.salles {
+    margin: 5% 8%;
+    height: 20em;
+    position: relative;
+    display: block;
+
+    &__image {
+        position: relative;
+        height: 20em;
+        overflow: hidden;
+        border-radius: 10px;
+        width: 98%;
+        box-shadow: 30px 30px 2px 1px $red-primary;
+
+        &__img {
+            position: absolute;
+            object-fit: cover;
+            height: 20em;
+            width: 100%;
+            filter: contrast(50%);
+            -webkit-filter: contrast(50%);
+        }
+    }
+
+    &__title {
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3em;
+        font-weight: bold;
+        color: $black-primary;
+    }
+}
+
 // Animation pour slider spécialités
 @keyframes mymove {
     0% {
