@@ -422,10 +422,6 @@ body {
     left: -32em;
     /*idem pour attente*/
   }
-  100% {
-    left: 0px;
-    /*1ère image*/
-  }
 }
 
 @keyframes mymove {
@@ -452,9 +448,5 @@ body {
   85% {
     left: -32em;
     /*idem pour attente*/
-  }
-  100% {
-    left: 0px;
-    /*1ère image*/
   }
 }

@@ -1,20 +1,20 @@
 <template>
   <section class="section">
     <div class="cards">
-      <div class="cards__card">
-        <div class="cards__card__images">
-          <a class="cards__card__images__image">
+      <a class="cards__card">
+        <ul class="cards__card__images">
+          <li class="cards__card__images__image">
             <img src="../../assets/images/spes/crepe_spe1.jpg" class="cards__card__images__image__img" alt="crêpe spécialité">
-          </a>
-          <a class="cards__card__image">
+          </li>
+          <li class="cards__card__image">
             <img src="../../assets/images/spes/crepe_spe2.jpg" class="cards__card__images__image__img" alt="crêpe spécialité">
-          </a>
-          <a class="cards__card__image">
+          </li>
+          <li class="cards__card__image">
             <img src="../../assets/images/spes/crepe_spe3.jpg" class="cards__card__images__image__img" alt="crêpe spécialité">
-          </a>
-        </div>
+          </li>
+        </ul>
         <p class="cards__card__title">Spécialités</p>
-      </div>
+      </a>
       
 
       <div class="cards__card">
