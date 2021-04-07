@@ -490,37 +490,111 @@ body {
 .big-cards__card {
   width: 22em;
   height: 15em;
+}
+.big-cards__card--border {
   border: 1px solid #83141a;
-  position: relative;
-  overflow: hidden;
   border-radius: 10px;
 }
-.big-cards__card__images {
-  margin: 0;
-  padding: 0;
+.big-cards__card--auberges {
+  border: 1px solid black;
   display: flex;
-  -webkit-animation: slide-auberge 15s infinite ease-in-out;
-          animation: slide-auberge 15s infinite ease-in-out;
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 0;
-  padding: 0;
+  flex-direction: column;
 }
-.big-cards__card__images__image__img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 25em;
-  height: 15em;
-  transform: scale(1.2);
+.big-cards__card--auberges__title {
+  text-align: center;
 }
-.big-cards__card__images__link {
+.big-cards__card--auberges__content {
+  width: 11em;
+  height: 13em;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid black;
+  margin-top: auto;
 }
-.big-cards__card--hover:hover {
-  box-shadow: 0px 1px 5px #83141a;
+.big-cards__card--auberges__content__container {
+  position: relative;
+  background-color: #98000c;
+  width: 6em;
+  height: 6em;
+  padding: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 60px 5px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  transition: width 0.4s, height 0.4s, border-radius 0.4s;
+}
+.big-cards__card--auberges__content__container:hover {
+  width: 11em;
+  height: 13em;
+  border-radius: 4px;
+}
+.big-cards__card--auberges__content__container__image {
+  width: 5.5em;
+  height: 5.5em;
+  min-height: 5.5em;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 40px 5px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+.big-cards__card--auberges__content__container__image img {
+  width: 100%;
+  max-width: 100%;
+}
+.big-cards__card--auberges__content__container__title {
+  font-size: 0.75em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 40px;
+  margin-bottom: 16px;
+  color: #f2f2f2;
+}
+.big-cards__card--auberges__content__container__role, .big-cards__card--auberges__content__container__description {
+  font-size: 0.5em;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  text-align: center;
+  color: #f2f2f2;
+}
+.big-cards__card--auberges__content__container__role {
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+  border-bottom: 2px solid #ffbe44;
+}
+.big-cards__card--auberges__content__container__social-container {
+  position: absolute;
+  top: 30px;
+  left: -40px;
+  display: flex;
+  flex-direction: column;
+}
+.big-cards__card--auberges__content__container__social-container button {
+  border: none;
+  outline: none;
+  color: #eee;
+  background: none;
+  width: 20px;
+  height: 40px;
+  font-size: 1em;
+  margin-bottom: 16px;
+  cursor: pointer;
+  transition: transform 0.4s;
+}
+.big-cards__card--auberges__content__container:hover .big-cards__card--auberges__content__container__social-container button {
+  transform: translateX(60px);
+  transition-delay: 0.3s;
+}
+.big-cards__card--auberges__content__container:hover .big-cards__card--auberges__content__container__social-container button:nth-child(2) {
+  transition-delay: 0.5s;
+}
+.big-cards__card--auberges__content__container:hover .big-cards__card--auberges__content__container__social-container button:nth-child(3) {
+  transition-delay: 0.7s;
 }
 
 @-webkit-keyframes mymove {

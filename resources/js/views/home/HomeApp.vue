@@ -55,27 +55,34 @@
     <div class="big-cards">
       
       <!-- Nos auberges -->
-      <div class="big-cards__card big-cards__card--hover">
-        <ul class="big-cards__card__images">
-          <li class="big-cards__card__images__image">
-            <a href="http://www.aubergedupont.com/" target="_blank" class="big-cards__card__images__image__link">
-              <img src="../../assets/images/auberges/auberge-du-pont.jpg" class="big-cards__card__images__image__img" alt="photo crêpe spécialité">
-            </a>
-          </li>
-          <li class="cards__card__images__image">
-            <a href="http://www.aubergedemeneham.com/" target="_blank" class="big-cards__card__images__image__link">
-              <img src="../../assets/images/auberges/auberge-de-meneham.jpg" class="big-cards__card__images__image__img" alt="photo crêpe spécialité">
-            </a>
-          </li>
-        </ul>
+      <div class="big-cards__card big-cards__card--auberges">
+        <p class="big-cards__card--auberges__title">Nos auberges</p>
+        <div class="big-cards__card--auberges__content">
+          <div class="big-cards__card--auberges__content__container">
+            <div class="big-cards__card--auberges__content__container__image">
+              <img src="../../assets/images/auberges/auberge-du-pont1.jpg" alt="Photo Auberge du Pont">
+            </div>
+            <p class="big-cards__card--auberges__content__container__title">Auberge du Pont</p>
+            <p class="big-cards__card--auberges__content__container__role">Restaurant</p>
+            <p class="big-cards__card--auberges__content__container__description">
+              Ici un petit descriptif de l'établissement
+            </p>
+            <div class="big-cards__card--auberges__content__container__social-container">
+              <button><i class="fab fa-facebook"></i></button>
+              <button><i class="fab fa-twitter"></i></button>
+              <button><i class="fab fa-instagram"></i></button>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- Reservations -->
-      <div class="big-cards__card">
+      <div class="big-cards__card big-cards__card--border">
         <p class="big-cards__card__info">Reservation uniquement par téléphone</p>
         <p>Cliquez pour voir le n° téléphone</p>
         <p>02 98 04 01 21</p>
       </div>
+
     </div>
     
   </section>
