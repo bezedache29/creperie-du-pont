@@ -16618,16 +16618,19 @@ var _hoisted_1 = {
   "class": "container-footer"
 };
 var _hoisted_2 = {
+  "class": "container-footer__main"
+};
+var _hoisted_3 = {
   "class": "w33"
 };
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "w33__title"
 }, "Crêperie du Pont", -1
 /* HOISTED */
 );
 
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "w33__content"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "w33__content__adress"
@@ -16635,21 +16638,21 @@ var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 /* HOISTED */
 );
 
-var _hoisted_5 = {
+var _hoisted_6 = {
   key: 0,
   "class": "w33__other w33__other--tel"
 };
-var _hoisted_6 = {
+var _hoisted_7 = {
   "class": "w33"
 };
 
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "w33__title"
 }, "Nos réseaux sociaux", -1
 /* HOISTED */
 );
 
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "w33__content-logos"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Facebook "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
   href: "https://www.facebook.com/Cr%C3%AAperie-du-pont-799492640097244/",
@@ -16679,7 +16682,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
   },
   "xml:space": "preserve"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("g", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
-  d: "M48.875,0C21.882,0,0,21.882,0,48.875S21.882,97.75,48.875,97.75S97.75,75.868,97.75,48.875S75.868,0,48.875,0z\r\n                M78.43,35.841c0.023,0.577,0.035,1.155,0.035,1.736c0,20.878-15.887,42.473-42.473,42.473c-8.127,0-16.04-2.319-22.883-6.708\r\n                c-0.143-0.091-0.202-0.268-0.145-0.427c0.057-0.158,0.218-0.256,0.383-0.237c1.148,0.137,2.322,0.205,3.487,0.205\r\n                c6.323,0,12.309-1.955,17.372-5.664c-6.069-0.512-11.285-4.619-13.161-10.478c-0.039-0.122-0.011-0.255,0.073-0.351\r\n                c0.085-0.096,0.215-0.138,0.339-0.115c1.682,0.319,3.392,0.34,5.04,0.072c-6.259-1.945-10.658-7.808-10.658-14.483l0.002-0.194\r\n                c0.003-0.127,0.072-0.243,0.182-0.306c0.109-0.064,0.245-0.065,0.355-0.003c1.632,0.906,3.438,1.488,5.291,1.711\r\n                c-3.597-2.867-5.709-7.213-5.709-11.862c0-2.682,0.71-5.318,2.054-7.623c0.06-0.103,0.166-0.169,0.284-0.178\r\n                c0.119-0.012,0.234,0.04,0.309,0.132c7.362,9.03,18.191,14.59,29.771,15.305c-0.193-0.972-0.291-1.974-0.291-2.985\r\n                c0-8.361,6.802-15.162,15.162-15.162c4.11,0,8.082,1.689,10.929,4.641c3.209-0.654,6.266-1.834,9.09-3.508\r\n                c0.129-0.077,0.291-0.065,0.41,0.028c0.116,0.094,0.164,0.25,0.118,0.394c-0.957,2.993-2.823,5.604-5.33,7.489\r\n                c2.361-0.411,4.652-1.105,6.831-2.072c0.146-0.067,0.319-0.025,0.424,0.098c0.104,0.124,0.113,0.301,0.023,0.435\r\n                C83.759,31.175,81.299,33.744,78.43,35.841z"
+  d: "M48.875,0C21.882,0,0,21.882,0,48.875S21.882,97.75,48.875,97.75S97.75,75.868,97.75,48.875S75.868,0,48.875,0z\r\n                  M78.43,35.841c0.023,0.577,0.035,1.155,0.035,1.736c0,20.878-15.887,42.473-42.473,42.473c-8.127,0-16.04-2.319-22.883-6.708\r\n                  c-0.143-0.091-0.202-0.268-0.145-0.427c0.057-0.158,0.218-0.256,0.383-0.237c1.148,0.137,2.322,0.205,3.487,0.205\r\n                  c6.323,0,12.309-1.955,17.372-5.664c-6.069-0.512-11.285-4.619-13.161-10.478c-0.039-0.122-0.011-0.255,0.073-0.351\r\n                  c0.085-0.096,0.215-0.138,0.339-0.115c1.682,0.319,3.392,0.34,5.04,0.072c-6.259-1.945-10.658-7.808-10.658-14.483l0.002-0.194\r\n                  c0.003-0.127,0.072-0.243,0.182-0.306c0.109-0.064,0.245-0.065,0.355-0.003c1.632,0.906,3.438,1.488,5.291,1.711\r\n                  c-3.597-2.867-5.709-7.213-5.709-11.862c0-2.682,0.71-5.318,2.054-7.623c0.06-0.103,0.166-0.169,0.284-0.178\r\n                  c0.119-0.012,0.234,0.04,0.309,0.132c7.362,9.03,18.191,14.59,29.771,15.305c-0.193-0.972-0.291-1.974-0.291-2.985\r\n                  c0-8.361,6.802-15.162,15.162-15.162c4.11,0,8.082,1.689,10.929,4.641c3.209-0.654,6.266-1.834,9.09-3.508\r\n                  c0.129-0.077,0.291-0.065,0.41,0.028c0.116,0.094,0.164,0.25,0.118,0.394c-0.957,2.993-2.823,5.604-5.33,7.489\r\n                  c2.361-0.411,4.652-1.105,6.831-2.072c0.146-0.067,0.319-0.025,0.424,0.098c0.104,0.124,0.113,0.301,0.023,0.435\r\n                  C83.759,31.175,81.299,33.744,78.43,35.841z"
 })])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Instagram "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
   href: "https://www.instagram.com/explore/locations/633568325/creperie-du-pont-de-paluden/?hl=fr",
   target: "blank",
@@ -16697,7 +16700,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 /* HOISTED */
 );
 
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "w33"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "w33__title"
@@ -16717,48 +16720,48 @@ var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 /* HOISTED */
 );
 
-var _hoisted_10 = {
+var _hoisted_11 = {
   key: 0,
   "class": "modal"
 };
-var _hoisted_11 = {
+var _hoisted_12 = {
   "class": "modal__content"
 };
 
-var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h2", {
+var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h2", {
   "class": "modal__content__title"
 }, "Mentions légales", -1
 /* HOISTED */
 );
 
-var _hoisted_13 = {
+var _hoisted_14 = {
   "class": "modal__content__section"
 };
 
-var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h3", null, "Editeur", -1
+var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h3", null, "Editeur", -1
 /* HOISTED */
 );
 
-var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Le site "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Le site "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
   href: "https://creperie-du-pont.ripley.eu",
   "class": "modal__content__section__link"
 }, "creperie-du-pont.ripley.eu"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" est édité par GIRFA SARL, dont le siège social est au lieu dit Paluden, 29870 Lannilis")], -1
 /* HOISTED */
 );
 
-var _hoisted_16 = {
+var _hoisted_17 = {
   key: 1
 };
 
-var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Courriel: ");
+var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Courriel: ");
 
-var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("lien vers formulaire");
+var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("lien vers formulaire");
 
-var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "SIREN: 504 786 443", -1
+var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "SIREN: 504 786 443", -1
 /* HOISTED */
 );
 
-var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "modal__content__section"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h3", null, "Hébergeur"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Le site "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
   href: "https://creperie-du-pont.ripley.eu",
@@ -16767,7 +16770,7 @@ var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
 /* HOISTED */
 );
 
-var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "modal__content__section"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h3", null, "Propriété intellectuelle"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("La structure générale du site "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
   href: "https://creperie-du-pont.ripley.eu",
@@ -16776,101 +16779,113 @@ var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
 /* HOISTED */
 );
 
-var _hoisted_22 = {
+var _hoisted_23 = {
   "class": "modal__content__section"
 };
 
-var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h3", null, "Loi informatique et liberté", -1
+var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h3", null, "Loi informatique et liberté", -1
 /* HOISTED */
 );
 
-var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "Conformément à la loi Informatique et Liberté 78-17 du 6 janvier 1978 modifiée, vous disposez d’un droit d’opposition (art. 38), d’accès (art. 39), de rectification ou de suppression (art. 40) des données qui vous concernent. Vous pouvez exercer ce droit en vous adressant à GIRFA SARL,", -1
+var _hoisted_25 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "Conformément à la loi Informatique et Liberté 78-17 du 6 janvier 1978 modifiée, vous disposez d’un droit d’opposition (art. 38), d’accès (art. 39), de rectification ou de suppression (art. 40) des données qui vous concernent. Vous pouvez exercer ce droit en vous adressant à GIRFA SARL,", -1
 /* HOISTED */
 );
 
-var _hoisted_25 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "Ce droit s’exerce, en justifiant de son identité :", -1
+var _hoisted_26 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "Ce droit s’exerce, en justifiant de son identité :", -1
 /* HOISTED */
 );
 
-var _hoisted_26 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "par voie postale : GIRFA SARL, lieu dit Paluden, 29870 Lannilis.", -1
+var _hoisted_27 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "par voie postale : GIRFA SARL, lieu dit Paluden, 29870 Lannilis.", -1
 /* HOISTED */
 );
 
-var _hoisted_27 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("par courrier électronique : ");
+var _hoisted_28 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("par courrier électronique : ");
 
-var _hoisted_28 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("via le formulaire de la page contact");
+var _hoisted_29 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("via le formulaire de la page contact");
 
-var _hoisted_29 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "Toutes les données personnelles qui sont recueillies sont traitées avec la plus stricte confidentialité.", -1
+var _hoisted_30 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "Toutes les données personnelles qui sont recueillies sont traitées avec la plus stricte confidentialité.", -1
 /* HOISTED */
 );
 
-var _hoisted_30 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "Le site utilise également les cookies", -1
+var _hoisted_31 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "Le site utilise également les cookies", -1
 /* HOISTED */
 );
 
-var _hoisted_31 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "Encore une fois aucune donnée à caractère personnel ne sera collectée.", -1
+var _hoisted_32 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "Encore une fois aucune donnée à caractère personnel ne sera collectée.", -1
 /* HOISTED */
 );
 
-var _hoisted_32 = {
+var _hoisted_33 = {
   "class": "modal__content__buttons"
 };
+
+var _hoisted_34 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "container-footer__copyright"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "container-footer__copyright__content"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Site réalisé par "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  href: "https://portfolio.ripley.eu/",
+  target: "_blank"
+}, "Ripley"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" © 2021")])], -1
+/* HOISTED */
+);
+
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_router_link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("router-link");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [_hoisted_3, _hoisted_4, $data.number ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("p", _hoisted_5, "02.99.99.99.99")) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("p", {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_3, [_hoisted_4, _hoisted_5, $data.number ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("p", _hoisted_6, "02 98 04 01 21")) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("p", {
     key: 1,
     "class": "w33__other w33__other--clic",
     onClick: _cache[1] || (_cache[1] = function () {
       return $options.showNumber && $options.showNumber.apply($options, arguments);
     })
-  }, "Cliquez pour voir le n° téléphone"))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_6, [_hoisted_7, _hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  }, "Cliquez pour voir le n° téléphone"))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_7, [_hoisted_8, _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
     "class": "w33__other w33__other--rs",
     onClick: _cache[2] || (_cache[2] = function () {
       return $options.showMentions && $options.showMentions.apply($options, arguments);
     })
-  }, "mentions légales")]), _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Modal "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
+  }, "mentions légales")]), _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Modal "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
     name: "bounce"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [$data.mentions ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Modal content "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("span", {
+      return [$data.mentions ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Modal content "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("span", {
         "class": "modal__close",
         onClick: _cache[3] || (_cache[3] = function () {
           return $options.closeMentions && $options.closeMentions.apply($options, arguments);
         })
-      }, "×"), _hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_13, [_hoisted_14, _hoisted_15, !$data.telCreperie ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("p", {
+      }, "×"), _hoisted_13, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_14, [_hoisted_15, _hoisted_16, !$data.telCreperie ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("p", {
         key: 0,
         onClick: _cache[4] || (_cache[4] = function () {
           return $options.showTel && $options.showTel.apply($options, arguments);
         }),
         "class": "modal__content__section__tel"
-      }, "Cliquez pour voir le n° téléphone")) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("p", _hoisted_16, "Tél: 02 98 04 01 21")), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [_hoisted_17, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
+      }, "Cliquez pour voir le n° téléphone")) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("p", _hoisted_17, "Tél: 02 98 04 01 21")), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [_hoisted_18, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
         to: "/contact",
         onClick: $options.closeMentions,
         "class": "modal__content__section__link"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_18];
+          return [_hoisted_19];
         }),
         _: 1
         /* STABLE */
 
       }, 8
       /* PROPS */
-      , ["onClick"])]), _hoisted_19]), _hoisted_20, _hoisted_21, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_22, [_hoisted_23, _hoisted_24, _hoisted_25, _hoisted_26, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [_hoisted_27, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
+      , ["onClick"])]), _hoisted_20]), _hoisted_21, _hoisted_22, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_23, [_hoisted_24, _hoisted_25, _hoisted_26, _hoisted_27, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [_hoisted_28, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
         to: "/contact",
         onClick: $options.closeMentions,
         "class": "modal__content__section__link"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_28];
+          return [_hoisted_29];
         }),
         _: 1
         /* STABLE */
 
       }, 8
       /* PROPS */
-      , ["onClick"])]), _hoisted_29, _hoisted_30, _hoisted_31]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_32, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
+      , ["onClick"])]), _hoisted_30, _hoisted_31, _hoisted_32]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_33, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
         onClick: _cache[5] || (_cache[5] = function () {
           return $options.closeMentions && $options.closeMentions.apply($options, arguments);
         })
@@ -16879,7 +16894,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  })]);
+  })]), _hoisted_34]);
 }
 
 /***/ }),
@@ -17246,7 +17261,7 @@ var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "big-cards"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Nos auberges "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "big-cards__card"
+  "class": "big-cards__card big-cards__card--hover"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("ul", {
   "class": "big-cards__card__images"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", {
@@ -17271,7 +17286,9 @@ var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
   alt: "photo crêpe spécialité"
 })])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Reservations "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "big-cards__card"
-})], -1
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "big-cards__card__info"
+}, "Reservation uniquement par téléphone"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "Cliquez pour voir le n° téléphone"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "02 98 04 01 21")])], -1
 /* HOISTED */
 );
 
@@ -17433,19 +17450,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm-bundler.js");
-/* harmony import */ var _views_home_HomeApp_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../views/home/HomeApp.vue */ "./resources/js/views/home/HomeApp.vue");
-/* harmony import */ var _views_presentation_RestaurantApp_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../views/presentation/RestaurantApp.vue */ "./resources/js/views/presentation/RestaurantApp.vue");
-/* harmony import */ var _views_presentation_AnimationsApp_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../views/presentation/AnimationsApp.vue */ "./resources/js/views/presentation/AnimationsApp.vue");
-/* harmony import */ var _views_presentation_Salles_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../views/presentation/Salles.vue */ "./resources/js/views/presentation/Salles.vue");
-/* harmony import */ var _views_cartes_menu_GalettesApp_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../views/cartes-menu/GalettesApp.vue */ "./resources/js/views/cartes-menu/GalettesApp.vue");
-/* harmony import */ var _views_cartes_menu_PizzasApp_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./../views/cartes-menu/PizzasApp.vue */ "./resources/js/views/cartes-menu/PizzasApp.vue");
-/* harmony import */ var _views_cartes_menu_CrepesApp_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./../views/cartes-menu/CrepesApp.vue */ "./resources/js/views/cartes-menu/CrepesApp.vue");
-/* harmony import */ var _views_cartes_menu_GlacesApp_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./../views/cartes-menu/GlacesApp.vue */ "./resources/js/views/cartes-menu/GlacesApp.vue");
-/* harmony import */ var _views_cartes_menu_TimousseApp_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./../views/cartes-menu/TimousseApp.vue */ "./resources/js/views/cartes-menu/TimousseApp.vue");
-/* harmony import */ var _views_cartes_menu_BoissonsApp_vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./../views/cartes-menu/BoissonsApp.vue */ "./resources/js/views/cartes-menu/BoissonsApp.vue");
-/* harmony import */ var _views_contact_ContactApp_vue__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./../views/contact/ContactApp.vue */ "./resources/js/views/contact/ContactApp.vue");
-/* harmony import */ var _views_covid19_Covid19App_vue__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./../views/covid19/Covid19App.vue */ "./resources/js/views/covid19/Covid19App.vue");
+/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm-bundler.js");
+/* harmony import */ var _views_home_HomeApp_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../views/home/HomeApp.vue */ "./resources/js/views/home/HomeApp.vue");
+/* harmony import */ var _views_presentation_RestaurantApp_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../views/presentation/RestaurantApp.vue */ "./resources/js/views/presentation/RestaurantApp.vue");
+/* harmony import */ var _views_presentation_AnimationsApp_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../views/presentation/AnimationsApp.vue */ "./resources/js/views/presentation/AnimationsApp.vue");
+/* harmony import */ var _views_presentation_Salles_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../views/presentation/Salles.vue */ "./resources/js/views/presentation/Salles.vue");
+/* harmony import */ var _views_cartes_menu_GalettesApp_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../views/cartes-menu/GalettesApp.vue */ "./resources/js/views/cartes-menu/GalettesApp.vue");
+/* harmony import */ var _views_cartes_menu_PizzasApp_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../views/cartes-menu/PizzasApp.vue */ "./resources/js/views/cartes-menu/PizzasApp.vue");
+/* harmony import */ var _views_cartes_menu_CrepesApp_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./../views/cartes-menu/CrepesApp.vue */ "./resources/js/views/cartes-menu/CrepesApp.vue");
+/* harmony import */ var _views_cartes_menu_GlacesApp_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./../views/cartes-menu/GlacesApp.vue */ "./resources/js/views/cartes-menu/GlacesApp.vue");
+/* harmony import */ var _views_cartes_menu_TimousseApp_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./../views/cartes-menu/TimousseApp.vue */ "./resources/js/views/cartes-menu/TimousseApp.vue");
+/* harmony import */ var _views_cartes_menu_BoissonsApp_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./../views/cartes-menu/BoissonsApp.vue */ "./resources/js/views/cartes-menu/BoissonsApp.vue");
+/* harmony import */ var _views_contact_ContactApp_vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./../views/contact/ContactApp.vue */ "./resources/js/views/contact/ContactApp.vue");
+/* harmony import */ var _views_covid19_Covid19App_vue__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./../views/covid19/Covid19App.vue */ "./resources/js/views/covid19/Covid19App.vue");
 
 
 
@@ -17460,56 +17477,56 @@ __webpack_require__.r(__webpack_exports__);
 
  // const history = createWebHistory()
 
-var router = (0,vue_router__WEBPACK_IMPORTED_MODULE_0__.createRouter)({
-  history: (0,vue_router__WEBPACK_IMPORTED_MODULE_0__.createWebHistory)(),
+var router = (0,vue_router__WEBPACK_IMPORTED_MODULE_12__.createRouter)({
+  history: (0,vue_router__WEBPACK_IMPORTED_MODULE_12__.createWebHistory)(),
   routes: [{
     path: '/',
     name: 'home',
-    component: _views_home_HomeApp_vue__WEBPACK_IMPORTED_MODULE_1__.default
+    component: _views_home_HomeApp_vue__WEBPACK_IMPORTED_MODULE_0__.default
   }, {
     path: '/restaurant',
     name: 'restaurant',
-    component: _views_presentation_RestaurantApp_vue__WEBPACK_IMPORTED_MODULE_2__.default
+    component: _views_presentation_RestaurantApp_vue__WEBPACK_IMPORTED_MODULE_1__.default
   }, {
     path: '/animations',
     name: 'animations',
-    component: _views_presentation_AnimationsApp_vue__WEBPACK_IMPORTED_MODULE_3__.default
+    component: _views_presentation_AnimationsApp_vue__WEBPACK_IMPORTED_MODULE_2__.default
   }, {
     path: '/salles',
     name: 'salles',
-    component: _views_presentation_Salles_vue__WEBPACK_IMPORTED_MODULE_4__.default
+    component: _views_presentation_Salles_vue__WEBPACK_IMPORTED_MODULE_3__.default
   }, {
     path: '/galettes',
     name: 'galettes',
-    component: _views_cartes_menu_GalettesApp_vue__WEBPACK_IMPORTED_MODULE_5__.default
+    component: _views_cartes_menu_GalettesApp_vue__WEBPACK_IMPORTED_MODULE_4__.default
   }, {
     path: '/pizzas',
     name: 'pizzas',
-    component: _views_cartes_menu_PizzasApp_vue__WEBPACK_IMPORTED_MODULE_6__.default
+    component: _views_cartes_menu_PizzasApp_vue__WEBPACK_IMPORTED_MODULE_5__.default
   }, {
     path: '/crepes',
     name: 'crepes',
-    component: _views_cartes_menu_CrepesApp_vue__WEBPACK_IMPORTED_MODULE_7__.default
+    component: _views_cartes_menu_CrepesApp_vue__WEBPACK_IMPORTED_MODULE_6__.default
   }, {
     path: '/glaces',
     name: 'glaces',
-    component: _views_cartes_menu_GlacesApp_vue__WEBPACK_IMPORTED_MODULE_8__.default
+    component: _views_cartes_menu_GlacesApp_vue__WEBPACK_IMPORTED_MODULE_7__.default
   }, {
     path: '/timousse',
     name: 'timousse',
-    component: _views_cartes_menu_TimousseApp_vue__WEBPACK_IMPORTED_MODULE_9__.default
+    component: _views_cartes_menu_TimousseApp_vue__WEBPACK_IMPORTED_MODULE_8__.default
   }, {
     path: '/boissons',
     name: 'boissons',
-    component: _views_cartes_menu_BoissonsApp_vue__WEBPACK_IMPORTED_MODULE_10__.default
+    component: _views_cartes_menu_BoissonsApp_vue__WEBPACK_IMPORTED_MODULE_9__.default
   }, {
     path: '/contact',
     name: 'contact',
-    component: _views_contact_ContactApp_vue__WEBPACK_IMPORTED_MODULE_11__.default
+    component: _views_contact_ContactApp_vue__WEBPACK_IMPORTED_MODULE_10__.default
   }, {
     path: '/covid19',
     name: 'covid19',
-    component: _views_covid19_Covid19App_vue__WEBPACK_IMPORTED_MODULE_12__.default
+    component: _views_covid19_Covid19App_vue__WEBPACK_IMPORTED_MODULE_11__.default
   }]
 });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (router);

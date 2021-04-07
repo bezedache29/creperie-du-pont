@@ -1,6 +1,30 @@
 .container-footer {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+
+    &__main {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__copyright {
+        border-top: 1px solid $red-primary;
+
+        &__content {
+            text-align: center;
+            font-size: 0.75em;
+            margin: 1% 0;
+
+            a {
+                color: $red-primary;
+
+                &:hover {
+                    text-decoration: underline;
+                    color: $red-secondary;
+                }
+            }
+        }
+    }
 }
 .w33 {
     width: 33%;

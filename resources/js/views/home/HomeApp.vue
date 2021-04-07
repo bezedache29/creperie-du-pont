@@ -55,7 +55,7 @@
     <div class="big-cards">
       
       <!-- Nos auberges -->
-      <div class="big-cards__card">
+      <div class="big-cards__card big-cards__card--hover">
         <ul class="big-cards__card__images">
           <li class="big-cards__card__images__image">
             <a href="http://www.aubergedupont.com/" target="_blank" class="big-cards__card__images__image__link">
@@ -72,7 +72,9 @@
 
       <!-- Reservations -->
       <div class="big-cards__card">
-
+        <p class="big-cards__card__info">Reservation uniquement par téléphone</p>
+        <p>Cliquez pour voir le n° téléphone</p>
+        <p>02 98 04 01 21</p>
       </div>
     </div>
     

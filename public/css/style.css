@@ -104,7 +104,26 @@ body {
 
 .container-footer {
   display: flex;
+  flex-direction: column;
+}
+.container-footer__main {
+  display: flex;
   justify-content: space-between;
+}
+.container-footer__copyright {
+  border-top: 1px solid #83141a;
+}
+.container-footer__copyright__content {
+  text-align: center;
+  font-size: 0.75em;
+  margin: 1% 0;
+}
+.container-footer__copyright__content a {
+  color: #83141a;
+}
+.container-footer__copyright__content a:hover {
+  text-decoration: underline;
+  color: #98000c;
 }
 
 .w33 {
@@ -500,7 +519,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.big-cards__card:hover {
+.big-cards__card--hover:hover {
   box-shadow: 0px 1px 5px #83141a;
 }
 

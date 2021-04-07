@@ -1,104 +1,109 @@
 <template>
   <div class="container-footer">
-    <div class="w33">
-      <p class="w33__title">Crêperie du Pont</p>
-      <div class="w33__content">
-        <p class="w33__content__adress">Paluden</p>
-        <p>29870 LANNILIS</p>
-      </div>
-      <p class="w33__other w33__other--tel" v-if="number">02.99.99.99.99</p>
-      <p class="w33__other w33__other--clic" @click="showNumber" v-else>Cliquez pour voir le n° téléphone</p>
+    <div class="container-footer__main">
+      <div class="w33">
+        <p class="w33__title">Crêperie du Pont</p>
+        <div class="w33__content">
+          <p class="w33__content__adress">Paluden</p>
+          <p>29870 LANNILIS</p>
+        </div>
+        <p class="w33__other w33__other--tel" v-if="number">02 98 04 01 21</p>
+        <p class="w33__other w33__other--clic" @click="showNumber" v-else>Cliquez pour voir le n° téléphone</p>
       
-    </div>
-    <div class="w33">
-      <p class="w33__title">Nos réseaux sociaux</p>
-      <div class="w33__content-logos">
-        <!-- Facebook -->
-        <a href="https://www.facebook.com/Cr%C3%AAperie-du-pont-799492640097244/" target="blank" class="w33__content-logos__logo">
-          <svg id="Capa_1" enable-background="new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="m512 256c0-141.4-114.6-256-256-256s-256 114.6-256 256 114.6 256 256 256c1.5 0 3 0 4.5-.1v-199.2h-55v-64.1h55v-47.2c0-54.7 33.4-84.5 82.2-84.5 23.4 0 43.5 1.7 49.3 2.5v57.2h-33.6c-26.5 0-31.7 12.6-31.7 31.1v40.8h63.5l-8.3 64.1h-55.2v189.5c107-30.7 185.3-129.2 185.3-246.1z"/></svg>
-        </a>
-        <!-- Twitter -->
-        <a href="https://twitter.com/aubergedupont" target="blank" class="w33__content-logos__logo">
-          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-            viewBox="0 0 97.75 97.75" style="enable-background:new 0 0 97.75 97.75;" xml:space="preserve"
-          >
-            <g>
-              <path d="M48.875,0C21.882,0,0,21.882,0,48.875S21.882,97.75,48.875,97.75S97.75,75.868,97.75,48.875S75.868,0,48.875,0z
-                M78.43,35.841c0.023,0.577,0.035,1.155,0.035,1.736c0,20.878-15.887,42.473-42.473,42.473c-8.127,0-16.04-2.319-22.883-6.708
-                c-0.143-0.091-0.202-0.268-0.145-0.427c0.057-0.158,0.218-0.256,0.383-0.237c1.148,0.137,2.322,0.205,3.487,0.205
-                c6.323,0,12.309-1.955,17.372-5.664c-6.069-0.512-11.285-4.619-13.161-10.478c-0.039-0.122-0.011-0.255,0.073-0.351
-                c0.085-0.096,0.215-0.138,0.339-0.115c1.682,0.319,3.392,0.34,5.04,0.072c-6.259-1.945-10.658-7.808-10.658-14.483l0.002-0.194
-                c0.003-0.127,0.072-0.243,0.182-0.306c0.109-0.064,0.245-0.065,0.355-0.003c1.632,0.906,3.438,1.488,5.291,1.711
-                c-3.597-2.867-5.709-7.213-5.709-11.862c0-2.682,0.71-5.318,2.054-7.623c0.06-0.103,0.166-0.169,0.284-0.178
-                c0.119-0.012,0.234,0.04,0.309,0.132c7.362,9.03,18.191,14.59,29.771,15.305c-0.193-0.972-0.291-1.974-0.291-2.985
-                c0-8.361,6.802-15.162,15.162-15.162c4.11,0,8.082,1.689,10.929,4.641c3.209-0.654,6.266-1.834,9.09-3.508
-                c0.129-0.077,0.291-0.065,0.41,0.028c0.116,0.094,0.164,0.25,0.118,0.394c-0.957,2.993-2.823,5.604-5.33,7.489
-                c2.361-0.411,4.652-1.105,6.831-2.072c0.146-0.067,0.319-0.025,0.424,0.098c0.104,0.124,0.113,0.301,0.023,0.435
-                C83.759,31.175,81.299,33.744,78.43,35.841z"/>
-            </g>
-          </svg>
-        </a>
-        <!-- Instagram -->
-        <a href="https://www.instagram.com/explore/locations/633568325/creperie-du-pont-de-paluden/?hl=fr" target="blank" class="w33__content-logos__logo">
-          <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="m305 256c0 27.0625-21.9375 49-49 49s-49-21.9375-49-49 21.9375-49 49-49 49 21.9375 49 49zm0 0"/><path d="m370.59375 169.304688c-2.355469-6.382813-6.113281-12.160157-10.996094-16.902344-4.742187-4.882813-10.515625-8.640625-16.902344-10.996094-5.179687-2.011719-12.960937-4.40625-27.292968-5.058594-15.503906-.707031-20.152344-.859375-59.402344-.859375-39.253906 0-43.902344.148438-59.402344.855469-14.332031.65625-22.117187 3.050781-27.292968 5.0625-6.386719 2.355469-12.164063 6.113281-16.902344 10.996094-4.882813 4.742187-8.640625 10.515625-11 16.902344-2.011719 5.179687-4.40625 12.964843-5.058594 27.296874-.707031 15.5-.859375 20.148438-.859375 59.402344 0 39.25.152344 43.898438.859375 59.402344.652344 14.332031 3.046875 22.113281 5.058594 27.292969 2.359375 6.386719 6.113281 12.160156 10.996094 16.902343 4.742187 4.882813 10.515624 8.640626 16.902343 10.996094 5.179688 2.015625 12.964844 4.410156 27.296875 5.0625 15.5.707032 20.144532.855469 59.398438.855469 39.257812 0 43.90625-.148437 59.402344-.855469 14.332031-.652344 22.117187-3.046875 27.296874-5.0625 12.820313-4.945312 22.953126-15.078125 27.898438-27.898437 2.011719-5.179688 4.40625-12.960938 5.0625-27.292969.707031-15.503906.855469-20.152344.855469-59.402344 0-39.253906-.148438-43.902344-.855469-59.402344-.652344-14.332031-3.046875-22.117187-5.0625-27.296874zm-114.59375 162.179687c-41.691406 0-75.488281-33.792969-75.488281-75.484375s33.796875-75.484375 75.488281-75.484375c41.6875 0 75.484375 33.792969 75.484375 75.484375s-33.796875 75.484375-75.484375 75.484375zm78.46875-136.3125c-9.742188 0-17.640625-7.898437-17.640625-17.640625s7.898437-17.640625 17.640625-17.640625 17.640625 7.898437 17.640625 17.640625c-.003906 9.742188-7.898437 17.640625-17.640625 17.640625zm0 0"/><path d="m256 0c-141.363281 0-256 114.636719-256 256s114.636719 256 256 256 256-114.636719 256-256-114.636719-256-256-256zm146.113281 316.605469c-.710937 15.648437-3.199219 26.332031-6.832031 35.683593-7.636719 19.746094-23.246094 35.355469-42.992188 42.992188-9.347656 3.632812-20.035156 6.117188-35.679687 6.832031-15.675781.714844-20.683594.886719-60.605469.886719-39.925781 0-44.929687-.171875-60.609375-.886719-15.644531-.714843-26.332031-3.199219-35.679687-6.832031-9.8125-3.691406-18.695313-9.476562-26.039063-16.957031-7.476562-7.339844-13.261719-16.226563-16.953125-26.035157-3.632812-9.347656-6.121094-20.035156-6.832031-35.679687-.722656-15.679687-.890625-20.6875-.890625-60.609375s.167969-44.929688.886719-60.605469c.710937-15.648437 3.195312-26.332031 6.828125-35.683593 3.691406-9.808594 9.480468-18.695313 16.960937-26.035157 7.339844-7.480469 16.226563-13.265625 26.035157-16.957031 9.351562-3.632812 20.035156-6.117188 35.683593-6.832031 15.675781-.714844 20.683594-.886719 60.605469-.886719s44.929688.171875 60.605469.890625c15.648437.710937 26.332031 3.195313 35.683593 6.824219 9.808594 3.691406 18.695313 9.480468 26.039063 16.960937 7.476563 7.34375 13.265625 16.226563 16.953125 26.035157 3.636719 9.351562 6.121094 20.035156 6.835938 35.683593.714843 15.675781.882812 20.683594.882812 60.605469s-.167969 44.929688-.886719 60.605469zm0 0"/></svg>
-        </a>
-
       </div>
-      <p class="w33__other w33__other--rs" @click="showMentions">mentions légales</p>
-    </div>
-    <div class="w33">
-      <p class="w33__title">Newsletter</p>
-      <form action="" method="POST" class="w33__form">
-        <div class="w33__form__group">
-          <input type="email" placeholder="Votre adresse e-mail" class="w33__form__group__input">
-        </div>
-        <div class="w33__form__group">
-          <button>S'INSCRIRE</button>
-        </div>
-      </form>
-    </div>
+      <div class="w33">
+        <p class="w33__title">Nos réseaux sociaux</p>
+        <div class="w33__content-logos">
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/Cr%C3%AAperie-du-pont-799492640097244/" target="blank" class="w33__content-logos__logo">
+            <svg id="Capa_1" enable-background="new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="m512 256c0-141.4-114.6-256-256-256s-256 114.6-256 256 114.6 256 256 256c1.5 0 3 0 4.5-.1v-199.2h-55v-64.1h55v-47.2c0-54.7 33.4-84.5 82.2-84.5 23.4 0 43.5 1.7 49.3 2.5v57.2h-33.6c-26.5 0-31.7 12.6-31.7 31.1v40.8h63.5l-8.3 64.1h-55.2v189.5c107-30.7 185.3-129.2 185.3-246.1z"/></svg>
+          </a>
+          <!-- Twitter -->
+          <a href="https://twitter.com/aubergedupont" target="blank" class="w33__content-logos__logo">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              viewBox="0 0 97.75 97.75" style="enable-background:new 0 0 97.75 97.75;" xml:space="preserve"
+            >
+              <g>
+                <path d="M48.875,0C21.882,0,0,21.882,0,48.875S21.882,97.75,48.875,97.75S97.75,75.868,97.75,48.875S75.868,0,48.875,0z
+                  M78.43,35.841c0.023,0.577,0.035,1.155,0.035,1.736c0,20.878-15.887,42.473-42.473,42.473c-8.127,0-16.04-2.319-22.883-6.708
+                  c-0.143-0.091-0.202-0.268-0.145-0.427c0.057-0.158,0.218-0.256,0.383-0.237c1.148,0.137,2.322,0.205,3.487,0.205
+                  c6.323,0,12.309-1.955,17.372-5.664c-6.069-0.512-11.285-4.619-13.161-10.478c-0.039-0.122-0.011-0.255,0.073-0.351
+                  c0.085-0.096,0.215-0.138,0.339-0.115c1.682,0.319,3.392,0.34,5.04,0.072c-6.259-1.945-10.658-7.808-10.658-14.483l0.002-0.194
+                  c0.003-0.127,0.072-0.243,0.182-0.306c0.109-0.064,0.245-0.065,0.355-0.003c1.632,0.906,3.438,1.488,5.291,1.711
+                  c-3.597-2.867-5.709-7.213-5.709-11.862c0-2.682,0.71-5.318,2.054-7.623c0.06-0.103,0.166-0.169,0.284-0.178
+                  c0.119-0.012,0.234,0.04,0.309,0.132c7.362,9.03,18.191,14.59,29.771,15.305c-0.193-0.972-0.291-1.974-0.291-2.985
+                  c0-8.361,6.802-15.162,15.162-15.162c4.11,0,8.082,1.689,10.929,4.641c3.209-0.654,6.266-1.834,9.09-3.508
+                  c0.129-0.077,0.291-0.065,0.41,0.028c0.116,0.094,0.164,0.25,0.118,0.394c-0.957,2.993-2.823,5.604-5.33,7.489
+                  c2.361-0.411,4.652-1.105,6.831-2.072c0.146-0.067,0.319-0.025,0.424,0.098c0.104,0.124,0.113,0.301,0.023,0.435
+                  C83.759,31.175,81.299,33.744,78.43,35.841z"/>
+              </g>
+            </svg>
+          </a>
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/explore/locations/633568325/creperie-du-pont-de-paluden/?hl=fr" target="blank" class="w33__content-logos__logo">
+            <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="m305 256c0 27.0625-21.9375 49-49 49s-49-21.9375-49-49 21.9375-49 49-49 49 21.9375 49 49zm0 0"/><path d="m370.59375 169.304688c-2.355469-6.382813-6.113281-12.160157-10.996094-16.902344-4.742187-4.882813-10.515625-8.640625-16.902344-10.996094-5.179687-2.011719-12.960937-4.40625-27.292968-5.058594-15.503906-.707031-20.152344-.859375-59.402344-.859375-39.253906 0-43.902344.148438-59.402344.855469-14.332031.65625-22.117187 3.050781-27.292968 5.0625-6.386719 2.355469-12.164063 6.113281-16.902344 10.996094-4.882813 4.742187-8.640625 10.515625-11 16.902344-2.011719 5.179687-4.40625 12.964843-5.058594 27.296874-.707031 15.5-.859375 20.148438-.859375 59.402344 0 39.25.152344 43.898438.859375 59.402344.652344 14.332031 3.046875 22.113281 5.058594 27.292969 2.359375 6.386719 6.113281 12.160156 10.996094 16.902343 4.742187 4.882813 10.515624 8.640626 16.902343 10.996094 5.179688 2.015625 12.964844 4.410156 27.296875 5.0625 15.5.707032 20.144532.855469 59.398438.855469 39.257812 0 43.90625-.148437 59.402344-.855469 14.332031-.652344 22.117187-3.046875 27.296874-5.0625 12.820313-4.945312 22.953126-15.078125 27.898438-27.898437 2.011719-5.179688 4.40625-12.960938 5.0625-27.292969.707031-15.503906.855469-20.152344.855469-59.402344 0-39.253906-.148438-43.902344-.855469-59.402344-.652344-14.332031-3.046875-22.117187-5.0625-27.296874zm-114.59375 162.179687c-41.691406 0-75.488281-33.792969-75.488281-75.484375s33.796875-75.484375 75.488281-75.484375c41.6875 0 75.484375 33.792969 75.484375 75.484375s-33.796875 75.484375-75.484375 75.484375zm78.46875-136.3125c-9.742188 0-17.640625-7.898437-17.640625-17.640625s7.898437-17.640625 17.640625-17.640625 17.640625 7.898437 17.640625 17.640625c-.003906 9.742188-7.898437 17.640625-17.640625 17.640625zm0 0"/><path d="m256 0c-141.363281 0-256 114.636719-256 256s114.636719 256 256 256 256-114.636719 256-256-114.636719-256-256-256zm146.113281 316.605469c-.710937 15.648437-3.199219 26.332031-6.832031 35.683593-7.636719 19.746094-23.246094 35.355469-42.992188 42.992188-9.347656 3.632812-20.035156 6.117188-35.679687 6.832031-15.675781.714844-20.683594.886719-60.605469.886719-39.925781 0-44.929687-.171875-60.609375-.886719-15.644531-.714843-26.332031-3.199219-35.679687-6.832031-9.8125-3.691406-18.695313-9.476562-26.039063-16.957031-7.476562-7.339844-13.261719-16.226563-16.953125-26.035157-3.632812-9.347656-6.121094-20.035156-6.832031-35.679687-.722656-15.679687-.890625-20.6875-.890625-60.609375s.167969-44.929688.886719-60.605469c.710937-15.648437 3.195312-26.332031 6.828125-35.683593 3.691406-9.808594 9.480468-18.695313 16.960937-26.035157 7.339844-7.480469 16.226563-13.265625 26.035157-16.957031 9.351562-3.632812 20.035156-6.117188 35.683593-6.832031 15.675781-.714844 20.683594-.886719 60.605469-.886719s44.929688.171875 60.605469.890625c15.648437.710937 26.332031 3.195313 35.683593 6.824219 9.808594 3.691406 18.695313 9.480468 26.039063 16.960937 7.476563 7.34375 13.265625 16.226563 16.953125 26.035157 3.636719 9.351562 6.121094 20.035156 6.835938 35.683593.714843 15.675781.882812 20.683594.882812 60.605469s-.167969 44.929688-.886719 60.605469zm0 0"/></svg>
+          </a>
 
-    <!-- Modal -->
-    <transition name="bounce">
-      <div class="modal" v-if="mentions">
-        <!-- Modal content -->
-        <div class="modal__content">
-          <span class="modal__close" @click="closeMentions">&times;</span>
-          <h2 class="modal__content__title">Mentions légales</h2>
-          <div class="modal__content__section">
-            <h3>Editeur</h3>
-            <p>Le site <a href="https://creperie-du-pont.ripley.eu" class="modal__content__section__link">creperie-du-pont.ripley.eu</a> est édité par GIRFA SARL, dont le siège social est au lieu dit Paluden, 29870 Lannilis</p>
-            <p @click="showTel" v-if="!telCreperie" class="modal__content__section__tel">Cliquez pour voir le n° téléphone</p>
-            <p v-else>Tél: 02 98 04 01 21</p>
-            <p>Courriel: <router-link to="/contact" @click="closeMentions" class="modal__content__section__link">lien vers formulaire</router-link></p>
-            <p>SIREN: 504 786 443</p>
-          </div>
-          <div class="modal__content__section">
-            <h3>Hébergeur</h3>
-            <p>Le site <a href="https://creperie-du-pont.ripley.eu" class="modal__content__section__link">creperie-du-pont.ripley.eu</a> est hébergé par la société ionos by 1&1 , dont le siège social est 7 place de la Gare – 57200 Sarreguemines  – France</p>
-            <p>Tél : 09 70 80 89 11</p>
-          </div>
-          <div class="modal__content__section">
-            <h3>Propriété intellectuelle</h3>
-            <p>La structure générale du site <a href="https://creperie-du-pont.ripley.eu" class="modal__content__section__link">creperie-du-pont.ripley.eu</a>, ainsi que les textes, graphiques, images, sons et vidéos la composant, sont la propriété de GIRFA SARL ou de ses partenaires. Toute représentation et/ou reproduction et/ou exploitation partielle ou totale de ce site, par quelque procédé que ce soit, sans l’autorisation préalable et par écrit de GIRFA SARL ou de ses partenaires est strictement interdite et serait susceptible de constituer une contrefaçon au sens des articles L 335-2 et suivants du Code de la propriété intellectuelle.</p>
-          </div>
-          <div class="modal__content__section">
-            <h3>Loi informatique et liberté</h3>
-            <p>Conformément à la loi Informatique et Liberté 78-17 du 6 janvier 1978 modifiée, vous disposez d’un droit d’opposition (art. 38), d’accès (art. 39), de rectification ou de suppression (art. 40) des données qui vous concernent. Vous pouvez exercer ce droit en vous adressant à GIRFA SARL,</p>
-            <p>Ce droit s’exerce, en justifiant de son identité :</p>
-            <p>par voie postale : GIRFA SARL, lieu dit Paluden, 29870 Lannilis.</p>
-            <p>par courrier électronique : <router-link to="/contact" @click="closeMentions" class="modal__content__section__link">via le formulaire de la page contact</router-link></p>
-            <p>Toutes les données personnelles qui sont recueillies sont traitées avec la plus stricte confidentialité.</p>
-            <p>Le site utilise également les cookies</p>
-            <p>Encore une fois aucune donnée à caractère personnel ne sera collectée.</p>
-          </div>
-          <div class="modal__content__buttons">
-            <button @click="closeMentions">Fermer</button>
-          </div>
         </div>
+        <p class="w33__other w33__other--rs" @click="showMentions">mentions légales</p>
       </div>
-    </transition>
+      <div class="w33">
+        <p class="w33__title">Newsletter</p>
+        <form action="" method="POST" class="w33__form">
+          <div class="w33__form__group">
+            <input type="email" placeholder="Votre adresse e-mail" class="w33__form__group__input">
+          </div>
+          <div class="w33__form__group">
+            <button>S'INSCRIRE</button>
+          </div>
+        </form>
+      </div>
 
+      <!-- Modal -->
+      <transition name="bounce">
+        <div class="modal" v-if="mentions">
+          <!-- Modal content -->
+          <div class="modal__content">
+            <span class="modal__close" @click="closeMentions">&times;</span>
+            <h2 class="modal__content__title">Mentions légales</h2>
+            <div class="modal__content__section">
+              <h3>Editeur</h3>
+              <p>Le site <a href="https://creperie-du-pont.ripley.eu" class="modal__content__section__link">creperie-du-pont.ripley.eu</a> est édité par GIRFA SARL, dont le siège social est au lieu dit Paluden, 29870 Lannilis</p>
+              <p @click="showTel" v-if="!telCreperie" class="modal__content__section__tel">Cliquez pour voir le n° téléphone</p>
+              <p v-else>Tél: 02 98 04 01 21</p>
+              <p>Courriel: <router-link to="/contact" @click="closeMentions" class="modal__content__section__link">lien vers formulaire</router-link></p>
+              <p>SIREN: 504 786 443</p>
+            </div>
+            <div class="modal__content__section">
+              <h3>Hébergeur</h3>
+              <p>Le site <a href="https://creperie-du-pont.ripley.eu" class="modal__content__section__link">creperie-du-pont.ripley.eu</a> est hébergé par la société ionos by 1&1 , dont le siège social est 7 place de la Gare – 57200 Sarreguemines  – France</p>
+              <p>Tél : 09 70 80 89 11</p>
+            </div>
+            <div class="modal__content__section">
+              <h3>Propriété intellectuelle</h3>
+              <p>La structure générale du site <a href="https://creperie-du-pont.ripley.eu" class="modal__content__section__link">creperie-du-pont.ripley.eu</a>, ainsi que les textes, graphiques, images, sons et vidéos la composant, sont la propriété de GIRFA SARL ou de ses partenaires. Toute représentation et/ou reproduction et/ou exploitation partielle ou totale de ce site, par quelque procédé que ce soit, sans l’autorisation préalable et par écrit de GIRFA SARL ou de ses partenaires est strictement interdite et serait susceptible de constituer une contrefaçon au sens des articles L 335-2 et suivants du Code de la propriété intellectuelle.</p>
+            </div>
+            <div class="modal__content__section">
+              <h3>Loi informatique et liberté</h3>
+              <p>Conformément à la loi Informatique et Liberté 78-17 du 6 janvier 1978 modifiée, vous disposez d’un droit d’opposition (art. 38), d’accès (art. 39), de rectification ou de suppression (art. 40) des données qui vous concernent. Vous pouvez exercer ce droit en vous adressant à GIRFA SARL,</p>
+              <p>Ce droit s’exerce, en justifiant de son identité :</p>
+              <p>par voie postale : GIRFA SARL, lieu dit Paluden, 29870 Lannilis.</p>
+              <p>par courrier électronique : <router-link to="/contact" @click="closeMentions" class="modal__content__section__link">via le formulaire de la page contact</router-link></p>
+              <p>Toutes les données personnelles qui sont recueillies sont traitées avec la plus stricte confidentialité.</p>
+              <p>Le site utilise également les cookies</p>
+              <p>Encore une fois aucune donnée à caractère personnel ne sera collectée.</p>
+            </div>
+            <div class="modal__content__buttons">
+              <button @click="closeMentions">Fermer</button>
+            </div>
+          </div>
+        </div>
+      </transition>
+
+    </div>
+    <div class="container-footer__copyright">
+      <p class="container-footer__copyright__content">Site réalisé par <a href="https://portfolio.ripley.eu/" target="_blank">Ripley</a> © 2021</p>
+    </div>
   </div>
 </template>
 
