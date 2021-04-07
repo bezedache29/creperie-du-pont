@@ -17191,8 +17191,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_images_spes_crepe_spe3_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/images/spes/crepe_spe3.jpg */ "./resources/js/assets/images/spes/crepe_spe3.jpg");
 /* harmony import */ var _assets_images_idees_cadeaux_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/images/idees_cadeaux.png */ "./resources/js/assets/images/idees_cadeaux.png");
 /* harmony import */ var _assets_images_salles_presentation_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../assets/images/salles/presentation.jpg */ "./resources/js/assets/images/salles/presentation.jpg");
-/* harmony import */ var _assets_images_auberges_auberge_du_pont1_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../assets/images/auberges/auberge-du-pont1.jpg */ "./resources/js/assets/images/auberges/auberge-du-pont1.jpg");
-/* harmony import */ var _assets_images_auberges_auberge_de_meneham1_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../assets/images/auberges/auberge-de-meneham1.jpg */ "./resources/js/assets/images/auberges/auberge-de-meneham1.jpg");
+/* harmony import */ var _assets_images_auberges_auberge_du_pont_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../assets/images/auberges/auberge-du-pont.jpg */ "./resources/js/assets/images/auberges/auberge-du-pont.jpg");
+/* harmony import */ var _assets_images_auberges_auberge_de_meneham_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../assets/images/auberges/auberge-de-meneham.jpg */ "./resources/js/assets/images/auberges/auberge-de-meneham.jpg");
 /* harmony import */ var _assets_icons_telephone_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../assets/icons/telephone.svg */ "./resources/js/assets/icons/telephone.svg");
 
 
@@ -17285,7 +17285,7 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "big-cards__card--auberges__content__container__image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
-  src: _assets_images_auberges_auberge_du_pont1_jpg__WEBPACK_IMPORTED_MODULE_6__.default,
+  src: _assets_images_auberges_auberge_du_pont_jpg__WEBPACK_IMPORTED_MODULE_6__.default,
   alt: "Photo Auberge du Pont"
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "big-cards__card--auberges__content__container__title"
@@ -17293,29 +17293,29 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
   "class": "big-cards__card--auberges__content__container__role"
 }, "Restaurant"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "big-cards__card--auberges__content__container__description"
-}, " Ici un petit descriptif de l'établissement "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+}, " Petite Auberge décorée d'antiquités marines, où l'on sert une cuisine authentique. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "big-cards__card--auberges__content__container__social-container"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  href: "#",
+  href: "https://www.facebook.com/Auberge-du-pont-133158610052974/",
   target: "_blank"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
   "class": "fab fa-facebook"
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  href: "#",
+  href: "https://twitter.com/aubergedupont",
   target: "_blank"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
   "class": "fab fa-twitter"
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  href: "#",
+  href: "https://www.tripadvisor.fr/Restaurant_Review-g2269303-d2541283-Reviews-Auberge_du_Pont-Lannilis_Finistere_Brittany.html",
   target: "_blank"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
-  "class": "fab fa-instagram"
+  "class": "fab fa-tripadvisor"
 })])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Auberge de Meneham "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "big-cards__card--auberges__content__container big-cards__card--auberges__content__container--right"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "big-cards__card--auberges__content__container__image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
-  src: _assets_images_auberges_auberge_de_meneham1_jpg__WEBPACK_IMPORTED_MODULE_7__.default,
+  src: _assets_images_auberges_auberge_de_meneham_jpg__WEBPACK_IMPORTED_MODULE_7__.default,
   alt: "Photo Auberge de Meneham"
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "big-cards__card--auberges__content__container__title"
@@ -17323,23 +17323,23 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
   "class": "big-cards__card--auberges__content__container__role"
 }, "Bar, Restaurant"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "big-cards__card--auberges__content__container__description"
-}, " Ici un petit descriptif de l'établissement "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+}, " Pour une pause gourmande lors de votre visite à Meneham, rendez-vous à l'auberge, l’ancien bistrot du village. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "big-cards__card--auberges__content__container__social-container"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  href: "#",
+  href: "https://www.facebook.com/Auberge-de-Meneham-802403739827619/",
   target: "_blank"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
   "class": "fab fa-facebook"
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  href: "#",
+  href: "https://twitter.com/aubergedupont",
   target: "_blank"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
   "class": "fab fa-twitter"
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  href: "#",
+  href: "https://www.tripadvisor.fr/Restaurant_Review-g1736200-d2255546-Reviews-Auberge_de_Meneham-Kerlouan_Finistere_Brittany.html",
   target: "_blank"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
-  "class": "fab fa-instagram"
+  "class": "fab fa-tripadvisor"
 })])])])])], -1
 /* HOISTED */
 );
@@ -17373,7 +17373,7 @@ var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
 
 var _hoisted_12 = {
   key: 1,
-  "class": "big-cards__card--border__content__tel"
+  "class": "big-cards__card--border__content__tel animate__animated animate__tada"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_router_link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("router-link");
@@ -17838,10 +17838,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/assets/images/auberges/auberge-de-meneham1.jpg":
-/*!*********************************************************************!*\
-  !*** ./resources/js/assets/images/auberges/auberge-de-meneham1.jpg ***!
-  \*********************************************************************/
+/***/ "./resources/js/assets/images/auberges/auberge-de-meneham.jpg":
+/*!********************************************************************!*\
+  !*** ./resources/js/assets/images/auberges/auberge-de-meneham.jpg ***!
+  \********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -17849,14 +17849,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/auberge-de-meneham1.jpg?7fa493a7dc6e338043e22493d5673063");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/auberge-de-meneham.jpg?f66fb861fb739d43e6bd9800d888af30");
 
 /***/ }),
 
-/***/ "./resources/js/assets/images/auberges/auberge-du-pont1.jpg":
-/*!******************************************************************!*\
-  !*** ./resources/js/assets/images/auberges/auberge-du-pont1.jpg ***!
-  \******************************************************************/
+/***/ "./resources/js/assets/images/auberges/auberge-du-pont.jpg":
+/*!*****************************************************************!*\
+  !*** ./resources/js/assets/images/auberges/auberge-du-pont.jpg ***!
+  \*****************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -17864,7 +17864,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/auberge-du-pont1.jpg?bb4684f70a980cd1023f23a96cc73750");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/auberge-du-pont.jpg?edc25b908890e51813e3cb2b7d8375cb");
 
 /***/ }),
 

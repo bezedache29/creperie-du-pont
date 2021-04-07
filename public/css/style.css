@@ -516,7 +516,7 @@ body {
   height: 6em;
   padding: 0.25em;
   border-radius: 50%;
-  cursor: pointer;
+  cursor: context-menu;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -524,6 +524,12 @@ body {
   align-items: center;
   transition: width 0.4s, height 0.4s, border-radius 0.4s;
   margin: 0 1.5em;
+  -webkit-animation: pulsation 1s infinite;
+          animation: pulsation 1s infinite;
+}
+.big-cards__card--auberges__content__container:hover {
+  -webkit-animation: none;
+          animation: none;
 }
 .big-cards__card--auberges__content__container--right {
   margin-left: auto;
@@ -569,7 +575,7 @@ body {
 }
 .big-cards__card--auberges__content__container__social-container {
   position: absolute;
-  top: 30px;
+  top: 1em;
   left: -40px;
   display: flex;
   flex-direction: column;
@@ -577,14 +583,17 @@ body {
 .big-cards__card--auberges__content__container__social-container a {
   border: none;
   outline: none;
-  color: #eee;
+  color: #f2f2f2;
   background: none;
-  width: 20px;
-  height: 40px;
+  width: 0.5em;
+  height: 1em;
   font-size: 1em;
-  margin-bottom: 16px;
+  margin-bottom: 0.5em;
   cursor: pointer;
   transition: transform 0.4s;
+}
+.big-cards__card--auberges__content__container__social-container a:hover {
+  color: #1a1a1a;
 }
 .big-cards__card--auberges__content__container:hover .big-cards__card--auberges__content__container__social-container a {
   transform: translateX(60px);
@@ -625,6 +634,7 @@ body {
 }
 .big-cards__card--border__content__tel {
   font-weight: bold;
+  color: #83141a;
 }
 
 @-webkit-keyframes mymove {
@@ -714,5 +724,33 @@ body {
   50% {
     left: -25em;
     /*idem pour attente*/
+  }
+}
+@-webkit-keyframes pulsation {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 42, 42, 0.4);
+    transform: scale(0.95);
+  }
+  50% {
+    -webkit-box-shadow: 0 0 0 18px rgba(204, 169, 44, 0);
+    transform: scale(1.05);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    transform: scale(1);
+  }
+}
+@keyframes pulsation {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 42, 42, 0.4);
+    transform: scale(0.95);
+  }
+  50% {
+    box-shadow: 0 0 0 18px rgba(204, 169, 44, 0);
+    transform: scale(1.05);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    transform: scale(1);
   }
 }

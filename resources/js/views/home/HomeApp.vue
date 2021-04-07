@@ -62,34 +62,34 @@
           <!-- Auberge du Pont -->
           <div class="big-cards__card--auberges__content__container">
             <div class="big-cards__card--auberges__content__container__image">
-              <img src="../../assets/images/auberges/auberge-du-pont1.jpg" alt="Photo Auberge du Pont">
+              <img src="../../assets/images/auberges/auberge-du-pont.jpg" alt="Photo Auberge du Pont">
             </div>
             <p class="big-cards__card--auberges__content__container__title">Auberge du Pont</p>
             <p class="big-cards__card--auberges__content__container__role">Restaurant</p>
             <p class="big-cards__card--auberges__content__container__description">
-              Ici un petit descriptif de l'établissement
+              Petite Auberge décorée d'antiquités marines, où l'on sert une cuisine authentique.
             </p>
             <div class="big-cards__card--auberges__content__container__social-container">
-              <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
-              <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-              <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.facebook.com/Auberge-du-pont-133158610052974/" target="_blank"><i class="fab fa-facebook"></i></a>
+              <a href="https://twitter.com/aubergedupont" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.tripadvisor.fr/Restaurant_Review-g2269303-d2541283-Reviews-Auberge_du_Pont-Lannilis_Finistere_Brittany.html" target="_blank"><i class="fab fa-tripadvisor"></i></a>
             </div>
           </div>
 
           <!-- Auberge de Meneham -->
           <div class="big-cards__card--auberges__content__container big-cards__card--auberges__content__container--right">
             <div class="big-cards__card--auberges__content__container__image">
-              <img src="../../assets/images/auberges/auberge-de-meneham1.jpg" alt="Photo Auberge de Meneham">
+              <img src="../../assets/images/auberges/auberge-de-meneham.jpg" alt="Photo Auberge de Meneham">
             </div>
             <p class="big-cards__card--auberges__content__container__title">Auberge de Meneham</p>
             <p class="big-cards__card--auberges__content__container__role">Bar, Restaurant</p>
             <p class="big-cards__card--auberges__content__container__description">
-              Ici un petit descriptif de l'établissement
+              Pour une pause gourmande lors de votre visite à Meneham, rendez-vous à l'auberge, l’ancien bistrot du village.
             </p>
             <div class="big-cards__card--auberges__content__container__social-container">
-              <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
-              <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-              <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.facebook.com/Auberge-de-Meneham-802403739827619/" target="_blank"><i class="fab fa-facebook"></i></a>
+              <a href="https://twitter.com/aubergedupont" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.tripadvisor.fr/Restaurant_Review-g1736200-d2255546-Reviews-Auberge_de_Meneham-Kerlouan_Finistere_Brittany.html" target="_blank"><i class="fab fa-tripadvisor"></i></a>
             </div>
           </div>
         </div>
@@ -102,7 +102,7 @@
           <img src="../../assets/icons/telephone.svg" alt="">
           <p class="big-cards__card--border__content__info">Reservation uniquement par téléphone</p>
           <p @click="showTel" v-if="!tel" class="big-cards__card--border__content__click-tel">Cliquez pour voir le n° téléphone</p>
-          <p v-else class="big-cards__card--border__content__tel">02 98 04 01 21</p>
+          <p v-else class="big-cards__card--border__content__tel animate__animated animate__tada">02 98 04 01 21</p>
         </div>
       </div>
 
