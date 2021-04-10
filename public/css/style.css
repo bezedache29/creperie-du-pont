@@ -556,27 +556,28 @@ body {
   font-size: 0.75em;
   font-weight: bold;
   letter-spacing: 1px;
-  margin-top: 40px;
-  margin-bottom: 16px;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
   color: #f2f2f2;
 }
 .big-cards__card--auberges__content__container__role, .big-cards__card--auberges__content__container__description {
   font-size: 0.5em;
-  letter-spacing: 0.5px;
-  line-height: 20px;
   text-align: center;
   color: #f2f2f2;
 }
 .big-cards__card--auberges__content__container__role {
   text-transform: uppercase;
-  padding-bottom: 8px;
-  margin-bottom: 24px;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.75em;
   border-bottom: 2px solid #ffbe44;
+}
+.big-cards__card--auberges__content__container__description {
+  margin-top: 1em;
 }
 .big-cards__card--auberges__content__container__social-container {
   position: absolute;
   top: 1em;
-  left: -40px;
+  left: -2em;
   display: flex;
   flex-direction: column;
 }
@@ -596,7 +597,7 @@ body {
   color: #1a1a1a;
 }
 .big-cards__card--auberges__content__container:hover .big-cards__card--auberges__content__container__social-container a {
-  transform: translateX(60px);
+  transform: translateX(2.75em);
   transition-delay: 0.3s;
 }
 .big-cards__card--auberges__content__container:hover .big-cards__card--auberges__content__container__social-container a:nth-child(2) {
