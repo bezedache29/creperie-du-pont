@@ -7,7 +7,7 @@
           <p class="w33__content__adress">Paluden</p>
           <p>29870 LANNILIS</p>
         </div>
-        <p class="w33__other w33__other--tel" v-if="number">02 98 04 01 21</p>
+        <p class="w33__other w33__other--tel animate__animated animate__tada" v-if="number">02 98 04 01 21</p>
         <p class="w33__other w33__other--clic" @click="showNumber" v-else>Cliquez pour voir le n° téléphone</p>
       
       </div>

@@ -643,25 +643,37 @@ body {
     left: 0px;
     /*1ère image*/
   }
-  15% {
+  5% {
     left: 0px;
-    /*idem pour attente*/
+    /*1ère image*/
   }
-  35% {
+  15% {
     left: -14em;
     /*2ème image*/
   }
-  50% {
+  30% {
     left: -14em;
     /*idem pour attente*/
   }
-  70% {
+  45% {
     left: -28em;
     /*3ème image*/
   }
-  85% {
+  60% {
     left: -28em;
     /*idem pour attente*/
+  }
+  75% {
+    left: -14em;
+    /*2ème image*/
+  }
+  90% {
+    left: -14em;
+    /*idem pour attente*/
+  }
+  100% {
+    left: 0px;
+    /*1ère image*/
   }
 }
 
@@ -670,25 +682,37 @@ body {
     left: 0px;
     /*1ère image*/
   }
-  15% {
+  5% {
     left: 0px;
-    /*idem pour attente*/
+    /*1ère image*/
   }
-  35% {
+  15% {
     left: -14em;
     /*2ème image*/
   }
-  50% {
+  30% {
     left: -14em;
     /*idem pour attente*/
   }
-  70% {
+  45% {
     left: -28em;
     /*3ème image*/
   }
-  85% {
+  60% {
     left: -28em;
     /*idem pour attente*/
+  }
+  75% {
+    left: -14em;
+    /*2ème image*/
+  }
+  90% {
+    left: -14em;
+    /*idem pour attente*/
+  }
+  100% {
+    left: 0px;
+    /*1ère image*/
   }
 }
 @-webkit-keyframes slide-auberge {

@@ -16650,7 +16650,7 @@ var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 
 var _hoisted_6 = {
   key: 0,
-  "class": "w33__other w33__other--tel"
+  "class": "w33__other w33__other--tel animate__animated animate__tada"
 };
 var _hoisted_7 = {
   "class": "w33"
