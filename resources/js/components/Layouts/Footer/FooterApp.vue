@@ -59,7 +59,12 @@
         </form>
       </div>
 
-      <!-- Modal -->
+    </div>
+    <div class="container-footer__copyright">
+      <p class="container-footer__copyright__content">Site réalisé par <a href="https://portfolio.ripley.eu/" target="_blank">Ripley</a> © 2021</p>
+    </div>
+
+    <!-- Modal -->
       <transition name="bounce">
         <div class="modal" v-if="mentions">
           <!-- Modal content -->
@@ -99,11 +104,6 @@
           </div>
         </div>
       </transition>
-
-    </div>
-    <div class="container-footer__copyright">
-      <p class="container-footer__copyright__content">Site réalisé par <a href="https://portfolio.ripley.eu/" target="_blank">Ripley</a> © 2021</p>
-    </div>
   </div>
 </template>
 

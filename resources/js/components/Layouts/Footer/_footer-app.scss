@@ -171,8 +171,8 @@
     top: 0;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    
+    overflow-y: auto; /* Enable scroll if needed */
+    background-color: #83141a0a;
 
     /* Modal Content/Box */
     &__content {
@@ -184,6 +184,8 @@
         flex-direction: column;
         border-radius: 10px;
         border: 2px solid $red-primary;
+        height: 80vh;
+        overflow-y: auto;
 
         &__title {
             font-family: $font-navbar;
@@ -281,4 +283,29 @@
     100% {
          transform: scale(1);
     }
+}
+
+// ScrollBar de la modal
+/* width */
+.modal__content::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 0 5px 5px 0;
+}
+  
+/* Track */
+.modal__content::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 0 5px 5px 0;
+}
+
+/* Handle */
+.modal__content::-webkit-scrollbar-thumb {
+    background: $red-secondary; 
+    border-radius: 0 5px 5px 0;
+}
+
+/* Handle on hover */
+.modal__content::-webkit-scrollbar-thumb:hover {
+    background: $red-primary; 
+    border-radius: 0 5px 5px 0;
 }

@@ -259,8 +259,9 @@ body {
   /* Full width */
   height: 100%;
   /* Full height */
-  overflow: auto;
+  overflow-y: auto;
   /* Enable scroll if needed */
+  background-color: #83141a0a;
   /* Modal Content/Box */
   /* The Close Button */
 }
@@ -275,6 +276,8 @@ body {
   flex-direction: column;
   border-radius: 10px;
   border: 2px solid #83141a;
+  height: 80vh;
+  overflow-y: auto;
 }
 .modal__content__title {
   font-family: "Yatra One", cursive;
@@ -373,6 +376,30 @@ body {
     transform: scale(1);
   }
 }
+/* width */
+.modal__content::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 0 5px 5px 0;
+}
+
+/* Track */
+.modal__content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 0 5px 5px 0;
+}
+
+/* Handle */
+.modal__content::-webkit-scrollbar-thumb {
+  background: #98000c;
+  border-radius: 0 5px 5px 0;
+}
+
+/* Handle on hover */
+.modal__content::-webkit-scrollbar-thumb:hover {
+  background: #83141a;
+  border-radius: 0 5px 5px 0;
+}
+
 .cards {
   display: flex;
   justify-content: space-between;
