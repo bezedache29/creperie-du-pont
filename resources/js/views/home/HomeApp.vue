@@ -107,13 +107,22 @@
       </div>
 
     </div>
+
+    <payment-methods></payment-methods>
     
   </section>
 </template>
 
 <script>
+
+import PaymentMethods from '../../components/PaymentMethods/PaymentMethods'
+
 export default {
   name: 'home-app',
+
+  components: {
+    PaymentMethods
+  },
   
   data() {
     return {

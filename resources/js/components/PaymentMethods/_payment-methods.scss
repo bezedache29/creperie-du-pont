@@ -1,0 +1,46 @@
+.payment-methods {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid $red-primary;
+    border-radius: 10px;
+    margin: 2% 8%;
+
+    &__title {
+        text-align: center;
+        margin: 0.25em 0 0 0;
+    }
+
+    &__body {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 0.5em;
+        padding: 0.5em;
+
+        &__content {
+            display: flex;
+            align-items: center;
+            width: 25%;
+            padding: 0.5em;
+
+            &--border-right {
+                border-right: 1px solid $red-primary;
+            }
+
+            &__image {
+                width: 50%;
+
+                img {
+                    width: 70%;
+                    height: auto;
+                }
+            }
+
+            &__description {
+                font-size: 0.5em;
+                margin: 0 auto;
+                text-align: center;
+                width: 50%;
+            }
+        }
+    }
+}
