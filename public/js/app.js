@@ -17592,6 +17592,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 /* harmony import */ var _assets_images_restaurant_creperie_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/images/restaurant/creperie.jpg */ "./resources/js/assets/images/restaurant/creperie.jpg");
+/* harmony import */ var _assets_images_restaurant_salle_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/images/restaurant/salle.jpg */ "./resources/js/assets/images/restaurant/salle.jpg");
+/* harmony import */ var _assets_images_spes_crepe_spe1_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/images/spes/crepe_spe1.jpg */ "./resources/js/assets/images/spes/crepe_spe1.jpg");
+/* harmony import */ var _assets_images_restaurant_enfants_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/images/restaurant/enfants.jpg */ "./resources/js/assets/images/restaurant/enfants.jpg");
+/* harmony import */ var _assets_images_restaurant_concert_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../assets/images/restaurant/concert.jpg */ "./resources/js/assets/images/restaurant/concert.jpg");
+
+
+
+
 
 
 var _hoisted_1 = {
@@ -17619,25 +17627,57 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 
 var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "restaurant__section"
-}, null, -1
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "restaurant__section__w50 restaurant__section__w50--left"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "restaurant__section__w50__desc"
+}, "Vous ne pouvez pas la rater, avec ses beaux volets rouges. Vielles pierres, bois et murs blancs rendent l'intérieur châlereux, à l'image de notre équipe. Nous mettons en place une terrasse, ouverte l'été, qui vous permet d'admirer l'Aber.")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "restaurant__section__w50 restaurant__section__w50--right"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: _assets_images_restaurant_salle_jpg__WEBPACK_IMPORTED_MODULE_2__.default,
+  alt: "Salle restaurant"
+})])], -1
 /* HOISTED */
 );
 
 var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "restaurant__section"
-}, null, -1
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "restaurant__section__w50 restaurant__section__w50--left"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: _assets_images_spes_crepe_spe1_jpg__WEBPACK_IMPORTED_MODULE_3__.default,
+  alt: "Salle restaurant"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "restaurant__section__w50 restaurant__section__w50--right"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "restaurant__section__w50__desc"
+}, "Notre chef vous propose toute une gamme de galettes, ainsi que des salades, des pommes de terre cuisinées (les fameuses Patatez), des omelettes, des pizzas et des burgers, de quoi contenter tout le monde. En ce qui concerne les desserts, vous aurez l'embarras du choix entre les crêpes au froment et les coupes de glace.")])], -1
 /* HOISTED */
 );
 
 var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "restaurant__long-section"
-}, null, -1
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "restaurant__long-section__description"
+}, "La Crêperie du Pont veille à satisfaire aussi les petits, avec un menu adapté aux enfants et un coin étudié pour eux."), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "restaurant__long-section__image"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: _assets_images_restaurant_enfants_jpg__WEBPACK_IMPORTED_MODULE_4__.default,
+  alt: "espace enfants"
+})])], -1
 /* HOISTED */
 );
 
 var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "restaurant__long-section"
-}, null, -1
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "restaurant__long-section__description"
+}, "Enfin, la crêperie propose réguilièrement des diners-concerts, ce qui permet de passer une agréable soirée en musique."), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "restaurant__long-section__image restaurant__long-section__image--center"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: _assets_images_restaurant_concert_jpg__WEBPACK_IMPORTED_MODULE_5__.default,
+  alt: "Diner concert"
+})])], -1
 /* HOISTED */
 );
 
@@ -18159,6 +18199,21 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/assets/images/restaurant/concert.jpg":
+/*!***********************************************************!*\
+  !*** ./resources/js/assets/images/restaurant/concert.jpg ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/concert.jpg?d58c3af6828f0a3fafd31fb0dadcbe61");
+
+/***/ }),
+
 /***/ "./resources/js/assets/images/restaurant/creperie.jpg":
 /*!************************************************************!*\
   !*** ./resources/js/assets/images/restaurant/creperie.jpg ***!
@@ -18171,6 +18226,36 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/creperie.jpg?cf883284828fd8b23812a02c192a3c4f");
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/restaurant/enfants.jpg":
+/*!***********************************************************!*\
+  !*** ./resources/js/assets/images/restaurant/enfants.jpg ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/enfants.jpg?81cd298af9f2899fd3ea0c5e404c1bbf");
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/restaurant/salle.jpg":
+/*!*********************************************************!*\
+  !*** ./resources/js/assets/images/restaurant/salle.jpg ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/salle.jpg?b81895e7240e0f68985192ea1ae80dce");
 
 /***/ }),
 
