@@ -11,10 +11,21 @@ const store = createStore({
           name: 'crepe2',
           aliments: ['anchois', 'choux-fleur', 'orange']
         }
-      ]
+      ],
+      modalMentions: false,
+      telCreperie: false
   },
   mutations: {
-    
+    SHOW_MODAL_MENTIONS(state) {
+      state.modalMentions = true
+    },
+    CLOSE_MODAL_MENTIONS(state) {
+      state.modalMentions = false
+      state.telCreperie = false
+    },
+    SHOW_TEL_CREPERIE(state) {
+      state.telCreperie = true
+    }
   }
 })
 

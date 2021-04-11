@@ -245,6 +245,38 @@ body {
   border: 1px solid #98000c;
 }
 
+.bounce-enter-active {
+  -webkit-animation: bounce-in 0.5s;
+          animation: bounce-in 0.5s;
+}
+
+.bounce-leave-active {
+  animation: bounce-in 0.5s reverse;
+}
+
+@-webkit-keyframes bounce-in {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes bounce-in {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 /* The Modal (background) */
 .modal {
   display: block;
@@ -259,8 +291,6 @@ body {
   /* Full width */
   height: 100%;
   /* Full height */
-  overflow-y: auto;
-  /* Enable scroll if needed */
   background-color: #83141a0a;
   /* Modal Content/Box */
   /* The Close Button */
@@ -344,38 +374,6 @@ body {
   cursor: pointer;
 }
 
-.bounce-enter-active {
-  -webkit-animation: bounce-in 0.5s;
-          animation: bounce-in 0.5s;
-}
-
-.bounce-leave-active {
-  animation: bounce-in 0.5s reverse;
-}
-
-@-webkit-keyframes bounce-in {
-  0% {
-    transform: scale(0);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-@keyframes bounce-in {
-  0% {
-    transform: scale(0);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
 /* width */
 .modal__content::-webkit-scrollbar {
   width: 10px;
