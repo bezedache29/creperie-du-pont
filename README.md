@@ -48,7 +48,7 @@
 
 - [x] Création de la Navbar
 - [x] Création du Footer
-- [ ] Création de la page Accueil
+- [x] Création de la page Accueil
 - [ ] Création de la page Le restaurant
 - [ ] Création de la page Nos animations
 - [ ] Création de la page Nos salles
