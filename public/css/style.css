@@ -1318,3 +1318,8 @@ body {
   left: auto;
   transform: rotate(225deg);
 }
+
+.salles-app__description {
+  font-size: 0.75em;
+  text-align: center;
+}

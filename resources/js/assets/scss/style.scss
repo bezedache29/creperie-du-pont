@@ -16,10 +16,6 @@ a {
 p {
     margin: 0;
 }
-// img {
-//     max-width: 100%;
-//     height: auto;
-// }
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: calc(100vw / 60);
@@ -40,4 +36,5 @@ body {
         '../../components/Auberges/auberges-app',
         '../../views/home/home-app',
         '../../views/presentation/restaurant-app',
-        '../../views/presentation/animations-app'
+        '../../views/presentation/animations-app',
+        '../../views/presentation/salles-app'

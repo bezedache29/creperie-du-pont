@@ -16666,7 +16666,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: 'salles-app'
+});
 
 /***/ }),
 
@@ -17932,7 +17934,7 @@ var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
   "class": "restaurant__section"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "card",
-  "data-aos": "fade-right"
+  "data-aos": "flip-right"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("ul", {
   "class": "card__images"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", {
@@ -18045,12 +18047,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "section"
+  "class": "section salles-app"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h1", null, "Nos salles", -1
-/* HOISTED */
-);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<h1 class=\"section__title\">Nos salles</h1><p class=\"salles-app__description\">Le restaurant dispose d&#39;un bar, d&#39;une salle avec une vue sur l&#39;Aber, et d&#39;une terrasse ouverte l&#39;été au bord de plage.</p><div class=\"salles-app__aber\"><p class=\"salles-app__aber__title\">Vue imprenable sur l&#39;Aber</p><div class=\"salles-app__aber__image\"><img src=\"\" alt=\"photo vue sur l&#39;Aber\"></div></div><hr><div class=\"salles-app__sea\"><p class=\"salles-app__aber__title\">Les pieds dans l&#39;eau</p><div class=\"salles-app__aber__image\"><img src=\"\" alt=\"photo de la terrasse\"></div></div><hr><div class=\"salles-app__children\"><p class=\"salles-app__children__description\">Le restaurant dispose également d&#39;un coin réservé aux enfants.</p><div class=\"salles-app__children__image\"><img src=\"\" alt=\"image salle enfant\"></div></div><hr><div class=\"salles-app__events\"><p class=\"salles-app__events__description\">Modulables au gré de vos envies et de vos événements :</p><div class=\"salles-app__events__cards\"><div class=\"salles-app__events__cards__card\"><div class=\"salles-app__events__cards__card__image\"><img src=\"\" alt=\"photo réunions\"></div><p class=\"salles-app__events__cards__card__title\">Réunions</p></div><div class=\"salles-app__events__cards__card\"><div class=\"salles-app__events__cards__card__image\"><img src=\"\" alt=\"photo baptèmes\"></div><p class=\"salles-app__events__cards__card__title\">Baptèmes</p></div><div class=\"salles-app__events__cards__card\"><div class=\"salles-app__events__cards__card__image\"><img src=\"\" alt=\"photo mariages\"></div><p class=\"salles-app__events__cards__card__title\">Mariages</p></div><div class=\"salles-app__events__cards__card\"><div class=\"salles-app__events__cards__card__image\"><img src=\"\" alt=\"photo anniversaires\"></div><p class=\"salles-app__events__cards__card__title\">Anniversaires</p></div></div></div>", 9);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("section", _hoisted_1, [_hoisted_2]);

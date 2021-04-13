@@ -23,7 +23,7 @@
 
     <!-- Restaurant galettes -->
     <div class="restaurant__section">
-      <div class="card" data-aos="fade-right">
+      <div class="card" data-aos="flip-right">
         <ul class="card__images">
           <li class="card__images__image">
             <img src="../../assets/images/restaurant/carte/galette.jpg" class="card__images__image__img" alt="photo galette">
