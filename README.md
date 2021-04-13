@@ -49,7 +49,7 @@
 - [x] Création de la Navbar
 - [x] Création du Footer
 - [x] Création de la page Accueil
-- [ ] Création de la page Le restaurant
+- [x] Création de la page Le restaurant
 - [ ] Création de la page Nos animations
 - [ ] Création de la page Nos salles
 - [ ] Création de la page Nos galettes
