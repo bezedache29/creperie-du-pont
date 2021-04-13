@@ -4,4 +4,8 @@
 
 .section {
     padding-top: 120px;
+
+    &__title {
+        text-align: center;
+    }
 }
