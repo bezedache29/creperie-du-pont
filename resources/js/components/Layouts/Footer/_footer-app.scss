@@ -1,29 +1,11 @@
 .container-footer {
     display: flex;
     flex-direction: column;
+    margin: 0 8%;
 
     &__main {
         display: flex;
         justify-content: space-between;
-    }
-    
-    &__copyright {
-        border-top: 1px solid $red-primary;
-
-        &__content {
-            text-align: center;
-            font-size: 0.75em;
-            margin: 1% 0;
-
-            a {
-                color: $red-primary;
-
-                &:hover {
-                    text-decoration: underline;
-                    color: $red-secondary;
-                }
-            }
-        }
     }
 }
 .w33 {
@@ -157,6 +139,26 @@
                     color: $white-secondary;
                     border: 1px solid $red-secondary;
                 }
+            }
+        }
+    }
+}
+.copyright {
+    border-top: 1px solid $red-primary;
+    height: 2em;
+
+    &__content {
+        text-align: center;
+        font-size: 0.75em;
+        margin: 1% 0;
+        margin-bottom: 1%;
+
+        a {
+            color: $red-primary;
+
+            &:hover {
+                text-decoration: underline;
+                color: $red-secondary;
             }
         }
     }

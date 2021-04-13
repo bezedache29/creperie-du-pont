@@ -16785,9 +16785,9 @@ var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
 );
 
 var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "container-footer__copyright"
+  "class": "copyright"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
-  "class": "container-footer__copyright__content"
+  "class": "copyright__content"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Site réalisé par "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
   href: "https://portfolio.ripley.eu/",
   target: "_blank"
@@ -16800,7 +16800,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   var _component_modal_mentions = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("modal-mentions");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_3, [_hoisted_4, _hoisted_5, $data.number ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("p", _hoisted_6, "02 98 04 01 21")) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("p", {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_3, [_hoisted_4, _hoisted_5, $data.number ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("p", _hoisted_6, "02 98 04 01 21")) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("p", {
     key: 1,
     "class": "w33__other w33__other--clic",
     onClick: _cache[1] || (_cache[1] = function () {
@@ -16811,7 +16811,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     onClick: _cache[2] || (_cache[2] = function () {
       return $options.showMentions && $options.showMentions.apply($options, arguments);
     })
-  }, "mentions légales")]), _hoisted_10]), _hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Modal "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
+  }, "mentions légales")]), _hoisted_10]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Modal "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
     name: "bounce"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
@@ -16822,7 +16822,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  })]);
+  })]), _hoisted_11], 64
+  /* STABLE_FRAGMENT */
+  );
 }
 
 /***/ }),
@@ -17224,7 +17226,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* binding */ render)
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
-/* harmony import */ var _assets_icons_payment_methods_mastercard_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/icons/payment-methods/mastercard.png */ "./resources/js/assets/icons/payment-methods/mastercard.png");
+/* harmony import */ var _assets_icons_payment_methods_credit_card_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/icons/payment-methods/credit-card.png */ "./resources/js/assets/icons/payment-methods/credit-card.png");
 /* harmony import */ var _assets_icons_payment_methods_ticket_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/icons/payment-methods/ticket.png */ "./resources/js/assets/icons/payment-methods/ticket.png");
 /* harmony import */ var _assets_icons_payment_methods_money_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/icons/payment-methods/money.png */ "./resources/js/assets/icons/payment-methods/money.png");
 /* harmony import */ var _assets_icons_payment_methods_amex_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/icons/payment-methods/amex.png */ "./resources/js/assets/icons/payment-methods/amex.png");
@@ -17250,7 +17252,7 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "payment-methods__body__content__image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
-  src: _assets_icons_payment_methods_mastercard_png__WEBPACK_IMPORTED_MODULE_1__.default,
+  src: _assets_icons_payment_methods_credit_card_png__WEBPACK_IMPORTED_MODULE_1__.default,
   alt: "Paiment par carte bancaire"
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "payment-methods__body__content__description"
@@ -18075,14 +18077,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/amex.png?e75d37ca86ad6f1db329c3060b06be92");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/amex.png?e423568761d974442428d3dce88c5d8f");
 
 /***/ }),
 
-/***/ "./resources/js/assets/icons/payment-methods/mastercard.png":
-/*!******************************************************************!*\
-  !*** ./resources/js/assets/icons/payment-methods/mastercard.png ***!
-  \******************************************************************/
+/***/ "./resources/js/assets/icons/payment-methods/credit-card.png":
+/*!*******************************************************************!*\
+  !*** ./resources/js/assets/icons/payment-methods/credit-card.png ***!
+  \*******************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -18090,7 +18092,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/mastercard.png?64af36b61e7916984466255f4d0280aa");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/credit-card.png?529fc0ac5e81b30ea498b1f4f29a6fe2");
 
 /***/ }),
 
@@ -18105,7 +18107,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/money.png?48d15d12f2922dbb7c8a7d3947e044a4");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/money.png?97db2c86c52d7b85587bc5e449de3b2a");
 
 /***/ }),
 
@@ -18120,7 +18122,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/ticket.png?214d0f44e4e85ed52b206d58ca328f77");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/ticket.png?5441eb61c507725d44b06866dc61ea82");
 
 /***/ }),
 

@@ -4,7 +4,7 @@
     <div class="payment-methods__body">
       <div class="payment-methods__body__content payment-methods__body__content--border-right">
         <div class="payment-methods__body__content__image">
-          <img src="../../assets/icons/payment-methods/mastercard.png" alt="Paiment par carte bancaire">
+          <img src="../../assets/icons/payment-methods/credit-card.png" alt="Paiment par carte bancaire">
         </div>
         <p class="payment-methods__body__content__description">Paiement par carte VISA / Mastercard</p>
       </div>

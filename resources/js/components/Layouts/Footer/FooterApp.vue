@@ -60,14 +60,14 @@
       </div>
 
     </div>
-    <div class="container-footer__copyright">
-      <p class="container-footer__copyright__content">Site réalisé par <a href="https://portfolio.ripley.eu/" target="_blank">Ripley</a> © 2021</p>
-    </div>
 
     <!-- Modal -->
       <transition name="bounce">
         <modal-mentions v-if="this.$store.state.modalMentions"></modal-mentions>
       </transition>
+  </div>
+  <div class="copyright">
+      <p class="copyright__content">Site réalisé par <a href="https://portfolio.ripley.eu/" target="_blank">Ripley</a> © 2021</p>
   </div>
 </template>
 
