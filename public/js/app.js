@@ -16401,6 +16401,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Auberges/AubergesApp.vue?vue&type=script&lang=js":
+/*!**************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Auberges/AubergesApp.vue?vue&type=script&lang=js ***!
+  \**************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: 'auberges-app'
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Layouts/Footer/FooterApp.vue?vue&type=script&lang=js":
 /*!******************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Layouts/Footer/FooterApp.vue?vue&type=script&lang=js ***!
@@ -16551,12 +16568,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _components_PaymentMethods_PaymentMethods__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../components/PaymentMethods/PaymentMethods */ "./resources/js/components/PaymentMethods/PaymentMethods.vue");
+/* harmony import */ var _components_Auberges_AubergesApp__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../components/Auberges/AubergesApp */ "./resources/js/components/Auberges/AubergesApp.vue");
+/* harmony import */ var _components_PaymentMethods_PaymentMethods__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/PaymentMethods/PaymentMethods */ "./resources/js/components/PaymentMethods/PaymentMethods.vue");
+
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: 'home-app',
   components: {
-    PaymentMethods: _components_PaymentMethods_PaymentMethods__WEBPACK_IMPORTED_MODULE_0__.default
+    PaymentMethods: _components_PaymentMethods_PaymentMethods__WEBPACK_IMPORTED_MODULE_1__.default,
+    AubergesApp: _components_Auberges_AubergesApp__WEBPACK_IMPORTED_MODULE_0__.default
   },
   data: function data() {
     return {
@@ -16598,12 +16618,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _components_PaymentMethods_PaymentMethods__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../components/PaymentMethods/PaymentMethods */ "./resources/js/components/PaymentMethods/PaymentMethods.vue");
+/* harmony import */ var _components_Auberges_AubergesApp__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../components/Auberges/AubergesApp */ "./resources/js/components/Auberges/AubergesApp.vue");
+/* harmony import */ var _components_PaymentMethods_PaymentMethods__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/PaymentMethods/PaymentMethods */ "./resources/js/components/PaymentMethods/PaymentMethods.vue");
+
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: 'restaurant-app',
   components: {
-    PaymentMethods: _components_PaymentMethods_PaymentMethods__WEBPACK_IMPORTED_MODULE_0__.default
+    PaymentMethods: _components_PaymentMethods_PaymentMethods__WEBPACK_IMPORTED_MODULE_1__.default,
+    AubergesApp: _components_Auberges_AubergesApp__WEBPACK_IMPORTED_MODULE_0__.default
   }
 });
 
@@ -16661,6 +16684,100 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     /* STABLE */
 
   }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_footer_app)]);
+}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Auberges/AubergesApp.vue?vue&type=template&id=75052e06":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Auberges/AubergesApp.vue?vue&type=template&id=75052e06 ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+/* harmony import */ var _assets_images_auberges_auberge_du_pont_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/images/auberges/auberge-du-pont.jpg */ "./resources/js/assets/images/auberges/auberge-du-pont.jpg");
+/* harmony import */ var _assets_images_auberges_auberge_de_meneham_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/images/auberges/auberge-de-meneham.jpg */ "./resources/js/assets/images/auberges/auberge-de-meneham.jpg");
+
+
+
+
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "big-cards__card--auberges__content__container"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "big-cards__card--auberges__content__container__image"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: _assets_images_auberges_auberge_du_pont_jpg__WEBPACK_IMPORTED_MODULE_1__.default,
+  alt: "Photo Auberge du Pont"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "big-cards__card--auberges__content__container__title"
+}, "Auberge du Pont"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "big-cards__card--auberges__content__container__role"
+}, "Restaurant"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "big-cards__card--auberges__content__container__description"
+}, " Petite Auberge décorée d'antiquités marines, où l'on sert une cuisine authentique. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "big-cards__card--auberges__content__container__social-container"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  href: "https://www.facebook.com/Auberge-du-pont-133158610052974/",
+  target: "_blank"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
+  "class": "fab fa-facebook"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  href: "https://twitter.com/aubergedupont",
+  target: "_blank"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
+  "class": "fab fa-twitter"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  href: "https://www.tripadvisor.fr/Restaurant_Review-g2269303-d2541283-Reviews-Auberge_du_Pont-Lannilis_Finistere_Brittany.html",
+  target: "_blank"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
+  "class": "fab fa-tripadvisor"
+})])])], -1
+/* HOISTED */
+);
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "big-cards__card--auberges__content__container big-cards__card--auberges__content__container--right"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "big-cards__card--auberges__content__container__image"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: _assets_images_auberges_auberge_de_meneham_jpg__WEBPACK_IMPORTED_MODULE_2__.default,
+  alt: "Photo Auberge de Meneham"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "big-cards__card--auberges__content__container__title"
+}, "Auberge de Meneham"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "big-cards__card--auberges__content__container__role"
+}, "Bar, Restaurant"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "big-cards__card--auberges__content__container__description"
+}, " Pour une pause gourmande lors de votre visite à Meneham, rendez-vous à l'auberge, l’ancien bistrot du village. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "big-cards__card--auberges__content__container__social-container"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  href: "https://www.facebook.com/Auberge-de-Meneham-802403739827619/",
+  target: "_blank"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
+  "class": "fab fa-facebook"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  href: "https://twitter.com/aubergedupont",
+  target: "_blank"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
+  "class": "fab fa-twitter"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  href: "https://www.tripadvisor.fr/Restaurant_Review-g1736200-d2255546-Reviews-Auberge_de_Meneham-Kerlouan_Finistere_Brittany.html",
+  target: "_blank"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
+  "class": "fab fa-tripadvisor"
+})])])], -1
+/* HOISTED */
+);
+
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Auberge du Pont "), _hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Auberge de Meneham "), _hoisted_2], 64
+  /* STABLE_FRAGMENT */
+  );
 }
 
 /***/ }),
@@ -17349,11 +17466,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_images_spes_crepe_spe3_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/images/spes/crepe_spe3.jpg */ "./resources/js/assets/images/spes/crepe_spe3.jpg");
 /* harmony import */ var _assets_images_idees_cadeaux_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/images/idees_cadeaux.png */ "./resources/js/assets/images/idees_cadeaux.png");
 /* harmony import */ var _assets_images_salles_presentation_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../assets/images/salles/presentation.jpg */ "./resources/js/assets/images/salles/presentation.jpg");
-/* harmony import */ var _assets_images_auberges_auberge_du_pont_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../assets/images/auberges/auberge-du-pont.jpg */ "./resources/js/assets/images/auberges/auberge-du-pont.jpg");
-/* harmony import */ var _assets_images_auberges_auberge_de_meneham_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../assets/images/auberges/auberge-de-meneham.jpg */ "./resources/js/assets/images/auberges/auberge-de-meneham.jpg");
-/* harmony import */ var _assets_icons_telephone_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../assets/icons/telephone.svg */ "./resources/js/assets/icons/telephone.svg");
-
-
+/* harmony import */ var _assets_icons_telephone_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../assets/icons/telephone.svg */ "./resources/js/assets/icons/telephone.svg");
 
 
 
@@ -17431,110 +17544,54 @@ var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 var _hoisted_5 = {
   "class": "big-cards"
 };
-
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+var _hoisted_6 = {
   "class": "big-cards__card big-cards__card--auberges"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+};
+
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "big-cards__card--auberges__title"
-}, "Nos auberges"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "big-cards__card--auberges__content"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Auberge du Pont "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "big-cards__card--auberges__content__container"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "big-cards__card--auberges__content__container__image"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
-  src: _assets_images_auberges_auberge_du_pont_jpg__WEBPACK_IMPORTED_MODULE_6__.default,
-  alt: "Photo Auberge du Pont"
-})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
-  "class": "big-cards__card--auberges__content__container__title"
-}, "Auberge du Pont"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
-  "class": "big-cards__card--auberges__content__container__role"
-}, "Restaurant"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
-  "class": "big-cards__card--auberges__content__container__description"
-}, " Petite Auberge décorée d'antiquités marines, où l'on sert une cuisine authentique. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "big-cards__card--auberges__content__container__social-container"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  href: "https://www.facebook.com/Auberge-du-pont-133158610052974/",
-  target: "_blank"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
-  "class": "fab fa-facebook"
-})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  href: "https://twitter.com/aubergedupont",
-  target: "_blank"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
-  "class": "fab fa-twitter"
-})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  href: "https://www.tripadvisor.fr/Restaurant_Review-g2269303-d2541283-Reviews-Auberge_du_Pont-Lannilis_Finistere_Brittany.html",
-  target: "_blank"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
-  "class": "fab fa-tripadvisor"
-})])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Auberge de Meneham "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "big-cards__card--auberges__content__container big-cards__card--auberges__content__container--right"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "big-cards__card--auberges__content__container__image"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
-  src: _assets_images_auberges_auberge_de_meneham_jpg__WEBPACK_IMPORTED_MODULE_7__.default,
-  alt: "Photo Auberge de Meneham"
-})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
-  "class": "big-cards__card--auberges__content__container__title"
-}, "Auberge de Meneham"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
-  "class": "big-cards__card--auberges__content__container__role"
-}, "Bar, Restaurant"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
-  "class": "big-cards__card--auberges__content__container__description"
-}, " Pour une pause gourmande lors de votre visite à Meneham, rendez-vous à l'auberge, l’ancien bistrot du village. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "big-cards__card--auberges__content__container__social-container"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  href: "https://www.facebook.com/Auberge-de-Meneham-802403739827619/",
-  target: "_blank"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
-  "class": "fab fa-facebook"
-})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  href: "https://twitter.com/aubergedupont",
-  target: "_blank"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
-  "class": "fab fa-twitter"
-})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  href: "https://www.tripadvisor.fr/Restaurant_Review-g1736200-d2255546-Reviews-Auberge_de_Meneham-Kerlouan_Finistere_Brittany.html",
-  target: "_blank"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
-  "class": "fab fa-tripadvisor"
-})])])])])], -1
+}, "Nos auberges", -1
 /* HOISTED */
 );
 
-var _hoisted_7 = {
+var _hoisted_8 = {
+  "class": "big-cards__card--auberges__content"
+};
+var _hoisted_9 = {
   "class": "big-cards__card big-cards__card--border"
 };
 
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "big-cards__card--border__title"
 }, "Reservations", -1
 /* HOISTED */
 );
 
-var _hoisted_9 = {
+var _hoisted_11 = {
   "class": "big-cards__card--border__content"
 };
 
-var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
-  src: _assets_icons_telephone_svg__WEBPACK_IMPORTED_MODULE_8__.default,
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: _assets_icons_telephone_svg__WEBPACK_IMPORTED_MODULE_6__.default,
   alt: ""
 }, null, -1
 /* HOISTED */
 );
 
-var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "big-cards__card--border__content__info"
 }, "Reservation uniquement par téléphone", -1
 /* HOISTED */
 );
 
-var _hoisted_12 = {
+var _hoisted_14 = {
   key: 1,
   "class": "big-cards__card--border__content__tel animate__animated animate__tada"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_router_link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("router-link");
+
+  var _component_auberges_app = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("auberges-app");
 
   var _component_payment_methods = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("payment-methods");
 
@@ -17548,13 +17605,13 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Nos auberges "), _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Reservations "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_7, [_hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_9, [_hoisted_10, _hoisted_11, !$data.tel ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("p", {
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Nos auberges "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_6, [_hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_auberges_app)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Reservations "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_9, [_hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_11, [_hoisted_12, _hoisted_13, !$data.tel ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("p", {
     key: 0,
     onClick: _cache[1] || (_cache[1] = function () {
       return $options.showTel && $options.showTel.apply($options, arguments);
     }),
     "class": "big-cards__card--border__content__click-tel"
-  }, "Cliquez pour voir le n° téléphone")) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("p", _hoisted_12, "02 98 04 01 21"))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_payment_methods)]);
+  }, "Cliquez pour voir le n° téléphone")) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("p", _hoisted_14, "02 98 04 01 21"))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_payment_methods)]);
 }
 
 /***/ }),
@@ -17595,9 +17652,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 /* harmony import */ var _assets_images_restaurant_creperie_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/images/restaurant/creperie.jpg */ "./resources/js/assets/images/restaurant/creperie.jpg");
 /* harmony import */ var _assets_images_restaurant_salle_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/images/restaurant/salle.jpg */ "./resources/js/assets/images/restaurant/salle.jpg");
-/* harmony import */ var _assets_images_spes_crepe_spe1_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/images/spes/crepe_spe1.jpg */ "./resources/js/assets/images/spes/crepe_spe1.jpg");
-/* harmony import */ var _assets_images_restaurant_enfants_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/images/restaurant/enfants.jpg */ "./resources/js/assets/images/restaurant/enfants.jpg");
-/* harmony import */ var _assets_images_restaurant_concert_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../assets/images/restaurant/concert.jpg */ "./resources/js/assets/images/restaurant/concert.jpg");
+/* harmony import */ var _assets_images_restaurant_carte_galette_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/images/restaurant/carte/galette.jpg */ "./resources/js/assets/images/restaurant/carte/galette.jpg");
+/* harmony import */ var _assets_images_restaurant_carte_salade_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/images/restaurant/carte/salade.jpg */ "./resources/js/assets/images/restaurant/carte/salade.jpg");
+/* harmony import */ var _assets_images_restaurant_carte_paptez_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../assets/images/restaurant/carte/paptez.jpg */ "./resources/js/assets/images/restaurant/carte/paptez.jpg");
+/* harmony import */ var _assets_images_restaurant_carte_pizza_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../assets/images/restaurant/carte/pizza.jpg */ "./resources/js/assets/images/restaurant/carte/pizza.jpg");
+/* harmony import */ var _assets_images_restaurant_carte_burger_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../assets/images/restaurant/carte/burger.jpg */ "./resources/js/assets/images/restaurant/carte/burger.jpg");
+/* harmony import */ var _assets_images_restaurant_carte_crepe_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../assets/images/restaurant/carte/crepe.jpg */ "./resources/js/assets/images/restaurant/carte/crepe.jpg");
+/* harmony import */ var _assets_images_restaurant_enfants_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../assets/images/restaurant/enfants.jpg */ "./resources/js/assets/images/restaurant/enfants.jpg");
+/* harmony import */ var _assets_images_restaurant_concert_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../assets/images/restaurant/concert.jpg */ "./resources/js/assets/images/restaurant/concert.jpg");
+
+
+
+
+
 
 
 
@@ -17645,12 +17712,47 @@ var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "restaurant__section"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "restaurant__section__w50 restaurant__section__w50--left"
+  "class": "card"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("ul", {
+  "class": "card__images"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", {
+  "class": "card__images__image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
-  src: _assets_images_spes_crepe_spe1_jpg__WEBPACK_IMPORTED_MODULE_3__.default,
-  alt: "Salle restaurant"
-})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "restaurant__section__w50 restaurant__section__w50--right"
+  src: _assets_images_restaurant_carte_galette_jpg__WEBPACK_IMPORTED_MODULE_3__.default,
+  "class": "card__images__image__img",
+  alt: "photo galette"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", {
+  "class": "card__images__image"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: _assets_images_restaurant_carte_salade_jpg__WEBPACK_IMPORTED_MODULE_4__.default,
+  "class": "card__images__image__img",
+  alt: "photo salade"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", {
+  "class": "card__images__image"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: _assets_images_restaurant_carte_paptez_jpg__WEBPACK_IMPORTED_MODULE_5__.default,
+  "class": "card__images__image__img",
+  alt: "photo patatez"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", {
+  "class": "card__images__image"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: _assets_images_restaurant_carte_pizza_jpg__WEBPACK_IMPORTED_MODULE_6__.default,
+  "class": "card__images__image__img",
+  alt: "photo pizza"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", {
+  "class": "card__images__image"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: _assets_images_restaurant_carte_burger_jpg__WEBPACK_IMPORTED_MODULE_7__.default,
+  "class": "card__images__image__img",
+  alt: "photo burger"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", {
+  "class": "card__images__image"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: _assets_images_restaurant_carte_crepe_jpg__WEBPACK_IMPORTED_MODULE_8__.default,
+  "class": "card__images__image__img",
+  alt: "photo crêpe"
+})])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "restaurant__section__w50 restaurant__section__w50--solo"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "restaurant__section__w50__desc"
 }, "Notre chef vous propose toute une gamme de galettes, ainsi que des salades, des pommes de terre cuisinées (les fameuses Patatez), des omelettes, des pizzas et des burgers, de quoi contenter tout le monde. En ce qui concerne les desserts, vous aurez l'embarras du choix entre les crêpes au froment et les coupes de glace.")])], -1
@@ -17664,7 +17766,7 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 }, "La Crêperie du Pont veille à satisfaire aussi les petits, avec un menu adapté aux enfants et un coin étudié pour eux."), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "restaurant__long-section__image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
-  src: _assets_images_restaurant_enfants_jpg__WEBPACK_IMPORTED_MODULE_4__.default,
+  src: _assets_images_restaurant_enfants_jpg__WEBPACK_IMPORTED_MODULE_9__.default,
   alt: "espace enfants"
 })])], -1
 /* HOISTED */
@@ -17677,22 +17779,31 @@ var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 }, "Enfin, la crêperie propose réguilièrement des diners-concerts, ce qui permet de passer une agréable soirée en musique."), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "restaurant__long-section__image restaurant__long-section__image--center"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
-  src: _assets_images_restaurant_concert_jpg__WEBPACK_IMPORTED_MODULE_5__.default,
+  src: _assets_images_restaurant_concert_jpg__WEBPACK_IMPORTED_MODULE_10__.default,
   alt: "Diner concert"
 })])], -1
 /* HOISTED */
 );
 
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "restaurant__section"
-}, null, -1
+var _hoisted_8 = {
+  "class": "restaurant__section restaurant__section--auberges"
+};
+
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h2", {
+  "class": "restaurant__section--auberges__title"
+}, "Nos auberges", -1
 /* HOISTED */
 );
 
+var _hoisted_10 = {
+  "class": "big-cards__card--auberges__content big-cards__card--auberges__content--restaurant"
+};
 function render(_ctx, _cache, $props, $setup, $data, $options) {
+  var _component_auberges_app = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("auberges-app");
+
   var _component_payment_methods = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("payment-methods");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("section", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Restaurant header "), _hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Restaurant description "), _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Restaurant galettes "), _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Restaurant Enfants "), _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Restaurant Concert "), _hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Restaurant auberges "), _hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_payment_methods)]);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("section", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Restaurant header "), _hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Restaurant description "), _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Restaurant galettes "), _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Restaurant Enfants "), _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Restaurant Concert "), _hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Restaurant auberges "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_8, [_hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_auberges_app)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_payment_methods)]);
 }
 
 /***/ }),
@@ -17793,19 +17904,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm-bundler.js");
-/* harmony import */ var _views_home_HomeApp_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../views/home/HomeApp.vue */ "./resources/js/views/home/HomeApp.vue");
-/* harmony import */ var _views_presentation_RestaurantApp_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../views/presentation/RestaurantApp.vue */ "./resources/js/views/presentation/RestaurantApp.vue");
-/* harmony import */ var _views_presentation_AnimationsApp_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../views/presentation/AnimationsApp.vue */ "./resources/js/views/presentation/AnimationsApp.vue");
-/* harmony import */ var _views_presentation_SallesApp_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../views/presentation/SallesApp.vue */ "./resources/js/views/presentation/SallesApp.vue");
-/* harmony import */ var _views_cartes_menu_GalettesApp_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../views/cartes-menu/GalettesApp.vue */ "./resources/js/views/cartes-menu/GalettesApp.vue");
-/* harmony import */ var _views_cartes_menu_PizzasApp_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../views/cartes-menu/PizzasApp.vue */ "./resources/js/views/cartes-menu/PizzasApp.vue");
-/* harmony import */ var _views_cartes_menu_CrepesApp_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./../views/cartes-menu/CrepesApp.vue */ "./resources/js/views/cartes-menu/CrepesApp.vue");
-/* harmony import */ var _views_cartes_menu_GlacesApp_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./../views/cartes-menu/GlacesApp.vue */ "./resources/js/views/cartes-menu/GlacesApp.vue");
-/* harmony import */ var _views_cartes_menu_TimousseApp_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./../views/cartes-menu/TimousseApp.vue */ "./resources/js/views/cartes-menu/TimousseApp.vue");
-/* harmony import */ var _views_cartes_menu_BoissonsApp_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./../views/cartes-menu/BoissonsApp.vue */ "./resources/js/views/cartes-menu/BoissonsApp.vue");
-/* harmony import */ var _views_contact_ContactApp_vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./../views/contact/ContactApp.vue */ "./resources/js/views/contact/ContactApp.vue");
-/* harmony import */ var _views_covid19_Covid19App_vue__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./../views/covid19/Covid19App.vue */ "./resources/js/views/covid19/Covid19App.vue");
+/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm-bundler.js");
+/* harmony import */ var _views_home_HomeApp_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../views/home/HomeApp.vue */ "./resources/js/views/home/HomeApp.vue");
+/* harmony import */ var _views_presentation_RestaurantApp_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../views/presentation/RestaurantApp.vue */ "./resources/js/views/presentation/RestaurantApp.vue");
+/* harmony import */ var _views_presentation_AnimationsApp_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../views/presentation/AnimationsApp.vue */ "./resources/js/views/presentation/AnimationsApp.vue");
+/* harmony import */ var _views_presentation_SallesApp_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../views/presentation/SallesApp.vue */ "./resources/js/views/presentation/SallesApp.vue");
+/* harmony import */ var _views_cartes_menu_GalettesApp_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../views/cartes-menu/GalettesApp.vue */ "./resources/js/views/cartes-menu/GalettesApp.vue");
+/* harmony import */ var _views_cartes_menu_PizzasApp_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./../views/cartes-menu/PizzasApp.vue */ "./resources/js/views/cartes-menu/PizzasApp.vue");
+/* harmony import */ var _views_cartes_menu_CrepesApp_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./../views/cartes-menu/CrepesApp.vue */ "./resources/js/views/cartes-menu/CrepesApp.vue");
+/* harmony import */ var _views_cartes_menu_GlacesApp_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./../views/cartes-menu/GlacesApp.vue */ "./resources/js/views/cartes-menu/GlacesApp.vue");
+/* harmony import */ var _views_cartes_menu_TimousseApp_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./../views/cartes-menu/TimousseApp.vue */ "./resources/js/views/cartes-menu/TimousseApp.vue");
+/* harmony import */ var _views_cartes_menu_BoissonsApp_vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./../views/cartes-menu/BoissonsApp.vue */ "./resources/js/views/cartes-menu/BoissonsApp.vue");
+/* harmony import */ var _views_contact_ContactApp_vue__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./../views/contact/ContactApp.vue */ "./resources/js/views/contact/ContactApp.vue");
+/* harmony import */ var _views_covid19_Covid19App_vue__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./../views/covid19/Covid19App.vue */ "./resources/js/views/covid19/Covid19App.vue");
 
 
 
@@ -17820,56 +17931,56 @@ __webpack_require__.r(__webpack_exports__);
 
  // const history = createWebHistory()
 
-var router = (0,vue_router__WEBPACK_IMPORTED_MODULE_12__.createRouter)({
-  history: (0,vue_router__WEBPACK_IMPORTED_MODULE_12__.createWebHistory)(),
+var router = (0,vue_router__WEBPACK_IMPORTED_MODULE_0__.createRouter)({
+  history: (0,vue_router__WEBPACK_IMPORTED_MODULE_0__.createWebHistory)(),
   routes: [{
     path: '/',
     name: 'home',
-    component: _views_home_HomeApp_vue__WEBPACK_IMPORTED_MODULE_0__.default
+    component: _views_home_HomeApp_vue__WEBPACK_IMPORTED_MODULE_1__.default
   }, {
     path: '/restaurant',
     name: 'restaurant',
-    component: _views_presentation_RestaurantApp_vue__WEBPACK_IMPORTED_MODULE_1__.default
+    component: _views_presentation_RestaurantApp_vue__WEBPACK_IMPORTED_MODULE_2__.default
   }, {
     path: '/animations',
     name: 'animations',
-    component: _views_presentation_AnimationsApp_vue__WEBPACK_IMPORTED_MODULE_2__.default
+    component: _views_presentation_AnimationsApp_vue__WEBPACK_IMPORTED_MODULE_3__.default
   }, {
     path: '/salles',
     name: 'salles',
-    component: _views_presentation_SallesApp_vue__WEBPACK_IMPORTED_MODULE_3__.default
+    component: _views_presentation_SallesApp_vue__WEBPACK_IMPORTED_MODULE_4__.default
   }, {
     path: '/galettes',
     name: 'galettes',
-    component: _views_cartes_menu_GalettesApp_vue__WEBPACK_IMPORTED_MODULE_4__.default
+    component: _views_cartes_menu_GalettesApp_vue__WEBPACK_IMPORTED_MODULE_5__.default
   }, {
     path: '/pizzas',
     name: 'pizzas',
-    component: _views_cartes_menu_PizzasApp_vue__WEBPACK_IMPORTED_MODULE_5__.default
+    component: _views_cartes_menu_PizzasApp_vue__WEBPACK_IMPORTED_MODULE_6__.default
   }, {
     path: '/crepes',
     name: 'crepes',
-    component: _views_cartes_menu_CrepesApp_vue__WEBPACK_IMPORTED_MODULE_6__.default
+    component: _views_cartes_menu_CrepesApp_vue__WEBPACK_IMPORTED_MODULE_7__.default
   }, {
     path: '/glaces',
     name: 'glaces',
-    component: _views_cartes_menu_GlacesApp_vue__WEBPACK_IMPORTED_MODULE_7__.default
+    component: _views_cartes_menu_GlacesApp_vue__WEBPACK_IMPORTED_MODULE_8__.default
   }, {
     path: '/timousse',
     name: 'timousse',
-    component: _views_cartes_menu_TimousseApp_vue__WEBPACK_IMPORTED_MODULE_8__.default
+    component: _views_cartes_menu_TimousseApp_vue__WEBPACK_IMPORTED_MODULE_9__.default
   }, {
     path: '/boissons',
     name: 'boissons',
-    component: _views_cartes_menu_BoissonsApp_vue__WEBPACK_IMPORTED_MODULE_9__.default
+    component: _views_cartes_menu_BoissonsApp_vue__WEBPACK_IMPORTED_MODULE_10__.default
   }, {
     path: '/contact',
     name: 'contact',
-    component: _views_contact_ContactApp_vue__WEBPACK_IMPORTED_MODULE_10__.default
+    component: _views_contact_ContactApp_vue__WEBPACK_IMPORTED_MODULE_11__.default
   }, {
     path: '/covid19',
     name: 'covid19',
-    component: _views_covid19_Covid19App_vue__WEBPACK_IMPORTED_MODULE_11__.default
+    component: _views_covid19_Covid19App_vue__WEBPACK_IMPORTED_MODULE_12__.default
   }]
 });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (router);
@@ -18198,6 +18309,96 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/logo.png?20d6b081d6da8760803450f34569a92a");
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/restaurant/carte/burger.jpg":
+/*!****************************************************************!*\
+  !*** ./resources/js/assets/images/restaurant/carte/burger.jpg ***!
+  \****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/burger.jpg?501d343532a9af9d6f591a494c25bc51");
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/restaurant/carte/crepe.jpg":
+/*!***************************************************************!*\
+  !*** ./resources/js/assets/images/restaurant/carte/crepe.jpg ***!
+  \***************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/crepe.jpg?8fd55804fb6950d16726fbb54580862c");
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/restaurant/carte/galette.jpg":
+/*!*****************************************************************!*\
+  !*** ./resources/js/assets/images/restaurant/carte/galette.jpg ***!
+  \*****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/galette.jpg?8ae81cd8040e4e49b81930fda06c11e9");
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/restaurant/carte/paptez.jpg":
+/*!****************************************************************!*\
+  !*** ./resources/js/assets/images/restaurant/carte/paptez.jpg ***!
+  \****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/paptez.jpg?f323defc2bc84e2c752462843fd91205");
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/restaurant/carte/pizza.jpg":
+/*!***************************************************************!*\
+  !*** ./resources/js/assets/images/restaurant/carte/pizza.jpg ***!
+  \***************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/pizza.jpg?4c7b5d682f53b0af298ff238673fa1c5");
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/restaurant/carte/salade.jpg":
+/*!****************************************************************!*\
+  !*** ./resources/js/assets/images/restaurant/carte/salade.jpg ***!
+  \****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/salade.jpg?f080b83470db74fc6a866d2f39c3b81b");
 
 /***/ }),
 
@@ -35941,6 +36142,32 @@ _App_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default.__file = "
 
 /***/ }),
 
+/***/ "./resources/js/components/Auberges/AubergesApp.vue":
+/*!**********************************************************!*\
+  !*** ./resources/js/components/Auberges/AubergesApp.vue ***!
+  \**********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _AubergesApp_vue_vue_type_template_id_75052e06__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AubergesApp.vue?vue&type=template&id=75052e06 */ "./resources/js/components/Auberges/AubergesApp.vue?vue&type=template&id=75052e06");
+/* harmony import */ var _AubergesApp_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AubergesApp.vue?vue&type=script&lang=js */ "./resources/js/components/Auberges/AubergesApp.vue?vue&type=script&lang=js");
+
+
+
+_AubergesApp_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default.render = _AubergesApp_vue_vue_type_template_id_75052e06__WEBPACK_IMPORTED_MODULE_0__.render
+/* hot reload */
+if (false) {}
+
+_AubergesApp_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default.__file = "resources/js/components/Auberges/AubergesApp.vue"
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_AubergesApp_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default);
+
+/***/ }),
+
 /***/ "./resources/js/components/Layouts/Footer/FooterApp.vue":
 /*!**************************************************************!*\
   !*** ./resources/js/components/Layouts/Footer/FooterApp.vue ***!
@@ -36333,6 +36560,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/Auberges/AubergesApp.vue?vue&type=script&lang=js":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/components/Auberges/AubergesApp.vue?vue&type=script&lang=js ***!
+  \**********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_AubergesApp_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_AubergesApp_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./AubergesApp.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Auberges/AubergesApp.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
 /***/ "./resources/js/components/Layouts/Footer/FooterApp.vue?vue&type=script&lang=js":
 /*!**************************************************************************************!*\
   !*** ./resources/js/components/Layouts/Footer/FooterApp.vue?vue&type=script&lang=js ***!
@@ -36505,6 +36748,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_App_vue_vue_type_template_id_332fccf4__WEBPACK_IMPORTED_MODULE_0__.render)
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_App_vue_vue_type_template_id_332fccf4__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./App.vue?vue&type=template&id=332fccf4 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/App.vue?vue&type=template&id=332fccf4");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Auberges/AubergesApp.vue?vue&type=template&id=75052e06":
+/*!****************************************************************************************!*\
+  !*** ./resources/js/components/Auberges/AubergesApp.vue?vue&type=template&id=75052e06 ***!
+  \****************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_AubergesApp_vue_vue_type_template_id_75052e06__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_AubergesApp_vue_vue_type_template_id_75052e06__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./AubergesApp.vue?vue&type=template&id=75052e06 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Auberges/AubergesApp.vue?vue&type=template&id=75052e06");
 
 
 /***/ }),

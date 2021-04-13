@@ -43,11 +43,11 @@
         margin: 4% 8%;
 
         &__w50 {
-            width: 50%;
+            width: 25em;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 15em;
+            height: 20em;
             overflow: hidden;
             border-radius: 5px;
 
@@ -59,6 +59,12 @@
                 margin-left: 1em;
             }
 
+            &--solo {
+                width: 25em;
+                height: 20em;
+                padding-left: 1em;
+            }
+
             &__desc {
                 font-size: 0.75em;
                 line-height: 2em;
@@ -66,11 +72,123 @@
             }
 
             img {
-                width: 100%;
-                height: auto;
+                object-fit: cover;
+                width: 25em;
+                height: 20em;
+            }
+        }
+
+        &--auberges {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &__title {
+                color: $red-primary;
             }
         }
     }
+}
 
-    
+.card {
+    width: 25em;
+    height: 20em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 5px;
+
+    &__images {
+        animation: myslide 20s infinite ease-in-out;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        display: flex;
+
+        &:hover {
+            animation-play-state: paused;
+            cursor: wait;
+        }
+
+        &__image {
+            display: inline-block;
+
+            &__img {
+                object-fit: cover;
+                width: 25em;
+                height: 20em;
+            }
+        }
+    }
+}
+
+// Animation slider galettes
+// Animation pour slider spécialités
+@keyframes myslide {
+    0% {
+		left: 0px; /*1ère image*/
+	}
+    5% {
+        left: 0px; /*1ère image*/
+    }
+	10% {
+		left: -25em; /*2ème image*/
+	}
+	15% {
+		left: -25em; /*idem pour attente*/
+	}
+	20% {
+		left: -50em; /*3ème image*/
+	}
+	25% {
+		left: -50em; /*idem pour attente*/
+	}
+    30% {
+        left: -75em; /*4ème image*/
+    }
+    35% {
+        left: -75em; /*idem pour attente*/ 
+    }
+    40% {
+        left: -100em; /*5ème image*/
+    }
+    45% {
+        left: -100em; /*idem pour attente*/ 
+    }
+    50% {
+        left: -125em; /*6ème image*/
+    }
+    55% {
+        left: -125em; /*idem pour attente*/ 
+    }
+    60% {
+        left: -100em; /*5ème image*/
+    }
+    65% {
+        left: -100em; /*idem pour attente*/ 
+    }
+    70% {
+        left: -75em; /*4ème image*/
+    }
+    75% {
+        left: -75em; /*idem pour attente*/ 
+    }
+    80% {
+        left: -50em; /*3ème image*/ 
+    }
+    85% {
+        left: -50em; /*idem pour attente*/ 
+    }
+    90% {
+        left: -25em; /*2ème image*/ 
+    }
+    95% {
+        left: -25em; /*idem pour attente*/ 
+    }
+    100% {
+        left: 0em; /*1ère image*/
+    }
 }

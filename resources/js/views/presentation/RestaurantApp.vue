@@ -23,10 +23,29 @@
 
     <!-- Restaurant galettes -->
     <div class="restaurant__section">
-      <div class="restaurant__section__w50 restaurant__section__w50--left">
-        <img src="../../assets/images/spes/crepe_spe1.jpg" alt="Salle restaurant">
+      <div class="card">
+        <ul class="card__images">
+          <li class="card__images__image">
+            <img src="../../assets/images/restaurant/carte/galette.jpg" class="card__images__image__img" alt="photo galette">
+          </li>
+          <li class="card__images__image">
+            <img src="../../assets/images/restaurant/carte/salade.jpg" class="card__images__image__img" alt="photo salade">
+          </li>
+          <li class="card__images__image">
+            <img src="../../assets/images/restaurant/carte/paptez.jpg" class="card__images__image__img" alt="photo patatez">
+          </li>
+          <li class="card__images__image">
+            <img src="../../assets/images/restaurant/carte/pizza.jpg" class="card__images__image__img" alt="photo pizza">
+          </li>
+          <li class="card__images__image">
+            <img src="../../assets/images/restaurant/carte/burger.jpg" class="card__images__image__img" alt="photo burger">
+          </li>
+          <li class="card__images__image">
+            <img src="../../assets/images/restaurant/carte/crepe.jpg" class="card__images__image__img" alt="photo crêpe">
+          </li>
+        </ul>
       </div>
-      <div class="restaurant__section__w50 restaurant__section__w50--right">
+      <div class="restaurant__section__w50 restaurant__section__w50--solo">
         <p class="restaurant__section__w50__desc">Notre chef vous propose toute une gamme de galettes, ainsi que des salades, des pommes de terre cuisinées (les fameuses Patatez), des omelettes, des pizzas et des burgers, de quoi contenter tout le monde. En ce qui concerne les desserts, vous aurez l'embarras du choix entre les crêpes au froment et les coupes de glace.</p>
       </div>
     </div>
@@ -48,8 +67,15 @@
     </div>
 
     <!-- Restaurant auberges -->
-    <div class="restaurant__section">
-      
+    <div class="restaurant__section restaurant__section--auberges">
+      <h2 class="restaurant__section--auberges__title">Nos auberges</h2>
+
+      <div class="big-cards__card--auberges__content big-cards__card--auberges__content--restaurant">
+
+          <auberges-app></auberges-app>
+          
+      </div>
+
     </div>
 
     <payment-methods></payment-methods>
@@ -59,13 +85,15 @@
 
 <script>
 
+import AubergesApp from '../../components/Auberges/AubergesApp'
 import PaymentMethods from '../../components/PaymentMethods/PaymentMethods'
 
 export default {
   name: 'restaurant-app',
 
   components: {
-    PaymentMethods
+    PaymentMethods,
+    AubergesApp
   }
 
 }

@@ -444,6 +444,104 @@ body {
   width: 50%;
 }
 
+.big-cards__card--auberges__content__container {
+  position: relative;
+  background-color: #98000c;
+  width: 6em;
+  height: 6em;
+  padding: 0.25em;
+  border-radius: 50%;
+  cursor: context-menu;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  transition: width 0.4s, height 0.4s, border-radius 0.4s;
+  margin: 0 1.5em;
+  -webkit-animation: pulsation 1s infinite;
+          animation: pulsation 1s infinite;
+}
+.big-cards__card--auberges__content__container:hover {
+  -webkit-animation: none;
+          animation: none;
+}
+.big-cards__card--auberges__content__container--right {
+  margin-left: auto;
+}
+.big-cards__card--auberges__content__container:hover {
+  width: 11em;
+  height: 13em;
+  border-radius: 4px;
+}
+.big-cards__card--auberges__content__container__image {
+  width: 5em;
+  height: 5em;
+  min-height: 5em;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 40px 5px rgba(0, 0, 0, 0.2);
+  margin-top: 0.25em;
+}
+.big-cards__card--auberges__content__container__image img {
+  width: 100%;
+  max-width: 100%;
+}
+.big-cards__card--auberges__content__container__title {
+  font-size: 0.75em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  color: #f2f2f2;
+}
+.big-cards__card--auberges__content__container__role, .big-cards__card--auberges__content__container__description {
+  font-size: 0.5em;
+  text-align: center;
+  color: #f2f2f2;
+}
+.big-cards__card--auberges__content__container__role {
+  text-transform: uppercase;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.75em;
+  border-bottom: 2px solid #ffbe44;
+}
+.big-cards__card--auberges__content__container__description {
+  margin-top: 1em;
+}
+.big-cards__card--auberges__content__container__social-container {
+  position: absolute;
+  top: 1em;
+  left: -2em;
+  display: flex;
+  flex-direction: column;
+}
+.big-cards__card--auberges__content__container__social-container a {
+  border: none;
+  outline: none;
+  color: #f2f2f2;
+  background: none;
+  width: 0.5em;
+  height: 1em;
+  font-size: 1em;
+  margin-bottom: 0.5em;
+  cursor: pointer;
+  transition: transform 0.4s;
+}
+.big-cards__card--auberges__content__container__social-container a:hover {
+  color: #1a1a1a;
+}
+.big-cards__card--auberges__content__container:hover .big-cards__card--auberges__content__container__social-container a {
+  transform: translateX(2.75em);
+  transition-delay: 0.3s;
+}
+.big-cards__card--auberges__content__container:hover .big-cards__card--auberges__content__container__social-container a:nth-child(2) {
+  transition-delay: 0.5s;
+}
+.big-cards__card--auberges__content__container:hover .big-cards__card--auberges__content__container__social-container a:nth-child(3) {
+  transition-delay: 0.7s;
+}
+
 .cards {
   display: flex;
   justify-content: space-between;
@@ -580,102 +678,8 @@ body {
   border-radius: 10px;
   overflow: hidden;
 }
-.big-cards__card--auberges__content__container {
-  position: relative;
-  background-color: #98000c;
-  width: 6em;
-  height: 6em;
-  padding: 0.25em;
-  border-radius: 50%;
-  cursor: context-menu;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  transition: width 0.4s, height 0.4s, border-radius 0.4s;
-  margin: 0 1.5em;
-  -webkit-animation: pulsation 1s infinite;
-          animation: pulsation 1s infinite;
-}
-.big-cards__card--auberges__content__container:hover {
-  -webkit-animation: none;
-          animation: none;
-}
-.big-cards__card--auberges__content__container--right {
-  margin-left: auto;
-}
-.big-cards__card--auberges__content__container:hover {
-  width: 11em;
-  height: 13em;
-  border-radius: 4px;
-}
-.big-cards__card--auberges__content__container__image {
-  width: 5em;
-  height: 5em;
-  min-height: 5em;
-  border-radius: 50%;
-  overflow: hidden;
-  box-shadow: 0 0 40px 5px rgba(0, 0, 0, 0.2);
-  margin-top: 0.25em;
-}
-.big-cards__card--auberges__content__container__image img {
-  width: 100%;
-  max-width: 100%;
-}
-.big-cards__card--auberges__content__container__title {
-  font-size: 0.75em;
-  font-weight: bold;
-  letter-spacing: 1px;
-  margin-top: 1.5em;
-  margin-bottom: 1em;
-  color: #f2f2f2;
-}
-.big-cards__card--auberges__content__container__role, .big-cards__card--auberges__content__container__description {
-  font-size: 0.5em;
-  text-align: center;
-  color: #f2f2f2;
-}
-.big-cards__card--auberges__content__container__role {
-  text-transform: uppercase;
-  padding-bottom: 0.5em;
-  margin-bottom: 0.75em;
-  border-bottom: 2px solid #ffbe44;
-}
-.big-cards__card--auberges__content__container__description {
-  margin-top: 1em;
-}
-.big-cards__card--auberges__content__container__social-container {
-  position: absolute;
-  top: 1em;
-  left: -2em;
-  display: flex;
-  flex-direction: column;
-}
-.big-cards__card--auberges__content__container__social-container a {
-  border: none;
-  outline: none;
-  color: #f2f2f2;
-  background: none;
-  width: 0.5em;
-  height: 1em;
-  font-size: 1em;
-  margin-bottom: 0.5em;
-  cursor: pointer;
-  transition: transform 0.4s;
-}
-.big-cards__card--auberges__content__container__social-container a:hover {
-  color: #1a1a1a;
-}
-.big-cards__card--auberges__content__container:hover .big-cards__card--auberges__content__container__social-container a {
-  transform: translateX(2.75em);
-  transition-delay: 0.3s;
-}
-.big-cards__card--auberges__content__container:hover .big-cards__card--auberges__content__container__social-container a:nth-child(2) {
-  transition-delay: 0.5s;
-}
-.big-cards__card--auberges__content__container:hover .big-cards__card--auberges__content__container__social-container a:nth-child(3) {
-  transition-delay: 0.7s;
+.big-cards__card--auberges__content--restaurant {
+  width: 60%;
 }
 .big-cards__card--border {
   display: flex;
@@ -887,11 +891,11 @@ body {
   margin: 4% 8%;
 }
 .restaurant__section__w50 {
-  width: 50%;
+  width: 25em;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 15em;
+  height: 20em;
   overflow: hidden;
   border-radius: 5px;
 }
@@ -901,12 +905,235 @@ body {
 .restaurant__section__w50--right {
   margin-left: 1em;
 }
+.restaurant__section__w50--solo {
+  width: 25em;
+  height: 20em;
+  padding-left: 1em;
+}
 .restaurant__section__w50__desc {
   font-size: 0.75em;
   line-height: 2em;
   color: #98000c;
 }
 .restaurant__section__w50 img {
-  width: 100%;
-  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 25em;
+  height: 20em;
+}
+.restaurant__section--auberges {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.restaurant__section--auberges__title {
+  color: #83141a;
+}
+
+.card {
+  width: 25em;
+  height: 20em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.card__images {
+  -webkit-animation: myslide 20s infinite ease-in-out;
+          animation: myslide 20s infinite ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.card__images:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+  cursor: wait;
+}
+.card__images__image {
+  display: inline-block;
+}
+.card__images__image__img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 25em;
+  height: 20em;
+}
+
+@-webkit-keyframes myslide {
+  0% {
+    left: 0px;
+    /*1ère image*/
+  }
+  5% {
+    left: 0px;
+    /*1ère image*/
+  }
+  10% {
+    left: -25em;
+    /*2ème image*/
+  }
+  15% {
+    left: -25em;
+    /*idem pour attente*/
+  }
+  20% {
+    left: -50em;
+    /*3ème image*/
+  }
+  25% {
+    left: -50em;
+    /*idem pour attente*/
+  }
+  30% {
+    left: -75em;
+    /*4ème image*/
+  }
+  35% {
+    left: -75em;
+    /*idem pour attente*/
+  }
+  40% {
+    left: -100em;
+    /*5ème image*/
+  }
+  45% {
+    left: -100em;
+    /*idem pour attente*/
+  }
+  50% {
+    left: -125em;
+    /*6ème image*/
+  }
+  55% {
+    left: -125em;
+    /*idem pour attente*/
+  }
+  60% {
+    left: -100em;
+    /*5ème image*/
+  }
+  65% {
+    left: -100em;
+    /*idem pour attente*/
+  }
+  70% {
+    left: -75em;
+    /*4ème image*/
+  }
+  75% {
+    left: -75em;
+    /*idem pour attente*/
+  }
+  80% {
+    left: -50em;
+    /*3ème image*/
+  }
+  85% {
+    left: -50em;
+    /*idem pour attente*/
+  }
+  90% {
+    left: -25em;
+    /*2ème image*/
+  }
+  95% {
+    left: -25em;
+    /*idem pour attente*/
+  }
+  100% {
+    left: 0em;
+    /*1ère image*/
+  }
+}
+
+@keyframes myslide {
+  0% {
+    left: 0px;
+    /*1ère image*/
+  }
+  5% {
+    left: 0px;
+    /*1ère image*/
+  }
+  10% {
+    left: -25em;
+    /*2ème image*/
+  }
+  15% {
+    left: -25em;
+    /*idem pour attente*/
+  }
+  20% {
+    left: -50em;
+    /*3ème image*/
+  }
+  25% {
+    left: -50em;
+    /*idem pour attente*/
+  }
+  30% {
+    left: -75em;
+    /*4ème image*/
+  }
+  35% {
+    left: -75em;
+    /*idem pour attente*/
+  }
+  40% {
+    left: -100em;
+    /*5ème image*/
+  }
+  45% {
+    left: -100em;
+    /*idem pour attente*/
+  }
+  50% {
+    left: -125em;
+    /*6ème image*/
+  }
+  55% {
+    left: -125em;
+    /*idem pour attente*/
+  }
+  60% {
+    left: -100em;
+    /*5ème image*/
+  }
+  65% {
+    left: -100em;
+    /*idem pour attente*/
+  }
+  70% {
+    left: -75em;
+    /*4ème image*/
+  }
+  75% {
+    left: -75em;
+    /*idem pour attente*/
+  }
+  80% {
+    left: -50em;
+    /*3ème image*/
+  }
+  85% {
+    left: -50em;
+    /*idem pour attente*/
+  }
+  90% {
+    left: -25em;
+    /*2ème image*/
+  }
+  95% {
+    left: -25em;
+    /*idem pour attente*/
+  }
+  100% {
+    left: 0em;
+    /*1ère image*/
+  }
 }
