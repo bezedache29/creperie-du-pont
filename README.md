@@ -8,8 +8,8 @@
 * Scss
 
 ## Les Librairies utilisées :
-* Animatecss
-* AnimateOnScroll
+* Animate.css
+* AnimateOnScroll (AOS)
 
 ## Les étapes :
 
