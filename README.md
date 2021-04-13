@@ -7,6 +7,10 @@
 * Laravel 8
 * Scss
 
+## Les Librairies utilisées :
+* Animatecss
+* AnimateOnScroll
+
 ## Les étapes :
 
 - [x] Création du projet sur GitHub
