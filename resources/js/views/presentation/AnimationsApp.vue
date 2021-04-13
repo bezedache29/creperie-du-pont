@@ -10,7 +10,7 @@
     </div>
     
     <!-- Slider -->
-    <div class="animations__slider" id="slider1">
+    <div class="animations__slider animate__animated animate__zoomInDown" id="slider1">
       <input type="radio" name="slides" checked="checked" id="slides_1"/>
       <input type="radio" name="slides" id="slides_2"/>
       <input type="radio" name="slides" id="slides_3"/>
