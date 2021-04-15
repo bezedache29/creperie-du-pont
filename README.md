@@ -55,7 +55,7 @@
 - [x] Création de la page Accueil
 - [x] Création de la page Le restaurant
 - [x] Création de la page Nos animations
-- [ ] Création de la page Nos salles
+- [x] Création de la page Nos salles
 - [ ] Création de la page Nos galettes
 - [ ] Création de la page Nos pizzas
 - [ ] Création de la page Nos crêpes
