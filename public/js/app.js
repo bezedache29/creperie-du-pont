@@ -16666,8 +16666,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! aos */ "./node_modules/aos/dist/aos.js");
+/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(aos__WEBPACK_IMPORTED_MODULE_0__);
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  name: 'salles-app'
+  name: 'salles-app',
+  created: function created() {
+    aos__WEBPACK_IMPORTED_MODULE_0___default().init();
+  }
 });
 
 /***/ }),
@@ -18045,15 +18051,146 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* binding */ render)
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+/* harmony import */ var _assets_images_salles_vue_aber_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/images/salles/vue-aber.jpg */ "./resources/js/assets/images/salles/vue-aber.jpg");
+/* harmony import */ var _assets_images_salles_terrasse_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/images/salles/terrasse.jpg */ "./resources/js/assets/images/salles/terrasse.jpg");
+/* harmony import */ var _assets_images_salles_children_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/images/salles/children.jpg */ "./resources/js/assets/images/salles/children.jpg");
+/* harmony import */ var _assets_images_salles_reunions_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/images/salles/reunions.jpg */ "./resources/js/assets/images/salles/reunions.jpg");
+/* harmony import */ var _assets_images_salles_bapteme_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../assets/images/salles/bapteme.jpg */ "./resources/js/assets/images/salles/bapteme.jpg");
+/* harmony import */ var _assets_images_salles_mariage_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../assets/images/salles/mariage.jpg */ "./resources/js/assets/images/salles/mariage.jpg");
+/* harmony import */ var _assets_images_salles_anniversaire_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../assets/images/salles/anniversaire.jpg */ "./resources/js/assets/images/salles/anniversaire.jpg");
+
+
+
+
+
+
+
 
 var _hoisted_1 = {
   "class": "section salles-app"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<h1 class=\"section__title\">Nos salles</h1><p class=\"salles-app__description\">Le restaurant dispose d&#39;un bar, d&#39;une salle avec une vue sur l&#39;Aber, et d&#39;une terrasse ouverte l&#39;été au bord de plage.</p><div class=\"salles-app__aber\"><p class=\"salles-app__aber__title\">Vue imprenable sur l&#39;Aber</p><div class=\"salles-app__aber__image\"><img src=\"\" alt=\"photo vue sur l&#39;Aber\"></div></div><hr><div class=\"salles-app__sea\"><p class=\"salles-app__aber__title\">Les pieds dans l&#39;eau</p><div class=\"salles-app__aber__image\"><img src=\"\" alt=\"photo de la terrasse\"></div></div><hr><div class=\"salles-app__children\"><p class=\"salles-app__children__description\">Le restaurant dispose également d&#39;un coin réservé aux enfants.</p><div class=\"salles-app__children__image\"><img src=\"\" alt=\"image salle enfant\"></div></div><hr><div class=\"salles-app__events\"><p class=\"salles-app__events__description\">Modulables au gré de vos envies et de vos événements :</p><div class=\"salles-app__events__cards\"><div class=\"salles-app__events__cards__card\"><div class=\"salles-app__events__cards__card__image\"><img src=\"\" alt=\"photo réunions\"></div><p class=\"salles-app__events__cards__card__title\">Réunions</p></div><div class=\"salles-app__events__cards__card\"><div class=\"salles-app__events__cards__card__image\"><img src=\"\" alt=\"photo baptèmes\"></div><p class=\"salles-app__events__cards__card__title\">Baptèmes</p></div><div class=\"salles-app__events__cards__card\"><div class=\"salles-app__events__cards__card__image\"><img src=\"\" alt=\"photo mariages\"></div><p class=\"salles-app__events__cards__card__title\">Mariages</p></div><div class=\"salles-app__events__cards__card\"><div class=\"salles-app__events__cards__card__image\"><img src=\"\" alt=\"photo anniversaires\"></div><p class=\"salles-app__events__cards__card__title\">Anniversaires</p></div></div></div>", 9);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h1", {
+  "class": "section__title"
+}, "Nos salles", -1
+/* HOISTED */
+);
+
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "salles-app__description"
+}, "Le restaurant dispose d'un bar, d'une salle avec une vue sur l'Aber, et d'une terrasse ouverte l'été au bord de plage.", -1
+/* HOISTED */
+);
+
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "salles-app__aber animate__animated animate__zoomIn"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "salles-app__aber__title salles-app__aber__title--rl"
+}, "Vue imprenable sur l'Aber"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "salles-app__aber__image"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: _assets_images_salles_vue_aber_jpg__WEBPACK_IMPORTED_MODULE_1__.default,
+  alt: "photo vue sur l'Aber"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("hr", {
+  "class": "salles-app__hr"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "salles-app__aber",
+  "data-aos": "zoom-in-up"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "salles-app__aber__title salles-app__aber__title--rr"
+}, "Les pieds dans l'eau"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "salles-app__aber__image"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: _assets_images_salles_terrasse_jpg__WEBPACK_IMPORTED_MODULE_2__.default,
+  alt: "photo de la terrasse"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("hr", {
+  "class": "salles-app__hr"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "salles-app__children"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "salles-app__children__description"
+}, "Le restaurant dispose également d'un coin réservé aux enfants."), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "salles-app__children__image"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: _assets_images_salles_children_jpg__WEBPACK_IMPORTED_MODULE_3__.default,
+  alt: "image salle enfant"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("hr", {
+  "class": "salles-app__hr"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "salles-app__events",
+  "data-aos": "fade-right",
+  "data-aos-offset": "300",
+  "data-aos-easing": "ease-in-sine"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "salles-app__events__description"
+}, "Modulables au gré de vos envies et de vos événements :"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "salles-app__events__cards"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "salles-app__events__cards__card"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "salles-app__events__cards__card__image"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: _assets_images_salles_reunions_jpg__WEBPACK_IMPORTED_MODULE_4__.default,
+  alt: "photo réunions"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "salles-app__events__cards__card__title"
+}, "Réunions")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "salles-app__events__cards__card"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "salles-app__events__cards__card__image"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: _assets_images_salles_bapteme_jpg__WEBPACK_IMPORTED_MODULE_5__.default,
+  alt: "photo baptèmes"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "salles-app__events__cards__card__title"
+}, "Baptèmes")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "salles-app__events__cards__card"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "salles-app__events__cards__card__image"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: _assets_images_salles_mariage_jpg__WEBPACK_IMPORTED_MODULE_6__.default,
+  alt: "photo mariages"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "salles-app__events__cards__card__title"
+}, "Mariages")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "salles-app__events__cards__card"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "salles-app__events__cards__card__image"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: _assets_images_salles_anniversaire_jpg__WEBPACK_IMPORTED_MODULE_7__.default,
+  alt: "photo anniversaires"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "salles-app__events__cards__card__title"
+}, "Anniversaires")])])], -1
+/* HOISTED */
+);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("section", _hoisted_1, [_hoisted_2]);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("section", _hoisted_1, [_hoisted_2, _hoisted_3, _hoisted_4, _hoisted_5, _hoisted_6, _hoisted_7, _hoisted_8, _hoisted_9, _hoisted_10]);
 }
 
 /***/ }),
@@ -18129,19 +18266,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm-bundler.js");
-/* harmony import */ var _views_home_HomeApp_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../views/home/HomeApp.vue */ "./resources/js/views/home/HomeApp.vue");
-/* harmony import */ var _views_presentation_RestaurantApp_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../views/presentation/RestaurantApp.vue */ "./resources/js/views/presentation/RestaurantApp.vue");
-/* harmony import */ var _views_presentation_AnimationsApp_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../views/presentation/AnimationsApp.vue */ "./resources/js/views/presentation/AnimationsApp.vue");
-/* harmony import */ var _views_presentation_SallesApp_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../views/presentation/SallesApp.vue */ "./resources/js/views/presentation/SallesApp.vue");
-/* harmony import */ var _views_cartes_menu_GalettesApp_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../views/cartes-menu/GalettesApp.vue */ "./resources/js/views/cartes-menu/GalettesApp.vue");
-/* harmony import */ var _views_cartes_menu_PizzasApp_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./../views/cartes-menu/PizzasApp.vue */ "./resources/js/views/cartes-menu/PizzasApp.vue");
-/* harmony import */ var _views_cartes_menu_CrepesApp_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./../views/cartes-menu/CrepesApp.vue */ "./resources/js/views/cartes-menu/CrepesApp.vue");
-/* harmony import */ var _views_cartes_menu_GlacesApp_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./../views/cartes-menu/GlacesApp.vue */ "./resources/js/views/cartes-menu/GlacesApp.vue");
-/* harmony import */ var _views_cartes_menu_TimousseApp_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./../views/cartes-menu/TimousseApp.vue */ "./resources/js/views/cartes-menu/TimousseApp.vue");
-/* harmony import */ var _views_cartes_menu_BoissonsApp_vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./../views/cartes-menu/BoissonsApp.vue */ "./resources/js/views/cartes-menu/BoissonsApp.vue");
-/* harmony import */ var _views_contact_ContactApp_vue__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./../views/contact/ContactApp.vue */ "./resources/js/views/contact/ContactApp.vue");
-/* harmony import */ var _views_covid19_Covid19App_vue__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./../views/covid19/Covid19App.vue */ "./resources/js/views/covid19/Covid19App.vue");
+/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm-bundler.js");
+/* harmony import */ var _views_home_HomeApp_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../views/home/HomeApp.vue */ "./resources/js/views/home/HomeApp.vue");
+/* harmony import */ var _views_presentation_RestaurantApp_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../views/presentation/RestaurantApp.vue */ "./resources/js/views/presentation/RestaurantApp.vue");
+/* harmony import */ var _views_presentation_AnimationsApp_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../views/presentation/AnimationsApp.vue */ "./resources/js/views/presentation/AnimationsApp.vue");
+/* harmony import */ var _views_presentation_SallesApp_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../views/presentation/SallesApp.vue */ "./resources/js/views/presentation/SallesApp.vue");
+/* harmony import */ var _views_cartes_menu_GalettesApp_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../views/cartes-menu/GalettesApp.vue */ "./resources/js/views/cartes-menu/GalettesApp.vue");
+/* harmony import */ var _views_cartes_menu_PizzasApp_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../views/cartes-menu/PizzasApp.vue */ "./resources/js/views/cartes-menu/PizzasApp.vue");
+/* harmony import */ var _views_cartes_menu_CrepesApp_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./../views/cartes-menu/CrepesApp.vue */ "./resources/js/views/cartes-menu/CrepesApp.vue");
+/* harmony import */ var _views_cartes_menu_GlacesApp_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./../views/cartes-menu/GlacesApp.vue */ "./resources/js/views/cartes-menu/GlacesApp.vue");
+/* harmony import */ var _views_cartes_menu_TimousseApp_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./../views/cartes-menu/TimousseApp.vue */ "./resources/js/views/cartes-menu/TimousseApp.vue");
+/* harmony import */ var _views_cartes_menu_BoissonsApp_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./../views/cartes-menu/BoissonsApp.vue */ "./resources/js/views/cartes-menu/BoissonsApp.vue");
+/* harmony import */ var _views_contact_ContactApp_vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./../views/contact/ContactApp.vue */ "./resources/js/views/contact/ContactApp.vue");
+/* harmony import */ var _views_covid19_Covid19App_vue__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./../views/covid19/Covid19App.vue */ "./resources/js/views/covid19/Covid19App.vue");
 
 
 
@@ -18156,56 +18293,56 @@ __webpack_require__.r(__webpack_exports__);
 
  // const history = createWebHistory()
 
-var router = (0,vue_router__WEBPACK_IMPORTED_MODULE_0__.createRouter)({
-  history: (0,vue_router__WEBPACK_IMPORTED_MODULE_0__.createWebHistory)(),
+var router = (0,vue_router__WEBPACK_IMPORTED_MODULE_12__.createRouter)({
+  history: (0,vue_router__WEBPACK_IMPORTED_MODULE_12__.createWebHistory)(),
   routes: [{
     path: '/',
     name: 'home',
-    component: _views_home_HomeApp_vue__WEBPACK_IMPORTED_MODULE_1__.default
+    component: _views_home_HomeApp_vue__WEBPACK_IMPORTED_MODULE_0__.default
   }, {
     path: '/restaurant',
     name: 'restaurant',
-    component: _views_presentation_RestaurantApp_vue__WEBPACK_IMPORTED_MODULE_2__.default
+    component: _views_presentation_RestaurantApp_vue__WEBPACK_IMPORTED_MODULE_1__.default
   }, {
     path: '/animations',
     name: 'animations',
-    component: _views_presentation_AnimationsApp_vue__WEBPACK_IMPORTED_MODULE_3__.default
+    component: _views_presentation_AnimationsApp_vue__WEBPACK_IMPORTED_MODULE_2__.default
   }, {
     path: '/salles',
     name: 'salles',
-    component: _views_presentation_SallesApp_vue__WEBPACK_IMPORTED_MODULE_4__.default
+    component: _views_presentation_SallesApp_vue__WEBPACK_IMPORTED_MODULE_3__.default
   }, {
     path: '/galettes',
     name: 'galettes',
-    component: _views_cartes_menu_GalettesApp_vue__WEBPACK_IMPORTED_MODULE_5__.default
+    component: _views_cartes_menu_GalettesApp_vue__WEBPACK_IMPORTED_MODULE_4__.default
   }, {
     path: '/pizzas',
     name: 'pizzas',
-    component: _views_cartes_menu_PizzasApp_vue__WEBPACK_IMPORTED_MODULE_6__.default
+    component: _views_cartes_menu_PizzasApp_vue__WEBPACK_IMPORTED_MODULE_5__.default
   }, {
     path: '/crepes',
     name: 'crepes',
-    component: _views_cartes_menu_CrepesApp_vue__WEBPACK_IMPORTED_MODULE_7__.default
+    component: _views_cartes_menu_CrepesApp_vue__WEBPACK_IMPORTED_MODULE_6__.default
   }, {
     path: '/glaces',
     name: 'glaces',
-    component: _views_cartes_menu_GlacesApp_vue__WEBPACK_IMPORTED_MODULE_8__.default
+    component: _views_cartes_menu_GlacesApp_vue__WEBPACK_IMPORTED_MODULE_7__.default
   }, {
     path: '/timousse',
     name: 'timousse',
-    component: _views_cartes_menu_TimousseApp_vue__WEBPACK_IMPORTED_MODULE_9__.default
+    component: _views_cartes_menu_TimousseApp_vue__WEBPACK_IMPORTED_MODULE_8__.default
   }, {
     path: '/boissons',
     name: 'boissons',
-    component: _views_cartes_menu_BoissonsApp_vue__WEBPACK_IMPORTED_MODULE_10__.default
+    component: _views_cartes_menu_BoissonsApp_vue__WEBPACK_IMPORTED_MODULE_9__.default
   }, {
     path: '/contact',
     name: 'contact',
-    component: _views_contact_ContactApp_vue__WEBPACK_IMPORTED_MODULE_11__.default
+    component: _views_contact_ContactApp_vue__WEBPACK_IMPORTED_MODULE_10__.default
   }, {
     path: '/covid19',
     name: 'covid19',
-    component: _views_covid19_Covid19App_vue__WEBPACK_IMPORTED_MODULE_12__.default
+    component: _views_covid19_Covid19App_vue__WEBPACK_IMPORTED_MODULE_11__.default
   }]
 });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (router);
@@ -18837,6 +18974,66 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/assets/images/salles/anniversaire.jpg":
+/*!************************************************************!*\
+  !*** ./resources/js/assets/images/salles/anniversaire.jpg ***!
+  \************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/anniversaire.jpg?0811084af50eea1c5a84b44284332c0c");
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/salles/bapteme.jpg":
+/*!*******************************************************!*\
+  !*** ./resources/js/assets/images/salles/bapteme.jpg ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/bapteme.jpg?fb3cfe3ecec41a2f8a8fb0f9361861ab");
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/salles/children.jpg":
+/*!********************************************************!*\
+  !*** ./resources/js/assets/images/salles/children.jpg ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/children.jpg?9f642c2aaf2f91effc0b30fb29eccb02");
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/salles/mariage.jpg":
+/*!*******************************************************!*\
+  !*** ./resources/js/assets/images/salles/mariage.jpg ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/mariage.jpg?a6d5535afbbf3833b922e755cf1e8e26");
+
+/***/ }),
+
 /***/ "./resources/js/assets/images/salles/presentation.jpg":
 /*!************************************************************!*\
   !*** ./resources/js/assets/images/salles/presentation.jpg ***!
@@ -18849,6 +19046,51 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/presentation.jpg?dcd10ed43bb158f9f04ea10e62624474");
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/salles/reunions.jpg":
+/*!********************************************************!*\
+  !*** ./resources/js/assets/images/salles/reunions.jpg ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/reunions.jpg?fd31d783e76316a8d507b0f0e8f3b947");
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/salles/terrasse.jpg":
+/*!********************************************************!*\
+  !*** ./resources/js/assets/images/salles/terrasse.jpg ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/terrasse.jpg?5a5510673704532f8f8fa63e0957d484");
+
+/***/ }),
+
+/***/ "./resources/js/assets/images/salles/vue-aber.jpg":
+/*!********************************************************!*\
+  !*** ./resources/js/assets/images/salles/vue-aber.jpg ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/vue-aber.jpg?2b92554e409f074031be1e0489e6a66a");
 
 /***/ }),
 
