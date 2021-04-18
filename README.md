@@ -63,7 +63,7 @@
 - [ ] Création de la page Menu Ti Mousse
 - [ ] Création de la page carte boissons
 - [ ] Création de la page Contact
-- [ ] Création de la page COVID 19
+- [x] Création de la page COVID 19
 
 ### Tablette
 
