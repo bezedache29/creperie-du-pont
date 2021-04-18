@@ -27,6 +27,23 @@
     &__content {
         margin: 4% 0;
         font-size: 0.75em;
+
+        &__link {
+            cursor: pointer;
+            color: $red-primary;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        &__link-smooth {
+            color: $red-primary;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
     }
 
     &__protocole {

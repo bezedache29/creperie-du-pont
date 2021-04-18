@@ -47,7 +47,7 @@
         </div>
         <p class="w33__other w33__other--rs" @click="showMentions">mentions légales</p>
       </div>
-      <div class="w33">
+      <div class="w33" id="newsletter">
         <p class="w33__title">Newsletter</p>
         <form action="" method="POST" class="w33__form">
           <div class="w33__form__group">
