@@ -1,0 +1,87 @@
+.covid19 {
+    margin: 0 8%;
+
+    &__couvre-feu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__circle {
+            width: 3.5em;
+            height: 3.5em;
+            border-radius: 50%;
+            background-color: $red-flash;
+            margin: 0 1em;
+        }
+
+        &__title {
+            color: $red-flash;
+        }
+    }
+
+    &__mini-title {
+        text-align: center;
+    }
+
+    &__content {
+        margin: 4% 0;
+        font-size: 0.75em;
+    }
+
+    &__protocole {
+        width: 100;
+        display: flex;
+        margin: 8% 0;
+
+        &__commands {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+
+            &__desc {
+                display: flex;
+                flex-direction: column;
+                margin-top: 15%;
+                align-items: center;
+
+                &__text {
+                    font-size: 0.75em;
+                    color: $red-flash;
+                }
+            }
+
+            &__mask {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+
+                &__image {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        object-fit: cover;
+                        width: 18em;
+                        height: 18em;
+                    }
+                }
+            }
+        }
+
+        &__image {
+            width: 50%;
+
+            img {
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+                border-radius: 5px;
+            }
+        }
+    }
+}
