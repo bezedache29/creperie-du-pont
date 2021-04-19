@@ -10,6 +10,7 @@
 ## Les Librairies utilisées :
 * Animate.css
 * AnimateOnScroll (AOS)
+* Leaflet pour vuejs 3
 
 ## Les étapes :
 
