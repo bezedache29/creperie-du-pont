@@ -1,5 +1,5 @@
 .contact {
-
+    margin-bottom: 2em;
 
     &__content {
         display: flex;
@@ -56,6 +56,111 @@
                 &__tel {
                     font-weight: bold;
                     color: $red-primary;
+                }
+            }
+        }
+    }
+
+    &__mini-title {
+        text-align: center;
+        margin-top: 2em;
+    }
+
+    &__formulaire {
+        display: flex;
+        flex-direction: column;
+        margin: 0 20%;
+        font-size: 0.75em;
+
+        &__civ {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1em;
+
+            p {
+                margin-right: 1em;
+            }
+
+            input {
+                margin-left: 2em;
+            }
+        }
+
+        &__inputs {
+            display: flex;
+            width: 100%;
+            margin-bottom: 1em;
+
+            &__input {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                margin-right: 8em;
+
+                input {
+                    padding: 10px 20px;
+                    border: 1px solid $red-primary;
+                    outline: none;
+                    border-radius: 5px;
+                }
+
+                &--ml {
+                    margin-left: auto;
+                    margin-right: 0;
+                }
+            }
+        }
+
+        &__radios {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1em;
+
+            &__radio {
+                margin-right: 1em;
+            }
+        }
+
+        &__comments {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1em;
+
+            textarea {
+                border: 1px solid $red-primary;
+                border-radius: 5px;
+                width: 100%;
+                padding: 1em;
+                outline: none;
+                font-size: 1em;
+            }
+        }
+    }
+
+    &__footer {
+        display: flex;
+        align-items: center;
+        margin-top: 1em;
+
+        &__recaptcha {
+            display: flex;
+            align-items: center;
+        }
+
+        &__button {
+            margin-left: auto;
+            
+            button {
+                background-color: white;
+                padding: 10px 20px;
+                font-size: 1em;
+                border: 1px solid $red-primary;
+                border-radius: 5px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: $red-primary;
+                    color: $white-primary;
                 }
             }
         }

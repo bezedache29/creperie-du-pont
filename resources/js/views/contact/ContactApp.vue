@@ -24,9 +24,9 @@
 
       <div class="contact__formulaire__civ">
         <p>Civilité*:</p>
-        <input type="radio" id="mr">
+        <input type="radio" id="mr" class="radio" checked>
         <label for="mr">Monsieur</label>
-        <input type="radio" id="mme">
+        <input type="radio" id="mme" class="radio">
         <label for="mme">Madame</label>
       </div>
 
@@ -35,7 +35,7 @@
           <label for="name">Nom*</label>
           <input type="text">
         </div>
-        <div class="contact__formulaire__inputs__input">
+        <div class="contact__formulaire__inputs__input contact__formulaire__inputs__input--ml">
           <label for="name">Prénom*</label>
           <input type="text">
         </div>
@@ -46,7 +46,7 @@
           <label for="name">Date du repas</label>
           <input type="text">
         </div>
-        <div class="contact__formulaire__inputs__input">
+        <div class="contact__formulaire__inputs__input contact__formulaire__inputs__input--ml">
           <label for="name">Téléphone*</label>
           <input type="text">
         </div>
@@ -57,7 +57,7 @@
           <label for="name">Nombre de personnes</label>
           <input type="text">
         </div>
-        <div class="contact__formulaire__inputs__input">
+        <div class="contact__formulaire__inputs__input contact__formulaire__inputs__input--ml">
           <label for="name">E-mail*</label>
           <input type="text">
         </div>
@@ -65,21 +65,31 @@
 
       <div class="contact__formulaire__radios">
         <div class="contact__formulaire__radios__radio">
-          <input type="radio">
+          <input type="radio" class="radio" checked>
           <label for="">Midi</label>
         </div>
         <div class="contact__formulaire__radios__radio">
-          <input type="radio">
+          <input type="radio" class="radio">
           <label for="">Soir</label>
         </div>
       </div>
 
       <div class="contact__formulaire__comments">
-        <label for="">Commentaires</label>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <label for="">Commentaire</label>
+        <textarea name="" id="" cols="30" rows="20"></textarea>
       </div>
 
       <p class="contact__formulaire__infos">Aucune donnée personnelle n'est conservée par notre site via ce formulaire</p>
+
+      <div class="contact__footer">
+        <div class="contact__footer__recaptcha">
+          <input type="checkbox">
+          <p>reCAPTCHA</p>
+        </div>
+        <div class="contact__footer__button">
+          <button>ENVOYER</button>
+        </div>
+      </div>
 
     </form>
 
