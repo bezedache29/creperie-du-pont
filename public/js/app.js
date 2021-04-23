@@ -16562,7 +16562,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  name: 'contact-app'
+  name: 'contact-app',
+  data: function data() {
+    return {
+      tel: false
+    };
+  },
+  methods: {
+    showTel: function showTel() {
+      this.tel = true;
+    }
+  }
 });
 
 /***/ }),
@@ -17517,124 +17527,59 @@ var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 /* HOISTED */
 );
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+var _hoisted_3 = {
   "class": "contact__content"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+};
+
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "contact__content__map"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
   src: _assets_images_contact_map_jpg__WEBPACK_IMPORTED_MODULE_1__.default,
   alt: ""
-})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_5 = {
   "class": "contact__content__adress"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+};
+var _hoisted_6 = {
   "class": "contact__content__adress__infos"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h2", {
+};
+
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h2", {
   "class": "contact__content__adress__infos__title"
-}, "Crêperie du pont"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+}, "Crêperie du pont", -1
+/* HOISTED */
+);
+
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "contact__content__adress__infos__ld"
-}, "Paluden"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+}, "Paluden", -1
+/* HOISTED */
+);
+
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "contact__content__adress__infos__city"
-}, "29870 LANNILIS"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
-  "class": "contact__content__adress__infos__click-tel"
-}, "Cliquez pour voir le n° téléphone"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+}, "29870 LANNILIS", -1
+/* HOISTED */
+);
+
+var _hoisted_10 = {
+  key: 1,
   "class": "contact__content__adress__infos__tel"
-}, "02 98 04 01 21")])])], -1
-/* HOISTED */
-);
+};
 
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h2", {
-  "class": "section__mini-title"
-}, "Formulaire de contact", -1
-/* HOISTED */
-);
-
-var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("form", {
-  "class": "section__formulaire"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "section__formulaire__civ"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "Civilité*:"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-  type: "radio",
-  id: "mr"
-}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "mr"
-}, "Monsieur"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-  type: "radio",
-  id: "mme"
-}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "mme"
-}, "Madame")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "section__formulaire__inputs"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "section__formulaire__inputs__input"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "name"
-}, "Nom*"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-  type: "text"
-})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "section__formulaire__inputs__input"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "name"
-}, "Prénom*"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-  type: "text"
-})])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "section__formulaire__inputs"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "section__formulaire__inputs__input"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "name"
-}, "Date du repas"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-  type: "text"
-})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "section__formulaire__inputs__input"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "name"
-}, "Téléphone*"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-  type: "text"
-})])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "section__formulaire__inputs"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "section__formulaire__inputs__input"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "name"
-}, "Nombre de personnes"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-  type: "text"
-})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "section__formulaire__inputs__input"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": "name"
-}, "E-mail*"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-  type: "text"
-})])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "section__formulaire__radios"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "section__formulaire__radios__radio"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-  type: "radio"
-}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": ""
-}, "Midi")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "section__formulaire__radios__radio"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-  type: "radio"
-}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": ""
-}, "Soir")])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "section__formulaire__comments"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
-  "for": ""
-}, "Commentaires"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("textarea", {
-  name: "",
-  id: "",
-  cols: "30",
-  rows: "10"
-})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
-  "class": "section__formulaire__infos"
-}, "Aucune donnée personnelle n'est conservée par notre site via ce formulaire")], -1
-/* HOISTED */
-);
+var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<h2 class=\"contact__mini-title\">Formulaire de contact</h2><form class=\"contact__formulaire\"><div class=\"contact__formulaire__civ\"><p>Civilité*:</p><input type=\"radio\" id=\"mr\"><label for=\"mr\">Monsieur</label><input type=\"radio\" id=\"mme\"><label for=\"mme\">Madame</label></div><div class=\"contact__formulaire__inputs\"><div class=\"contact__formulaire__inputs__input\"><label for=\"name\">Nom*</label><input type=\"text\"></div><div class=\"contact__formulaire__inputs__input\"><label for=\"name\">Prénom*</label><input type=\"text\"></div></div><div class=\"contact__formulaire__inputs\"><div class=\"contact__formulaire__inputs__input\"><label for=\"name\">Date du repas</label><input type=\"text\"></div><div class=\"contact__formulaire__inputs__input\"><label for=\"name\">Téléphone*</label><input type=\"text\"></div></div><div class=\"contact__formulaire__inputs\"><div class=\"contact__formulaire__inputs__input\"><label for=\"name\">Nombre de personnes</label><input type=\"text\"></div><div class=\"contact__formulaire__inputs__input\"><label for=\"name\">E-mail*</label><input type=\"text\"></div></div><div class=\"contact__formulaire__radios\"><div class=\"contact__formulaire__radios__radio\"><input type=\"radio\"><label for=\"\">Midi</label></div><div class=\"contact__formulaire__radios__radio\"><input type=\"radio\"><label for=\"\">Soir</label></div></div><div class=\"contact__formulaire__comments\"><label for=\"\">Commentaires</label><textarea name=\"\" id=\"\" cols=\"30\" rows=\"10\"></textarea></div><p class=\"contact__formulaire__infos\">Aucune donnée personnelle n&#39;est conservée par notre site via ce formulaire</p></form>", 2);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("section", _hoisted_1, [_hoisted_2, _hoisted_3, _hoisted_4, _hoisted_5]);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("section", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_3, [_hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_6, [_hoisted_7, _hoisted_8, _hoisted_9, !$data.tel ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("p", {
+    key: 0,
+    "class": "contact__content__adress__infos__click-tel",
+    onClick: _cache[1] || (_cache[1] = function () {
+      return $options.showTel && $options.showTel.apply($options, arguments);
+    })
+  }, "Cliquez pour voir le n° téléphone")) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("p", _hoisted_10, "02 98 04 01 21"))])])]), _hoisted_11]);
 }
 
 /***/ }),

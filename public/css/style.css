@@ -1551,3 +1551,31 @@ body {
   justify-content: center;
   align-items: center;
 }
+.contact__content__adress__infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact__content__adress__infos__title {
+  color: #83141a;
+  font-size: 1.3em;
+  margin: 0;
+}
+.contact__content__adress__infos__ld {
+  font-size: 0.75em;
+  margin: 1em 0 0 0;
+}
+.contact__content__adress__infos__city {
+  font-weight: 600;
+  margin: 1em 0;
+}
+.contact__content__adress__infos__click-tel {
+  cursor: pointer;
+}
+.contact__content__adress__infos__click-tel:hover {
+  color: #83141a;
+}
+.contact__content__adress__infos__tel {
+  font-weight: bold;
+  color: #83141a;
+}
