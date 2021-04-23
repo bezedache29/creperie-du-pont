@@ -1,0 +1,32 @@
+.contact {
+
+
+    &__content {
+        display: flex;
+
+        &__map {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                border: 1px solid $red-primary;
+                object-fit: cover;
+                border-radius: 5px;
+                width: 60%;
+            }
+        }
+
+        &__adress {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &__infos {
+
+            }
+        }
+    }
+}

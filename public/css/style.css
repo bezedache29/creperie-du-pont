@@ -1528,3 +1528,26 @@ body {
   height: 100%;
   border-radius: 5px;
 }
+
+.contact__content {
+  display: flex;
+}
+.contact__content__map {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact__content__map img {
+  border: 1px solid #83141a;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+  width: 60%;
+}
+.contact__content__adress {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
